@@ -111,6 +111,18 @@
 				</YAxis>
 			</g>
 
+			{#if seriesNames.length > 1}
+				<Legend
+					x={innerWidth - 270}
+					y={44}
+					padding={20}
+					data={seriesNames.map((d) => ({
+						label: d,
+						color: colorScale(d)
+					}))}
+				/>
+			{/if}
+
 			<g class="data">
 				{#each Object.entries(series) as [key, value]}
 					{@const color = colorScale(key)}
@@ -137,18 +149,6 @@
 					</g>
 				{/each}
 			</g>
-
-			{#if seriesNames.length > 1}
-				<Legend
-					x={innerWidth - 270}
-					y={44}
-					padding={20}
-					data={seriesNames.map((d) => ({
-						label: d,
-						color: colorScale(d)
-					}))}
-				/>
-			{/if}
 		</g>
 	</svg>
 </div>
