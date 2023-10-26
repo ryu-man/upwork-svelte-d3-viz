@@ -13,12 +13,14 @@
 
 	let data = [];
 
+	const groupByAccessor = (d) => d['desc'];
 	const xAccessor = (d) => d['week'];
 	const yAccessor = (d) => d['hazard_ratio'];
 	const lclAccessor = (d) => d['lower_confidence_level'];
 	const uclAccessor = (d) => d['upper_confidence_level'];
 
 	const dataParser = (raw) => {
+		
 		return raw.map((d) => ({
 			desc: d['DESC'],
 			week: +d['Week'],
@@ -34,5 +36,5 @@
 </script>
 
 <Story name="Line">
-	<LineChart {data} {xAccessor} {yAccessor} {lclAccessor} {uclAccessor} />
+	<LineChart {data} {groupByAccessor} {xAccessor} {yAccessor} {lclAccessor} {uclAccessor} />
 </Story>
