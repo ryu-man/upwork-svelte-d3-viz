@@ -19,23 +19,6 @@
 	$: range = [0, itemHeight * data.length];
 
 	$: itemsScale = scaleBand(domain, range).paddingInner(0.2).paddingOuter(.3);
-
-	// function resizeObserve(node: SVGGElement) {
-	// 	const observer = new ResizeObserver(() => {
-	// 		clientWidth = node.clientWidth;
-	// 		clientHeight = node.clientHeight;
-
-	//         console.log(node)
-	// 	});
-
-	// 	observer.observe(node);
-
-	// 	return {
-	// 		destroy() {
-	// 			observer.disconnect();
-	// 		}
-	// 	};
-	// }
 </script>
 
 <g class="legend" transform="translate({x}, {y})">
