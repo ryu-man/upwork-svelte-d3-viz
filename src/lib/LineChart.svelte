@@ -72,21 +72,15 @@
 
 			<g class="axis" font-size="10pt" font-weight="600" fill-opacity=".6">
 				<XAxis scale={xScale} y={innerHeight} width={innerWidth}>
-					<g slot="label" let:showTooltip transform="translate({innerWidth / 2}, 72)">
+					<g slot="label" transform="translate({innerWidth / 2}, 72)">
 						<text text-anchor="middle" fill-opacity=".6" font-size="20pt" font-weight="900"
 							>Week</text
 						>
-
-						{#if showTooltip}
-							<text font-size="10pt" text-anchor="end" transform="translate(0, -36)">
-								<tspan>Lorem ipsum dolor sit amet, consectetur adipiscing elit</tspan>
-							</text>
-						{/if}
 					</g>
 				</XAxis>
 
 				<YAxis scale={yScale} width={innerWidth} height={innerHeight}>
-					<g slot="label" let:showTooltip transform="translate(-72, {innerHeight / 2})">
+					<g slot="label" transform="translate(-72, {innerHeight / 2})">
 						<text
 							fill-opacity=".6"
 							font-size="20pt"
@@ -96,17 +90,6 @@
 							dominant-baseline="middle"
 							style:transform="rotate(180deg)">Increased likelihood</text
 						>
-
-						{#if showTooltip}
-							<text
-								font-size="10pt"
-								text-anchor="start"
-								transform="translate(36, 0)"
-								dominant-baseline="hanging"
-							>
-								urna arcu dignissim felis, sit amet gravida purus libero eu lorem
-							</text>
-						{/if}
 					</g>
 				</YAxis>
 			</g>
