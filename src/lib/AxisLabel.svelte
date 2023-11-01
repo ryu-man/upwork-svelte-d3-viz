@@ -12,6 +12,20 @@
 
 	$: domRect = element?.getBoundingClientRect();
 
+	function resizer(node: SVGGElement) {
+		const observer = new ResizeObserver(() => {
+			domRect = node.getBoundingClientRect();
+		});
+
+		observer.observe(node);
+
+		return {
+			destroy() {
+				observer.disconnect();
+			}
+		};
+	}
+
 	function onPointerEnterHandler() {
 		hover = true;
 	}
@@ -28,6 +42,7 @@
 	text-anchor="middle"
 	cursor="pointer"
 	bind:this={element}
+	use:resizer
 	on:pointerenter={onPointerEnterHandler}
 	on:pointerleave={onPointerLeaveHandler}
 >

@@ -105,7 +105,7 @@
 								style:transform="rotate(180deg)">Increased likelihood</text
 							>
 
-							<YAxisTooltip slot="tooltip" let:y let:x x={y} {y} transform="translate(-8%, 0)" />
+							<YAxisTooltip slot="tooltip" let:y let:x x={x} {y} transform="translate(8%, 0)" />
 						</AxisLabel>
 					</YAxis>
 				</g>
