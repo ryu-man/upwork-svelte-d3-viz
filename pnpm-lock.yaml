@@ -11,6 +11,9 @@ dependencies:
   d3:
     specifier: ^7.8.5
     version: 7.8.5
+  svelte-portal:
+    specifier: ^2.2.0
+    version: 2.2.0
 
 devDependencies:
   '@storybook/addon-essentials':
@@ -8517,6 +8520,10 @@ packages:
     dependencies:
       svelte: 4.0.5
     dev: true
+
+  /svelte-portal@2.2.0:
+    resolution: {integrity: sha512-jhtZWtD6cUE2nMw46dJ5VXWYiqnER+JH+V/BmNBQ5fNP/YdsJCpJi+DemUy9msklqGb0f+wLhJPBtKHLWQvzjg==}
+    dev: false
 
   /svelte-preprocess@5.0.4(@babel/core@7.23.2)(postcss@8.4.31)(svelte@4.0.5)(typescript@5.0.2):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}

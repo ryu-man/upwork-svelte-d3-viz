@@ -4,7 +4,6 @@
 	let contentRect: DOMRectReadOnly;
 	let padding = 16;
 
-	$: console.log(contentRect);
 </script>
 
 <g
