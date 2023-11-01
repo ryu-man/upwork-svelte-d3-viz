@@ -83,8 +83,8 @@
 				<!--  -->
 
 				<Title x={innerWidth / 2} y={-64}>
-					<text>Example dataviz</text>
-					<TitleTooltip let:y let:x slot="tooltip" {x} {y} transform="translate(0, 54px)" />
+					<text text-anchor="middle">Example dataviz</text>
+					<TitleTooltip let:y let:x slot="tooltip" {x} {y} transform="translate(-0%, 54px)" />
 				</Title>
 
 				<g class="axis" font-size="10pt" font-weight="600" fill-opacity=".6">

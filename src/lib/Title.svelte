@@ -24,7 +24,6 @@
 	transform="translate({x}, {y})"
 	font-size="32pt"
 	font-weight="800"
-	text-anchor="middle"
 	cursor="pointer"
 	bind:this={element}
 	on:pointerenter={onPointerEnterHandler}
