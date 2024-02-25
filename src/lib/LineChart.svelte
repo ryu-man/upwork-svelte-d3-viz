@@ -12,6 +12,7 @@
 	import YAxisTooltip from './YAxisTooltip.svelte';
 	import Title from './Title.svelte';
 	import TitleTooltip from './TitleTooltip.svelte';
+	import Dropdown from './Dropdown.svelte';
 
 	let clientWidth = 0;
 	let clientHeight = 0;
@@ -27,7 +28,7 @@
 	export let uclAccessor = (d) => d['Upper Confidence Level'];
 
 	export let padding = {
-		top: 128,
+		top: 196,
 		right: 24,
 		bottom: 128,
 		left: 128
@@ -82,22 +83,23 @@
 			<g transform="translate({padding.left}, {padding.top})">
 				<!--  -->
 
-				<Title x={innerWidth / 2} y={-64}>
-					<text text-anchor="middle">Example dataviz</text>
-					<TitleTooltip let:y let:x slot="tooltip" {x} {y} transform="translate(-0%, 54px)" />
+				<Title x={-72} y={-144}>
+					<text text-anchor="start">Example dataviz</text>
+
+					<TitleTooltip slot="tooltip" />
 				</Title>
 
 				<g class="axis" font-size="10pt" font-weight="600" fill-opacity=".6">
 					<XAxis scale={xScale} y={innerHeight} width={innerWidth}>
-						<AxisLabel slot="label" x={innerWidth / 2} y={72}>
+						<AxisLabel slot="label" x={innerWidth / 2} y={72} dy={-16} placements={['top-start']}>
 							<text>Week</text>
 
-							<XAxisTooltip slot="tooltip" let:y let:x {x} {y} transform="translate(-50%, -120%)" />
+							<XAxisTooltip slot="tooltip" />
 						</AxisLabel>
 					</XAxis>
 
 					<YAxis scale={yScale} width={innerWidth} height={innerHeight}>
-						<AxisLabel slot="label" x={-72} y={innerHeight / 2}>
+						<AxisLabel slot="label" x={-72} y={innerHeight / 2} dx={-16} placements={['right-start']}>
 							<text
 								text-anchor="middle"
 								writing-mode="vertical-lr"
@@ -105,7 +107,7 @@
 								style:transform="rotate(180deg)">Increased likelihood</text
 							>
 
-							<YAxisTooltip slot="tooltip" let:y let:x x={x} {y} transform="translate(8%, 0)" />
+							<YAxisTooltip slot="tooltip" />
 						</AxisLabel>
 					</YAxis>
 				</g>
@@ -155,6 +157,8 @@
 					{/each}
 				</g>
 			</g>
+
+			<Dropdown x={innerWidth * 3 / 4} y={48} />
 		{/await}
 	</svg>
 
@@ -163,37 +167,39 @@
 	</div>
 
 	<div class="scale-type" style="position:absolute; bottom:0; left:0; padding: 4px">
-		<label>
-			<input
-				type="radio"
-				value="linear"
-				name="scale-type"
-				checked={yScaleFunction === scaleLinear}
-				on:change={(ev) => {
-					const currentTarget = ev.currentTarget;
-					if (currentTarget.checked) {
-						yScaleFunction = scaleLinear;
-					}
-				}}
-			/>
-			<span>Linear</span>
-		</label>
+		<div class=" flex flex-col pl-4 pb-4">
+			<label>
+				<input
+					type="radio"
+					value="linear"
+					name="scale-type"
+					checked={yScaleFunction === scaleLinear}
+					on:change={(ev) => {
+						const currentTarget = ev.currentTarget;
+						if (currentTarget.checked) {
+							yScaleFunction = scaleLinear;
+						}
+					}}
+				/>
+				<span>Linear</span>
+			</label>
 
-		<label>
-			<input
-				type="radio"
-				value="logarithmic"
-				name="scale-type"
-				checked={yScaleFunction === scaleLog}
-				on:change={(ev) => {
-					const currentTarget = ev.currentTarget;
-					if (currentTarget.checked) {
-						yScaleFunction = scaleLog;
-					}
-				}}
-			/>
-			<span>Logarithmic</span>
-		</label>
+			<label>
+				<input
+					type="radio"
+					value="logarithmic"
+					name="scale-type"
+					checked={yScaleFunction === scaleLog}
+					on:change={(ev) => {
+						const currentTarget = ev.currentTarget;
+						if (currentTarget.checked) {
+							yScaleFunction = scaleLog;
+						}
+					}}
+				/>
+				<span>Logarithmic</span>
+			</label>
+		</div>
 	</div>
 </div>
 
@@ -203,7 +209,6 @@
 		height: 100%;
 
 		background-color: whitesmoke;
-		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	}
 
 	svg {
