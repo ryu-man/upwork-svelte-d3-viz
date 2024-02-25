@@ -6,3 +6,7 @@ body,
     margin: 0;
     padding: 0;
 }
+
+.sb-main-padded.sb-show-main{
+    padding: 0;
+}
