@@ -21,6 +21,10 @@
 	let dx = 0;
 	let dy = 0;
 
+	$: if (!open) {
+		mounted = false;
+	}
+
 	type InitParamas = { reference: Element; placements: Placement[] | undefined };
 
 	function init(node: HTMLElement, { placements, reference }: InitParamas) {
@@ -53,17 +57,17 @@
 				middleware: [
 					offset(16),
 					autoPlacement({
-						autoAlignment: true,
-						crossAxis: true,
 						allowedPlacements: placements
 					})
 				]
-			}).then(({ x, y, placement }) => {
+			}).then(async ({ x, y, placement }) => {
 				dy = placement.startsWith('top') ? 1 : placement.startsWith('bottom') ? -1 : 0;
 
 				dx = placement.startsWith('left') ? 1 : placement.startsWith('right') ? -1 : 0;
 
 				node.style.transform = `translate(${x}px, ${y}px)`;
+
+				await tick();
 
 				mounted = true;
 			});
@@ -74,7 +78,15 @@
 {#if open}
 	<div class="popover" use:init={{ placements, reference }}>
 		<div class="popover-inner">
-			<slot />
+			{#if mounted}
+				<slot {dx} {dy} />
+			{/if}
 		</div>
 	</div>
 {/if}
+
+<style lang="postcss">
+	.popover {
+		@apply absolute top-0 left-0;
+	}
+</style>
