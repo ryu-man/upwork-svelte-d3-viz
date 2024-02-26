@@ -166,7 +166,7 @@
 		<div class="html-layer-inner" bind:this={context.layerElement} />
 	</div>
 
-	<div class="scale-type" style="position:absolute; bottom:0; left:0; padding: 4px">
+	<div class="scale-type" style="">
 		<div class=" flex flex-col pl-4 pb-4">
 			<label>
 				<input
@@ -233,5 +233,13 @@
 		width: 100%;
 		height: 100%;
 		position: relative;
+	}
+
+	.scale-type {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 4px;
+		z-index: 2;
 	}
 </style>
