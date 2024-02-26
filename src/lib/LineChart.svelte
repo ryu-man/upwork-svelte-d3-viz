@@ -91,7 +91,7 @@
 
 				<g class="axis" font-size="10pt" font-weight="600" fill-opacity=".6">
 					<XAxis scale={xScale} y={innerHeight} width={innerWidth}>
-						<AxisLabel slot="label" x={innerWidth / 2} y={72} dy={-16} placements={['top-start']}>
+						<AxisLabel slot="label" x={innerWidth / 2} y={72} placements={['top-start']}>
 							<text>Week</text>
 
 							<XAxisTooltip slot="tooltip" />
@@ -99,13 +99,7 @@
 					</XAxis>
 
 					<YAxis scale={yScale} width={innerWidth} height={innerHeight}>
-						<AxisLabel
-							slot="label"
-							x={-72}
-							y={innerHeight / 2}
-							dx={-16}
-							placements={['right-start']}
-						>
+						<AxisLabel slot="label" x={-72} y={innerHeight / 2} placements={['right-start']}>
 							<text
 								text-anchor="middle"
 								writing-mode="vertical-lr"
@@ -168,7 +162,7 @@
 		{/await}
 	</svg>
 
-	<div class="html-layer" style:width="{clientWidth}px" style:height="{clientHeight}px">
+	<div class="html-layer">
 		<div class="html-layer-inner" bind:this={context.layerElement} />
 	</div>
 
@@ -218,19 +212,21 @@
 		min-width: 100%;
 		max-width: 100%;
 		background-color: whitesmoke;
+		overflow: hidden;
 	}
 
 	svg {
-		width: 100%;
-		height: 100%;
+		position: absolute;
+		inset: 0;
+		z-index: 1;
 	}
 
 	.html-layer {
 		position: absolute;
-		top: 0;
-		left: 0;
+		inset: 0;
 		pointer-events: none;
 		overflow: hidden;
+		z-index: 2;
 	}
 
 	.html-layer-inner {

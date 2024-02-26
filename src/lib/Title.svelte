@@ -1,17 +1,12 @@
 <script lang="ts">
-	import Portal from 'svelte-portal';
 	import { getChartContext } from './context';
 	import Popover from './Popover.svelte';
-	import TitleTooltip from './TitleTooltip.svelte';
 	import { fly } from 'svelte/transition';
 
 	const context = getChartContext();
 
 	export let x = 0;
 	export let y = 0;
-
-	export let dx = 0;
-	export let dy = -16;
 
 	let hover = false;
 	let element: SVGGElement;
@@ -53,8 +48,8 @@
 	<slot {hover} />
 </g>
 
-<Popover reference={element} open={hover} placements={['bottom-start']}>
-	<div class="tooltip" transition:fly={{ duration: 100, x: dx, y: dy }}>
+<Popover reference={element} open={hover} placements={['bottom-start']} let:dx let:dy>
+	<div class="tooltip" transition:fly={{ duration: 100, x: dx * 16, y: dy * 16 }}>
 		<slot name="tooltip" />
 	</div>
 </Popover>
