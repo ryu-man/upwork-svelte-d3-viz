@@ -84,7 +84,7 @@
 				<!--  -->
 
 				<Title x={-72} y={-144}>
-					<text text-anchor="start">Example dataviz</text>
+					<text text-anchor="start">Post COVID events</text>
 
 					<TitleTooltip slot="tooltip" />
 				</Title>
@@ -99,7 +99,13 @@
 					</XAxis>
 
 					<YAxis scale={yScale} width={innerWidth} height={innerHeight}>
-						<AxisLabel slot="label" x={-72} y={innerHeight / 2} dx={-16} placements={['right-start']}>
+						<AxisLabel
+							slot="label"
+							x={-72}
+							y={innerHeight / 2}
+							dx={-16}
+							placements={['right-start']}
+						>
 							<text
 								text-anchor="middle"
 								writing-mode="vertical-lr"
@@ -158,7 +164,7 @@
 				</g>
 			</g>
 
-			<Dropdown x={innerWidth * 3 / 4} y={48} />
+			<Dropdown x={(innerWidth * 3) / 4} y={48} />
 		{/await}
 	</svg>
 
@@ -207,7 +213,10 @@
 	.line-chart-container {
 		width: 100%;
 		height: 100%;
-
+		min-height: 100%;
+		max-height: 100%;
+		min-width: 100%;
+		max-width: 100%;
 		background-color: whitesmoke;
 	}
 

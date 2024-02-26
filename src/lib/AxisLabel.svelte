@@ -61,13 +61,13 @@
 
 <style lang="postcss">
 	.tooltip {
-		padding: 12px 16px;
+		@apply border-4 border-solid border-neutral-300 shadow-sm px-4 py-3;
+
 		background-color: white;
-		border-radius: 4px;
+		border-radius: 0;
 		pointer-events: none;
 		max-width: 36vw;
 		display: flex;
 		flex-direction: column;
-		box-shadow: 0 0 4px 1px rgba(0 0 0 / 0.1);
 	}
 </style>
