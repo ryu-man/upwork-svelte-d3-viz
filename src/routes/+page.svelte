@@ -1,2 +1,33 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import { csv } from 'd3';
+	import LineChart from '$lib/LineChart.svelte';
+	import { onMount } from 'svelte';
+
+	let data = [];
+
+	const groupByAccessor = (d) => d['desc'];
+	const xAccessor = (d) => d['week'];
+	const yAccessor = (d) => d['hazard_ratio'];
+	const lclAccessor = (d) => d['lower_confidence_level'];
+	const uclAccessor = (d) => d['upper_confidence_level'];
+
+	const dataParser = (raw) => {
+		return raw.map((d) => ({
+			desc: d['DESC'],
+			week: +d['Week'],
+			hazard_ratio: +d['Hazard Ratio'],
+			lower_confidence_level: +d['Lower Confidence Level'],
+			upper_confidence_level: +d['Upper Confidence Level']
+		}));
+	};
+
+	onMount(() => {
+		csv('/data/data.csv').then((d) => {
+			data = dataParser(d);
+		});
+	});
+</script>
+
+<div class="h-[100svh] w-[100svw]">
+	<LineChart {data} {groupByAccessor} {xAccessor} {yAccessor} {lclAccessor} {uclAccessor} />
+</div>
