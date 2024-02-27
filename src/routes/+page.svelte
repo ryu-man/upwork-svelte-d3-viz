@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { csv } from 'd3';
+	import { csv, type DSVRowArray } from 'd3';
 	import LineChart from '$lib/LineChart.svelte';
 	import { onMount } from 'svelte';
 
@@ -11,9 +11,9 @@
 	const lclAccessor = (d) => d['lower_confidence_level'];
 	const uclAccessor = (d) => d['upper_confidence_level'];
 
-	const dataParser = (raw) => {
+	const dataParser = (raw: DSVRowArray<string>) => {
 		return raw.map((d) => ({
-			desc: d['DESC'],
+			desc: d[raw.columns[0]],
 			week: +d['Week'],
 			hazard_ratio: +d['Hazard Ratio'],
 			lower_confidence_level: +d['Lower Confidence Level'],
