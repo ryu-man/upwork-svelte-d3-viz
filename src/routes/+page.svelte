@@ -3,7 +3,8 @@
 	import LineChart from '$lib/LineChart.svelte';
 	import { onMount } from 'svelte';
 
-	let data = [];
+	let datasets = {};
+	let selected_dataset = 'condition_1';
 
 	const groupByAccessor = (d) => d['desc'];
 	const xAccessor = (d) => d['week'];
@@ -23,6 +24,9 @@
 
 	let reader: FileReader;
 
+	$: data = datasets[selected_dataset] ?? [];
+	$: console.log(data);
+
 	onMount(() => {
 		reader = new FileReader();
 
@@ -36,13 +40,31 @@
 
 		reader.addEventListener('load', onload);
 
-		csv('/data/data.csv').then((d) => {
-			data = dataParser(d);
-		});
-
 		return () => {
 			reader.removeEventListener('load', onload);
 		};
+	});
+
+	onMount(() => {
+		csv('/data/events_1.csv').then((d) => {
+			datasets['condition_1'] = dataParser(d);
+		});
+
+		csv('/data/events_2.csv').then((d) => {
+			datasets['condition_2'] = dataParser(d);
+		});
+
+		csv('/data/events_3.csv').then((d) => {
+			datasets['condition_3'] = dataParser(d);
+		});
+
+		csv('/data/events_1.csv').then((d) => {
+			datasets['condition_4'] = dataParser(d);
+		});
+
+		csv('/data/events_2.csv').then((d) => {
+			datasets['condition_5'] = dataParser(d);
+		});
 	});
 
 	function onchange(ev: Event) {
@@ -60,7 +82,16 @@
 </script>
 
 <div class="h-[100svh] w-[100svw] relative">
-	<LineChart {data} {groupByAccessor} {xAccessor} {yAccessor} {lclAccessor} {uclAccessor} />
+	<LineChart
+		{data}
+		bind:dataset={selected_dataset}
+		datasets={Object.keys(datasets)}
+		{groupByAccessor}
+		{xAccessor}
+		{yAccessor}
+		{lclAccessor}
+		{uclAccessor}
+	/>
 
 	<div class="absolute bottom-0 right-0 p-2 z-[3]">
 		<input type="file" on:change={onchange} />

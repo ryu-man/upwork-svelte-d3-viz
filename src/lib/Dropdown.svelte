@@ -9,12 +9,20 @@
 
 	export let x = 0;
 	export let y = 0;
+	export let value: string;
 
 	let element: HTMLElement;
 	let open = false;
 
 	function onclick() {
 		open = !open;
+	}
+
+	function on_item_click(item: string) {
+		return () => {
+			value = item;
+			open = false
+		};
 	}
 </script>
 
@@ -33,14 +41,15 @@
 					/>
 				</svg>
 
-				<div>Ischaemic stroke</div>
+				<div class="capitalize">{value.replace('_', ' ')}</div>
 			</button>
 
 			{#if open}
-				<button class="py-1">Condition 2</button>
-				<button class="py-1">Condition 3</button>
-				<button class="py-1">Condition 4</button>
-				<button class="py-1">Condition 5</button>
+				<button class="py-1" on:click={on_item_click('condition_1')}>Condition 1</button>
+				<button class="py-1" on:click={on_item_click('condition_2')}>Condition 2</button>
+				<button class="py-1" on:click={on_item_click('condition_3')}>Condition 3</button>
+				<button class="py-1" on:click={on_item_click('condition_4')}>Condition 4</button>
+				<button class="py-1" on:click={on_item_click('condition_5')}>Condition 5</button>
 			{/if}
 		</div>
 	</div>

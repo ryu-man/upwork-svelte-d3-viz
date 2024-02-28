@@ -21,6 +21,8 @@
 	scaleLog([], []);
 
 	export let data = [];
+	export let dataset: string;
+	export let datasets: string[] = [];
 	export let groupByAccessor: ((d) => unknown) | undefined = undefined;
 	export let xAccessor = (d) => d['Week'];
 	export let yAccessor = (d) => d['Hazard Ratio'];
@@ -158,7 +160,7 @@
 				</g>
 			</g>
 
-			<Dropdown x={(innerWidth * 3) / 4} y={48} />
+			<Dropdown bind:value={dataset} x={innerWidth / 2} y={48} />
 		{/await}
 	</svg>
 

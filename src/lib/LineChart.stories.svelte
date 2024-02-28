@@ -20,7 +20,6 @@
 	const uclAccessor = (d) => d['upper_confidence_level'];
 
 	const dataParser = (raw) => {
-		
 		return raw.map((d) => ({
 			desc: d['DESC'],
 			week: +d['Week'],
