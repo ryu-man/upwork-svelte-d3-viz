@@ -33,7 +33,7 @@
 		style:transform="translate({x}px, {y}px)"
 	>
 		<div class="flex flex-col" bind:this={element}>
-			<button class="flex gap-4 text-lg font-medium cursor-pointer py-2" on:click={onclick}>
+			<button class="flex gap-4 text-2xl font-medium cursor-pointer py-2" on:click={onclick}>
 				<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
 					<path
 						fill="currentColor"
