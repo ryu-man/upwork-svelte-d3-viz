@@ -1,5 +1,8 @@
 <script lang="ts">
-	import { scaleBand } from 'd3';
+	import { getRootContext } from './root/context';
+	import { portal } from './actions';
+
+	const root_context = getRootContext();
 
 	type LegendItem = {
 		label: String;
@@ -11,36 +14,20 @@
 	export let padding = 0;
 	export let data: LegendItem[] = [];
 
-	let contentBoxSize: DOMRectReadOnly;
-
 	const itemHeight = 28;
 
-	$: domain = data.map((d) => d.label);
-	$: range = [0, itemHeight * data.length];
-
-	$: itemsScale = scaleBand(domain, range).paddingInner(0.2).paddingOuter(.3);
 </script>
 
-<g class="legend" transform="translate({x}, {y})">
-	{#if contentBoxSize}
-		<rect
-			x={0 - padding}
-			y={0 - padding}
-			width={contentBoxSize.width + padding * 2}
-			height={contentBoxSize.height + padding * 2}
-			fill="white"
-		/>
-	{/if}
-
-	<g class="content" bind:contentRect={contentBoxSize}>
+<div class="legend bg-white shadow-sm p-4 rounded-lg border border-neutral-200">
+	<div class="content">
 		{#each data as item}
-			<g class="legend-item" transform="translate(0, {itemsScale(item.label)})">
-				<line x1="0" x2="48" stroke={item.color} stroke-width="1" />
-				<text x={72} fill={item.color}>{item.label}</text>
-			</g>
+			<div class="legend-item flex items-center gap-2" style:color={item.color}>
+				<div class="w-12 min-h-[1px] bg-current" />
+				<div>{item.label}</div>
+			</div>
 		{/each}
-	</g>
-</g>
+	</div>
+</div>
 
 <style>
 	.legend {

@@ -9,11 +9,11 @@
 	export let y = 0;
 
 	let hover = false;
-	let element: SVGGElement;
+	let element: HTMLElement;
 
 	$: domRect = element?.getBoundingClientRect();
 
-	function resizer(node: SVGGElement) {
+	function resizer(node: HTMLElement) {
 		const observer = new ResizeObserver(() => {
 			domRect = node.getBoundingClientRect();
 		});
@@ -35,18 +35,15 @@
 	}
 </script>
 
-<g
-	transform="translate({x}, {y})"
-	font-size="28pt"
-	font-weight="700"
-	cursor="pointer"
+<div
+	class="mb-8 cursor-pointer w-fit"
 	bind:this={element}
 	use:resizer
 	on:pointerenter={onPointerEnterHandler}
 	on:pointerleave={onPointerLeaveHandler}
 >
 	<slot {hover} />
-</g>
+</div>
 
 <Popover reference={element} open={hover} placements={['bottom-start']} let:dx let:dy>
 	<div class="tooltip" transition:fly={{ duration: 100, x: dx * 16, y: dy * 16 }}>
