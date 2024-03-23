@@ -41,6 +41,9 @@
 
 	const context = setChartContext();
 
+	let active_serie: string | undefined = undefined;
+	let hover_timeout = () => {};
+
 	$: data_series = group(data, groupByAccessor);
 	$: console.log(data_series);
 
@@ -89,8 +92,25 @@
 <g class="data">
 	{#each Array.from(data_series) as [key, value]}
 		{@const color = colorScale(key)}
+		{@const is_active = active_serie === key}
+		{@const opacity = active_serie ? (is_active ? 1 : 0.5) : 1}
+		{@const filter = `grayscale(${active_serie ? (is_active ? 0 : 1) : 0})`}
 
-		<g class="serie {key}" style:color>
+		<g
+			class="serie {key}"
+			style:color
+			{opacity}
+			{filter}
+			on:pointerenter={() => {
+				clearTimeout(hover_timeout);
+				active_serie = key;
+			}}
+			on:pointerleave={() => {
+				hover_timeout = setTimeout(() => {
+					active_serie = undefined;
+				}, 600);
+			}}
+		>
 			<path d={path(value)} fill="none" stroke={color} stroke-width="2" stroke-opacity=".7" />
 
 			{#each value as item}
@@ -108,16 +128,38 @@
 </g>
 
 {#if series.length > 1}
+	{@const legend_items = series.map((d) => ({
+		label: d,
+		color: colorScale(d)
+	}))}
+
 	<div class="absolute right-0 top-0" use:portal={chart_context.root_element}>
-		<Legend
-			x={innerWidth - 270}
-			y={44}
-			padding={20}
-			data={series.map((d) => ({
-				label: d,
-				color: colorScale(d)
-			}))}
-		/>
+		<Legend x={innerWidth - 270} y={44} padding={20}>
+			{#each legend_items as item}
+				{@const is_active = active_serie === item.label}
+				{@const opacity = active_serie ? (is_active ? 1 : 0.5) : 1}
+				{@const filter = `grayscale(${active_serie ? (is_active ? 0 : 1) : 0})`}
+
+				<div
+					class="legend-item flex items-center gap-2 cursor-pointer"
+					style:color={item.color}
+					style:opacity
+					style:filter
+					on:pointerenter={() => {
+						clearTimeout(hover_timeout);
+						active_serie = item.label;
+					}}
+					on:pointerleave={() => {
+						hover_timeout = setTimeout(() => {
+							active_serie = undefined;
+						}, 600);
+					}}
+				>
+					<div class="w-12 min-h-[1px] bg-current" />
+					<div>{item.label}</div>
+				</div>
+			{/each}
+		</Legend>
 	</div>
 {/if}
 
