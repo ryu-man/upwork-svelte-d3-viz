@@ -75,10 +75,17 @@
 
 					<DropdownMenu.SubContent class="w-auto whitespace-nowrap">
 						{#each analyses as analysis}
-							<DropdownMenu.Item class="gap-2">
+							{@const is_disabled = !selected_analyses.get(outcome)?.has(analysis) && disabled}
+
+							<DropdownMenu.Item
+								class="gap-2"
+								title={is_disabled
+									? 'section max reached! Please unselect some sub-groups first'
+									: ''}
+							>
 								<Checkbox
 									checked={selected_analyses.get(outcome)?.has(analysis)}
-									disabled={!selected_analyses.get(outcome)?.has(analysis) && disabled}
+									disabled={is_disabled}
 									on:click={() => {
 										const selected_values = selected_analyses.get(outcome) || new Set();
 										if (selected_values.has(analysis)) {
