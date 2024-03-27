@@ -13,7 +13,7 @@
 	let datasets = {};
 	let selected_dataset = 'condition_1';
 
-	const group_by_accessor = (d) => `${d['cohort']} | ${d['outcome']} | ${d['analysis']}`;
+	const group_by_accessor = (d) => `${d['outcome']} | ${d['analysis']} | ${d['cohort']}`;
 	const x_accessor = (d) => d['term'];
 	const y_accessor = (d) => d['hr'];
 	const conf_low_accessor = (d) => d['conf_low'];
@@ -148,18 +148,19 @@
 		</Title>
 
 		<div class="flex gap-4">
-			<CohortDropdown
-				data={cohorts}
-				on:change={(ev) => {
-					selected_cohorts = ev.detail;
-				}}
-			/>
 			<OutcomeDropdown
 				data={outcomes}
 				disabled={series.length >= 7}
 				on:change={(ev) => {
 					selected_outcomes = ev.detail;
 					console.log(selected_outcomes);
+				}}
+			/>
+			
+			<CohortDropdown
+				data={cohorts}
+				on:change={(ev) => {
+					selected_cohorts = ev.detail;
 				}}
 			/>
 		</div>
