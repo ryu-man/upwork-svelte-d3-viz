@@ -1,5 +1,15 @@
 <script lang="ts">
-	import { max, min, scaleLinear, line, scaleOrdinal, scaleLog, group, schemeCategory10 } from 'd3';
+	import {
+		max,
+		min,
+		scaleLinear,
+		line,
+		scaleOrdinal,
+		scaleLog,
+		group,
+		schemeCategory10,
+		union
+	} from 'd3';
 	import XAxis from './XAxis.svelte';
 	import YAxis from './YAxis.svelte';
 	import Legend from './Legend.svelte';
@@ -12,6 +22,7 @@
 	import { getRootContext } from './root/context';
 	import { getChartContext } from './chart/context';
 	import { portal } from './actions';
+	import { uniqBy } from 'lodash-es';
 
 	const root_context = getRootContext();
 
@@ -43,6 +54,18 @@
 
 	let active_serie: string | undefined = undefined;
 	let hover_timeout = () => {};
+
+	$: series_label_data = uniqBy(
+		data.map((d) => ({
+			id: groupByAccessor(d),
+			outcome: d['outcome'],
+			analysis: d['analysis'],
+			cohort: d['cohort']
+		})),
+		(d) => d.id
+	);
+
+	$: console.log(series_label_data);
 
 	$: data_series = group(data, groupByAccessor);
 	$: console.log(data_series);
@@ -135,19 +158,21 @@
 
 	<div class="absolute right-0 top-0" use:portal={chart_context.root_element}>
 		<Legend x={innerWidth - 270} y={44} padding={20}>
-			{#each legend_items as item}
-				{@const is_active = active_serie === item.label}
+			{#each series_label_data as item}
+				{@const is_active = active_serie === item.id}
 				{@const opacity = active_serie ? (is_active ? 1 : 0.3) : 1}
 				{@const filter = `grayscale(${active_serie ? (is_active ? 0 : 1) : 0})`}
+				{@const color = colorScale(item.id)}
+				{@const cohort_parts = item['cohort'].split(/\s(?=\()/)}
 
 				<div
 					class="legend-item flex items-center gap-2 cursor-pointer"
-					style:color={item.color}
+					style:color
 					style:opacity
 					style:filter
 					on:pointerenter={() => {
 						clearTimeout(hover_timeout);
-						active_serie = item.label;
+						active_serie = item.id;
 					}}
 					on:pointerleave={() => {
 						hover_timeout = setTimeout(() => {
@@ -156,7 +181,10 @@
 					}}
 				>
 					<div class="w-12 min-h-[1px] bg-current" />
-					<div>{item.label}</div>
+
+					<div title={cohort_parts[1].replace('(', '').replace(')', '')}>
+						{item['outcome']} | {item['analysis']} | {cohort_parts[0]}
+					</div>
 				</div>
 			{/each}
 		</Legend>
