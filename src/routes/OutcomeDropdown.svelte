@@ -17,6 +17,8 @@
 	$: keys = new Set(selected_analyses.keys());
 
 	$: dispatch('change', Array.from(selected_analyses.entries()));
+
+	function on_outcom_click() {}
 </script>
 
 <DropdownMenu.Root closeOnItemClick={false} bind:open>
@@ -40,7 +42,23 @@
 		{#each data as [outcome, analyses]}
 			{#if analyses.length}
 				<DropdownMenu.Sub>
-					<DropdownMenu.SubTrigger class="gap-2">
+					<DropdownMenu.SubTrigger
+						class="gap-2 cursor-pointer"
+						on:click={() => {
+							console.log('dropdown menu sub trigger...');
+							const selected_values = selected_analyses.get(outcome) || new Set();
+							const analysis = 'Main';
+
+							if (selected_values.has(analysis)) {
+								selected_values.delete(analysis);
+							} else {
+								selected_values.add(analysis);
+							}
+
+							selected_analyses.set(outcome, selected_values);
+							selected_analyses = selected_analyses;
+						}}
+					>
 						<Badge variant="outline">{selected_analyses.get(outcome)?.size ?? 0}</Badge>
 						<span>{outcome}</span>
 					</DropdownMenu.SubTrigger>
@@ -63,7 +81,6 @@
 											selected_values.add(analysis);
 										}
 										selected_analyses.set(outcome, selected_values);
-
 										selected_analyses = selected_analyses;
 									}}
 								/>
