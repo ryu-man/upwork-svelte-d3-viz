@@ -3,6 +3,7 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import Checkbox from '$lib/components/ui/checkbox/checkbox.svelte';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js';
+	import { cn } from '$lib/utils';
 	import { ChevronsUpDown } from 'lucide-svelte';
 	import { createEventDispatcher } from 'svelte';
 
@@ -51,10 +52,15 @@
 
 		{#each sorted_data as [outcome, analyses]}
 			{#if analyses.length}
+				{@const is_disabled = !selected_analyses.get(outcome)?.has('Main') && disabled}
+
 				<DropdownMenu.Sub>
 					<DropdownMenu.SubTrigger
-						class="gap-2 cursor-pointer"
+						class={cn('gap-2 cursor-pointer', is_disabled && 'cursor-not-allowed')}
+						title={is_disabled ? 'section max reached! Please unselect some sub-groups first' : ''}
 						on:click={() => {
+							if (is_disabled) return;
+
 							const selected_values = selected_analyses.get(outcome) || new Set();
 							const analysis = 'Main';
 
@@ -77,7 +83,7 @@
 							{@const is_disabled = !selected_analyses.get(outcome)?.has(analysis) && disabled}
 
 							<DropdownMenu.Item
-								class="gap-2"
+								class={cn('gap-2', is_disabled && 'cursor-not-allowed')}
 								title={is_disabled
 									? 'section max reached! Please unselect some sub-groups first'
 									: ''}
