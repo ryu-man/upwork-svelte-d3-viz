@@ -61,13 +61,10 @@
 		);
 	});
 
-	$: console.log(outcomes);
-
 	onMount(() => {
 		reader = new FileReader();
 
 		const onload = (ev: ProgressEvent<FileReader>) => {
-			console.log(ev.target?.result);
 			const raw = ev.target?.result;
 
 			const d = csvParse(raw);
@@ -135,7 +132,6 @@
 			reader.readAsText(first_line);
 		}
 
-		console.log(files);
 	}
 </script>
 
@@ -153,7 +149,6 @@
 				disabled={series.length >= 7}
 				on:change={(ev) => {
 					selected_outcomes = ev.detail;
-					console.log(selected_outcomes);
 				}}
 			/>
 			

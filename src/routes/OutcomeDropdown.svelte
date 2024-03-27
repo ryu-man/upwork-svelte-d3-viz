@@ -55,7 +55,6 @@
 					<DropdownMenu.SubTrigger
 						class="gap-2 cursor-pointer"
 						on:click={() => {
-							console.log('dropdown menu sub trigger...');
 							const selected_values = selected_analyses.get(outcome) || new Set();
 							const analysis = 'Main';
 

@@ -65,11 +65,8 @@
 		(d) => d.id
 	);
 
-	$: console.log(series_label_data);
-
 	$: data_series = group(data, groupByAccessor);
-	$: console.log(data_series);
-
+	
 	$: series = Array.from(data_series.keys());
 
 	$: x_scale = scaleLinear([0, max(data, xAccessor)], [0, $client_width]);
