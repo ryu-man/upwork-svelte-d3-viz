@@ -156,6 +156,7 @@
 				data={cohorts}
 				on:change={(ev) => {
 					selected_cohorts = ev.detail;
+					console.log(ev.detail)
 				}}
 			/>
 		</div>

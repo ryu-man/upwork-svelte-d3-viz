@@ -10,16 +10,9 @@
 	export let open = false;
 	export let data = [];
 
-	let selected_cohorts = new Map(data.filter((d) => d.selected).map((d) => d.value));
+	$: selected_data = data.filter((d) => d.selected);
 
-	$: {
-		data.forEach((d) => {
-			selected_cohorts.set(d.value, d);
-		});
-		selected_cohorts = selected_cohorts;
-	}
-
-	$: dispatch('change', Array.from(selected_cohorts));
+	$: dispatch('change', selected_data);
 </script>
 
 <DropdownMenu.Root closeOnItemClick={false} bind:open>
@@ -31,7 +24,7 @@
 			aria-expanded={open}
 			class="w-[200px] justify-between"
 		>
-			{selected_cohorts.size} cohorts
+			{selected_data.length} cohorts
 			<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
 		</Button>
 	</DropdownMenu.Trigger>
@@ -43,17 +36,10 @@
 		{#each data as cohort (cohort.value)}
 			<DropdownMenu.Item class="gap-2">
 				<Checkbox
-					checked={selected_cohorts.has(cohort.value) || cohort.selected}
+					checked={cohort.selected}
 					on:click={() => {
-						if (selected_cohorts.has(cohort.value)) {
-							selected_cohorts.delete(cohort.value);
-							cohort.selected = false;
-						} else {
-							selected_cohorts.add(cohort.value);
-							cohort.selected = true;
-						}
-
-						selected_cohorts = selected_cohorts;
+						cohort.selected = !cohort.selected;
+						data = data;
 					}}
 				/>
 				<span>{cohort.value}</span>
