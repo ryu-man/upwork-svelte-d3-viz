@@ -14,6 +14,16 @@
 
 	export let selected_analyses = new Map<string, Set<string>>();
 
+	$: sorted_data = data.map((d) => [
+		d[0],
+		d[1].sort((a, b) => {
+			if (a === 'Main') {
+				return -1;
+			} else {
+				return a - b;
+			}
+		})
+	]);
 	$: keys = new Set(selected_analyses.keys());
 
 	$: dispatch('change', Array.from(selected_analyses.entries()));
@@ -39,7 +49,7 @@
 
 		<DropdownMenu.Separator />
 
-		{#each data as [outcome, analyses]}
+		{#each sorted_data as [outcome, analyses]}
 			{#if analyses.length}
 				<DropdownMenu.Sub>
 					<DropdownMenu.SubTrigger
