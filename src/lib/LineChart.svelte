@@ -93,7 +93,7 @@
 	{#each Array.from(data_series) as [key, value]}
 		{@const color = colorScale(key)}
 		{@const is_active = active_serie === key}
-		{@const opacity = active_serie ? (is_active ? 1 : 0.5) : 1}
+		{@const opacity = active_serie ? (is_active ? 1 : 0.3) : 1}
 		{@const filter = `grayscale(${active_serie ? (is_active ? 0 : 1) : 0})`}
 
 		<g
@@ -137,7 +137,7 @@
 		<Legend x={innerWidth - 270} y={44} padding={20}>
 			{#each legend_items as item}
 				{@const is_active = active_serie === item.label}
-				{@const opacity = active_serie ? (is_active ? 1 : 0.5) : 1}
+				{@const opacity = active_serie ? (is_active ? 1 : 0.3) : 1}
 				{@const filter = `grayscale(${active_serie ? (is_active ? 0 : 1) : 0})`}
 
 				<div
