@@ -24,6 +24,7 @@
 	transform="translate({x}, {y})"
 	on:pointerenter={onPointerEnterHandler}
 	on:pointerleave={onPointerLeaveHandler}
+	on:click
 >
 	<circle
 		cx="0"

@@ -14,13 +14,19 @@
 	let selected_dataset = 'condition_1';
 
 	const group_by_accessor = (d) => `${d['outcome']} | ${d['analysis']} | ${d['cohort']}`;
-	const x_accessor = (d) => d['term'];
+	const x_accessor = (d) => d['outcome_time_median'];
+	const term_start_accessor = (d) => d['term_start'];
+	const term_end_accessor = (d) => d['term_end'];
 	const y_accessor = (d) => d['hr'];
 	const conf_low_accessor = (d) => d['conf_low'];
 	const conf_high_accessor = (d) => d['conf_high'];
 
 	let selected_cohorts: string[] = [];
-	let selected_outcomes: [string, Set<string>][] = [];
+	let selected_outcomes: Map<string, Set<string>> = new Map();
+	let outcomes_order: Map<string, Date> = new Map();
+
+	let showHorizontalLines = false;
+	let showLegend = true;
 
 	let series: string[] = [];
 
@@ -43,6 +49,7 @@
 		value: d['cohort'],
 		selected: true
 	}));
+
 	$: outcomes = groups(
 		raw_data,
 		(d) => d['outcome'],
@@ -53,11 +60,7 @@
 	$: filted_data = raw_data.filter((d) => {
 		return (
 			selected_cohorts.some((dd) => dd.value === d['cohort']) &&
-			selected_outcomes.some((dd) => {
-				const is_outcome_selected = dd[0] === d['outcome'];
-
-				return is_outcome_selected && dd[1].has(d['analysis']);
-			})
+			selected_outcomes.get(d['outcome'])?.has(d['analysis'])
 		);
 	});
 
@@ -103,16 +106,22 @@
 			.then((d) => d.text())
 			.then((d) => csvParse(d))
 			.then((d) => {
-				const raw = d.map((d) => ({
-					cohort: d['cohort'],
-					outcome: d['outcome'],
-					analysis: d['analysis'],
-					term: +d['term'].split('_')[0].replace('days', ''),
-					hr: +d['hr'],
-					conf_low: +d['conf_low'],
-					conf_high: +d['conf_high'],
-					outcome_time_median: +d['outcome_time_median']
-				}));
+				const raw = d.map((d) => {
+					const [r0, r1] = d['term'].replace('days', '').split('_');
+
+					return {
+						cohort: d['cohort'],
+						outcome: d['outcome'],
+						analysis: d['analysis'],
+						term: d['term'],
+						term_start: +r0,
+						term_end: +r1,
+						hr: +d['hr'],
+						conf_low: +d['conf_low'],
+						conf_high: +d['conf_high'],
+						outcome_time_median: +d['outcome_time_median']
+					};
+				});
 
 				datasets['condition_1'] = sort(raw, (a, b) => ascending(x_accessor(a), x_accessor(b)));
 
@@ -131,7 +140,6 @@
 		if (first_line) {
 			reader.readAsText(first_line);
 		}
-
 	}
 </script>
 
@@ -147,16 +155,15 @@
 			<OutcomeDropdown
 				data={outcomes}
 				disabled={series.length >= 7}
-				on:change={(ev) => {
-					selected_outcomes = ev.detail;
-				}}
+				bind:selectedOutcomes={selected_outcomes}
+				bind:order={outcomes_order}
 			/>
-			
+
 			<CohortDropdown
 				data={cohorts}
 				on:change={(ev) => {
 					selected_cohorts = ev.detail;
-					console.log(ev.detail)
+					console.log(ev.detail);
 				}}
 			/>
 		</div>
@@ -174,6 +181,11 @@
 					yAccessor={y_accessor}
 					lclAccessor={conf_low_accessor}
 					uclAccessor={conf_high_accessor}
+					termStartAccessor={term_start_accessor}
+					termEndAccessor={term_end_accessor}
+					outcomesOrder={outcomes_order}
+					{showHorizontalLines}
+					{showLegend}
 					bind:series
 					bind:dataset={selected_dataset}
 				/>
@@ -215,8 +227,28 @@
 				</label>
 			</div>
 
-			<div class="bottom-0 right-0 p-2 z-[3]">
-				<input type="file" on:change={onchange} />
+			<div class="flex gap-4">
+				<label class="flex gap-2">
+					<input
+						type="checkbox"
+						checked={showLegend}
+						on:change={(ev) => {
+							showLegend = ev.currentTarget.checked;
+						}}
+					/>
+					<div>show legend</div>
+				</label>
+
+				<label class="flex gap-2">
+					<input
+						type="checkbox"
+						checked={showHorizontalLines}
+						on:change={(ev) => {
+							showHorizontalLines = ev.currentTarget.checked;
+						}}
+					/>
+					<div>show horizontal lines</div>
+				</label>
 			</div>
 		</div>
 	</Root>

@@ -12,8 +12,8 @@
 	export let data = [];
 	export let open = false;
 	export let disabled = false;
-
-	export let selected_analyses = new Map<string, Set<string>>();
+	export let order: Map<string, Date> = new Map();
+	export let selectedOutcomes = new Map<string, Set<string>>();
 
 	$: sorted_data = data.map((d) => [
 		d[0],
@@ -25,9 +25,9 @@
 			}
 		})
 	]);
-	$: keys = new Set(selected_analyses.keys());
+	$: keys = new Set(selectedOutcomes.keys());
 
-	$: dispatch('change', Array.from(selected_analyses.entries()));
+	$: dispatch('change', selectedOutcomes);
 
 	function on_outcom_click() {}
 </script>
@@ -52,7 +52,7 @@
 
 		{#each sorted_data as [outcome, analyses]}
 			{#if analyses.length}
-				{@const is_disabled = !selected_analyses.get(outcome)?.has('Main') && disabled}
+				{@const is_disabled = !selectedOutcomes.get(outcome)?.has('Main') && disabled}
 
 				<DropdownMenu.Sub>
 					<DropdownMenu.SubTrigger
@@ -61,26 +61,34 @@
 						on:click={() => {
 							if (is_disabled) return;
 
-							const selected_values = selected_analyses.get(outcome) || new Set();
+							if (!order.has(outcome)) {
+								order.set(outcome, new Date());
+							}
+
+							const selected_values = selectedOutcomes.get(outcome) || new Set();
 							const analysis = 'Main';
 
 							if (selected_values.has(analysis)) {
 								selected_values.delete(analysis);
+								if (!selected_values.size) {
+									selectedOutcomes.delete(outcome);
+									order.delete(outcome);
+								}
 							} else {
 								selected_values.add(analysis);
 							}
 
-							selected_analyses.set(outcome, selected_values);
-							selected_analyses = selected_analyses;
+							selectedOutcomes.set(outcome, selected_values);
+							selectedOutcomes = selectedOutcomes;
 						}}
 					>
-						<Badge variant="outline">{selected_analyses.get(outcome)?.size ?? 0}</Badge>
+						<Badge variant="outline">{selectedOutcomes.get(outcome)?.size ?? 0}</Badge>
 						<span>{outcome}</span>
 					</DropdownMenu.SubTrigger>
 
 					<DropdownMenu.SubContent class="w-auto whitespace-nowrap">
 						{#each analyses as analysis}
-							{@const is_disabled = !selected_analyses.get(outcome)?.has(analysis) && disabled}
+							{@const is_disabled = !selectedOutcomes.get(outcome)?.has(analysis) && disabled}
 
 							<DropdownMenu.Item
 								class={cn('gap-2', is_disabled && 'cursor-not-allowed')}
@@ -89,21 +97,28 @@
 									: ''}
 							>
 								<Checkbox
-									checked={selected_analyses.get(outcome)?.has(analysis)}
+									checked={selectedOutcomes.get(outcome)?.has(analysis)}
 									disabled={is_disabled}
 									on:click={() => {
-										const selected_values = selected_analyses.get(outcome) || new Set();
+										if (!order.has(outcome)) {
+											order.set(outcome, new Date());
+										}
+
+										const selected_values = selectedOutcomes.get(outcome) || new Set();
+
 										if (selected_values.has(analysis)) {
 											selected_values.delete(analysis);
 
 											if (!selected_values.size) {
-												selected_analyses.delete(outcome);
+												selectedOutcomes.delete(outcome);
+												order.delete(outcome);
 											}
 										} else {
 											selected_values.add(analysis);
 										}
-										selected_analyses.set(outcome, selected_values);
-										selected_analyses = selected_analyses;
+
+										selectedOutcomes.set(outcome, selected_values);
+										selectedOutcomes = selectedOutcomes;
 									}}
 								/>
 								<span>{analysis}</span>
@@ -117,12 +132,12 @@
 						checked={keys.has(outcome)}
 						on:click={() => {
 							if (keys.has(outcome)) {
-								selected_analyses.delete(outcome);
+								selectedOutcomes.delete(outcome);
 							} else {
-								selected_analyses.set(outcome, new Set());
+								selectedOutcomes.set(outcome, new Set());
 							}
 
-							selected_analyses = selected_analyses;
+							selectedOutcomes = selectedOutcomes;
 						}}
 					/>
 					<span>{outcome}</span>
