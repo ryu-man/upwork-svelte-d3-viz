@@ -51,15 +51,20 @@
 		<DropdownMenu.Separator />
 
 		{#each sorted_data as [outcome, analyses]}
+			{@const is_main_disabled =
+				!selectedOutcomes.get(outcome)?.has('Main') &&
+				!selectedOutcomes.get(outcome)?.size &&
+				disabled}
 			{#if analyses.length}
-				{@const is_disabled = !selectedOutcomes.get(outcome)?.has('Main') && disabled}
-
 				<DropdownMenu.Sub>
 					<DropdownMenu.SubTrigger
-						class={cn('gap-2 cursor-pointer', is_disabled && 'cursor-not-allowed')}
-						title={is_disabled ? 'section max reached! Please unselect some sub-groups first' : ''}
+						class={cn('gap-2 cursor-pointer', is_main_disabled && 'cursor-not-allowed opacity-50')}
+						disabled={is_main_disabled}
+						title={is_main_disabled
+							? 'section max reached! Please unselect some sub-groups first'
+							: ''}
 						on:click={() => {
-							if (is_disabled) return;
+							if (is_main_disabled) return;
 
 							if (!order.has(outcome)) {
 								order.set(outcome, new Date());
@@ -88,17 +93,18 @@
 
 					<DropdownMenu.SubContent class="w-auto whitespace-nowrap">
 						{#each analyses as analysis}
-							{@const is_disabled = !selectedOutcomes.get(outcome)?.has(analysis) && disabled}
+							{@const is_sub_disabled = !selectedOutcomes.get(outcome)?.has(analysis) && disabled}
 
 							<DropdownMenu.Item
-								class={cn('gap-2', is_disabled && 'cursor-not-allowed')}
-								title={is_disabled
+								class={cn('gap-2', is_sub_disabled && 'cursor-not-allowed opacity-50')}
+								title={is_sub_disabled
 									? 'section max reached! Please unselect some sub-groups first'
 									: ''}
+								disabled={is_sub_disabled}
 							>
 								<Checkbox
 									checked={selectedOutcomes.get(outcome)?.has(analysis)}
-									disabled={is_disabled}
+									disabled={is_sub_disabled}
 									on:click={() => {
 										if (!order.has(outcome)) {
 											order.set(outcome, new Date());
@@ -127,7 +133,10 @@
 					</DropdownMenu.SubContent>
 				</DropdownMenu.Sub>
 			{:else}
-				<DropdownMenu.Item>
+				<DropdownMenu.Item
+					class={cn(is_main_disabled && 'cursor-not-allowed opacity-50')}
+					disabled={is_main_disabled}
+				>
 					<Checkbox
 						checked={keys.has(outcome)}
 						on:click={() => {
