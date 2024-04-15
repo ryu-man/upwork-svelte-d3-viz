@@ -140,7 +140,7 @@
 			on:pointerleave={() => {
 				hover_timeout = setTimeout(() => {
 					in_hover_serie = undefined;
-				}, 600);
+				}, 200);
 			}}
 			on:click={() => {
 				const elem = active_series.find((d) => d === key);
@@ -217,7 +217,7 @@
 					on:pointerleave={() => {
 						hover_timeout = setTimeout(() => {
 							in_hover_serie = undefined;
-						}, 600);
+						}, 200);
 					}}
 					on:click={() => {
 						const elem = active_series.find((d) => d === item.id);
