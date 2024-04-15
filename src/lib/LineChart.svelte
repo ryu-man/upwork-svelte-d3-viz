@@ -78,7 +78,10 @@
 
 	$: series = Array.from(data_series.keys());
 
-	$: x_scale = scaleLinear([0, max(data, xAccessor)], [0, $client_width]);
+	$: x_scale = scaleLinear(
+		[min(data, termStartAccessor), max(data, termEndAccessor)],
+		[0, $client_width]
+	);
 	$: y_domain =
 		yScale === scaleLinear
 			? [min(data, lclAccessor), max(data, uclAccessor)]
