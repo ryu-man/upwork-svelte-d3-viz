@@ -27,6 +27,7 @@
 
 	let showHorizontalLines = false;
 	let showLegend = true;
+	let showConnectingLines = true
 
 	let series: string[] = [];
 
@@ -186,6 +187,7 @@
 					outcomesOrder={outcomes_order}
 					{showHorizontalLines}
 					{showLegend}
+					{showConnectingLines}
 					bind:series
 					bind:dataset={selected_dataset}
 				/>
@@ -237,6 +239,17 @@
 						}}
 					/>
 					<div>show legend</div>
+				</label>
+
+				<label class="flex gap-2">
+					<input
+						type="checkbox"
+						checked={showConnectingLines}
+						on:change={(ev) => {
+							showConnectingLines = ev.currentTarget.checked;
+						}}
+					/>
+					<div>show connecting lines</div>
 				</label>
 
 				<label class="flex gap-2">

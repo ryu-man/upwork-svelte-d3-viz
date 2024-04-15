@@ -48,6 +48,7 @@
 	export let outcomesOrder: Map<string, Date> = new Map();
 	export let showHorizontalLines = false;
 	export let showLegend = false;
+	export let showConnectingLines = true;
 
 	export let padding = {
 		top: 196,
@@ -151,7 +152,9 @@
 				console.log(active_series);
 			}}
 		>
-			<path d={path(value)} fill="none" stroke={color} stroke-width="2" stroke-opacity=".7" />
+			{#if showConnectingLines}
+				<path d={path(value)} fill="none" stroke={color} stroke-width="2" stroke-opacity=".7" />
+			{/if}
 
 			{#each value as item}
 				{#if showHorizontalLines}
