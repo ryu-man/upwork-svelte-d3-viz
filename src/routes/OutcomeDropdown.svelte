@@ -10,10 +10,17 @@
 	const dispatch = createEventDispatcher();
 
 	export let data = [];
+	export let length = 0;
+	export let maxlength = 7;
+	export let selectedAnalyses = new Set();
 	export let open = false;
 	export let disabled = false;
 	export let order: Map<string, Date> = new Map();
 	export let selectedOutcomes = new Map<string, Set<string>>();
+
+	let visibleData: any[][] = [];
+
+	$: can_select = length <= maxlength;
 
 	$: sorted_data = data.map((d) => [
 		d[0],
@@ -25,11 +32,26 @@
 			}
 		})
 	]);
+
+	$: if (selectedAnalyses.size) {
+		// If the use select at least one analysis then we should filter data
+		visibleData = sorted_data.filter((d) => {
+			const analyses = d[1];
+
+			if (analyses.some((dd) => selectedAnalyses.has(dd))) {
+				return true;
+			} else {
+				return false;
+			}
+		});
+	} else {
+		// Else use the sorted data
+		visibleData = sorted_data;
+	}
+
 	$: keys = new Set(selectedOutcomes.keys());
 
 	$: dispatch('change', selectedOutcomes);
-
-	function on_outcom_click() {}
 </script>
 
 <DropdownMenu.Root closeOnItemClick={false} bind:open>
@@ -45,16 +67,28 @@
 			<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
 		</Button>
 	</DropdownMenu.Trigger>
+
 	<DropdownMenu.Content class="w-auto whitespace-nowrap">
-		<DropdownMenu.Label>Outcomes</DropdownMenu.Label>
+		<DropdownMenu.Label class="flex items-center justify-between">
+			<div>Outcomes</div>
+
+			<Button
+				variant="outline"
+				size="sm"
+				on:click={() => {
+					selectedOutcomes = new Map();
+					dispatch('clear');
+				}}>Clear selection</Button
+			>
+		</DropdownMenu.Label>
 
 		<DropdownMenu.Separator />
 
-		{#each sorted_data as [outcome, analyses]}
+		{#each visibleData as [outcome, analyses]}
 			{@const is_main_disabled =
 				!selectedOutcomes.get(outcome)?.has('Main') &&
 				!selectedOutcomes.get(outcome)?.size &&
-				disabled}
+				!can_select}
 			{#if analyses.length}
 				<DropdownMenu.Sub>
 					<DropdownMenu.SubTrigger
@@ -65,6 +99,7 @@
 							: ''}
 						on:click={() => {
 							if (is_main_disabled) return;
+							if (selectedAnalyses.size && !selectedAnalyses.has('Main')) return;
 
 							if (!order.has(outcome)) {
 								order.set(outcome, new Date());
@@ -75,16 +110,21 @@
 
 							if (selected_values.has(analysis)) {
 								selected_values.delete(analysis);
+
 								if (!selected_values.size) {
 									selectedOutcomes.delete(outcome);
 									order.delete(outcome);
+								} else {
+									selectedOutcomes.set(outcome, selected_values);
 								}
+								selectedOutcomes = selectedOutcomes;
+								dispatch('unselect-outcome', outcome);
 							} else {
 								selected_values.add(analysis);
+								selectedOutcomes.set(outcome, selected_values);
+								selectedOutcomes = selectedOutcomes;
+								dispatch('select-outcome', outcome);
 							}
-
-							selectedOutcomes.set(outcome, selected_values);
-							selectedOutcomes = selectedOutcomes;
 						}}
 					>
 						<Badge variant="outline">{selectedOutcomes.get(outcome)?.size ?? 0}</Badge>
@@ -93,7 +133,9 @@
 
 					<DropdownMenu.SubContent class="w-auto whitespace-nowrap">
 						{#each analyses as analysis}
-							{@const is_sub_disabled = !selectedOutcomes.get(outcome)?.has(analysis) && disabled}
+							{@const is_sub_disabled =
+								(!selectedOutcomes.get(outcome)?.has(analysis) && !can_select) ||
+								(selectedAnalyses.size && !selectedAnalyses.has(analysis))}
 
 							<DropdownMenu.Item
 								class={cn('gap-2', is_sub_disabled && 'cursor-not-allowed opacity-50')}
@@ -118,13 +160,17 @@
 											if (!selected_values.size) {
 												selectedOutcomes.delete(outcome);
 												order.delete(outcome);
+											} else {
+												selectedOutcomes.set(outcome, selected_values);
 											}
+											selectedOutcomes = selectedOutcomes;
+											dispatch('unselect-analysis', outcome);
 										} else {
 											selected_values.add(analysis);
+											selectedOutcomes.set(outcome, selected_values);
+											selectedOutcomes = selectedOutcomes;
+											dispatch('select-analysis', outcome);
 										}
-
-										selectedOutcomes.set(outcome, selected_values);
-										selectedOutcomes = selectedOutcomes;
 									}}
 								/>
 								<span>{analysis}</span>
