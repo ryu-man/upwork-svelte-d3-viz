@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Button } from '$lib/components/ui/button/index.js';
+	import * as Tooltip from '$lib/components/ui/tooltip';
 	import Checkbox from '$lib/components/ui/checkbox/checkbox.svelte';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js';
 	import { cn } from '$lib/utils';
@@ -41,18 +42,8 @@
 			<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
 		</Button>
 	</DropdownMenu.Trigger>
-	<DropdownMenu.Content class="w-auto whitespace-nowrap relative overflow-hidden">
-		{#if disabled}
-			<div
-				class="absolute inset-1 flex flex-col items-center justify-center backdrop-blur-[2px] z-10 px-10"
-			>
-				<div class="font-bold text-2xl text-red-500">Unable to select analyses</div>
-				<div class="w-full whitespace-normal text-center text-red-400">
-					Please make sure you unselect all the outcomes first and try again
-				</div>
-			</div>
-		{/if}
-
+	
+	<DropdownMenu.Content class="w-auto whitespace-nowrap relative">
 		<DropdownMenu.Label class="flex items-center justify-between">
 			<div>Analyses</div>
 
@@ -68,27 +59,39 @@
 
 		<DropdownMenu.Separator />
 
-		{#each sorted_data as group}
-			{@const is_main_disabled = disabled}
+		<div class="flex flex-col">
+			{#each sorted_data as group}
+				{@const is_main_disabled = disabled}
+				<Tooltip.Root>
+					<Tooltip.Trigger>
+						<DropdownMenu.Item
+							class={cn('flex gap-2', is_main_disabled && 'cursor-not-allowed opacity-50')}
+							{disabled}
+						>
+							<Checkbox
+								checked={keys.has(group)}
+								on:click={() => {
+									if (keys.has(group)) {
+										selected.delete(group);
+									} else {
+										selected.add(group);
+									}
 
-			<DropdownMenu.Item
-				class={cn('flex gap-2', is_main_disabled && 'cursor-not-allowed opacity-50')}
-				{disabled}
-			>
-				<Checkbox
-					checked={keys.has(group)}
-					on:click={() => {
-						if (keys.has(group)) {
-							selected.delete(group);
-						} else {
-							selected.add(group);
-						}
+									selected = selected;
+								}}
+							/>
+							<div>{group}</div>
+						</DropdownMenu.Item>
+					</Tooltip.Trigger>
 
-						selected = selected;
-					}}
-				/>
-				<div>{group}</div>
-			</DropdownMenu.Item>
-		{/each}
+					{#if disabled}
+						<!-- content here -->
+						<Tooltip.Content
+							>Please unselect all the outcomes first before slecting this analysis</Tooltip.Content
+						>
+					{/if}
+				</Tooltip.Root>
+			{/each}
+		</div>
 	</DropdownMenu.Content>
 </DropdownMenu.Root>
