@@ -1,11 +1,12 @@
 <script lang="ts">
+	import { createEventDispatcher } from 'svelte';
+	import { ChevronsUpDown } from 'lucide-svelte';
 	import Badge from '$lib/components/ui/badge/badge.svelte';
 	import { Button } from '$lib/components/ui/button/index.js';
+	import * as Tooltip from '$lib/components/ui/tooltip';
 	import Checkbox from '$lib/components/ui/checkbox/checkbox.svelte';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js';
 	import { cn } from '$lib/utils';
-	import { ChevronsUpDown } from 'lucide-svelte';
-	import { createEventDispatcher } from 'svelte';
 
 	const dispatch = createEventDispatcher();
 
@@ -16,7 +17,7 @@
 	export let open = false;
 	export let disabled = false;
 	export let order: Map<string, Date> = new Map();
-	export let selectedOutcomes = new Map<string, Set<string>>();
+	export let selected = new Map<string, Set<string>>();
 
 	let visibleData: any[][] = [];
 
@@ -49,9 +50,9 @@
 		visibleData = sorted_data;
 	}
 
-	$: keys = new Set(selectedOutcomes.keys());
+	$: keys = new Set(selected.keys());
 
-	$: dispatch('change', selectedOutcomes);
+	$: dispatch('change', selected);
 </script>
 
 <DropdownMenu.Root closeOnItemClick={false} bind:open>
@@ -76,7 +77,7 @@
 				variant="outline"
 				size="sm"
 				on:click={() => {
-					selectedOutcomes = new Map();
+					selected = new Map();
 					dispatch('clear');
 				}}>Clear selection</Button
 			>
@@ -84,120 +85,121 @@
 
 		<DropdownMenu.Separator />
 
-		{#each visibleData as [outcome, analyses]}
-			{@const is_main_disabled =
-				!selectedOutcomes.get(outcome)?.has('Main') &&
-				!selectedOutcomes.get(outcome)?.size &&
-				!can_select}
-			{#if analyses.length}
+		<div class="flex flex-col">
+			{#each visibleData as [outcome, analyses]}
+				{@const is_main_disabled =
+					!selected.get(outcome)?.has('Main') && !selected.get(outcome)?.size && !can_select}
+
 				<DropdownMenu.Sub>
-					<DropdownMenu.SubTrigger
-						class={cn('gap-2 cursor-pointer', is_main_disabled && 'cursor-not-allowed opacity-50')}
-						disabled={is_main_disabled}
-						title={is_main_disabled
-							? 'section max reached! Please unselect some sub-groups first'
-							: ''}
-						on:click={() => {
-							if (is_main_disabled) return;
-							if (selectedAnalyses.size && !selectedAnalyses.has('Main')) return;
+					<Tooltip.Root>
+						<Tooltip.Trigger>
+							<DropdownMenu.SubTrigger
+								class={cn(
+									'gap-2 cursor-pointer',
+									is_main_disabled && 'cursor-not-allowed opacity-50'
+								)}
+								disabled={is_main_disabled}
+								on:click={() => {
+									if (is_main_disabled) return;
+									if (selectedAnalyses.size && !selectedAnalyses.has('Main')) return;
 
-							if (!order.has(outcome)) {
-								order.set(outcome, new Date());
-							}
+									if (!order.has(outcome)) {
+										order.set(outcome, new Date());
+									}
 
-							const selected_values = selectedOutcomes.get(outcome) || new Set();
-							const analysis = 'Main';
+									const selected_values = selected.get(outcome) || new Set();
+									const analysis = 'Main';
 
-							if (selected_values.has(analysis)) {
-								selected_values.delete(analysis);
+									if (selected_values.has(analysis)) {
+										selected_values.delete(analysis);
 
-								if (!selected_values.size) {
-									selectedOutcomes.delete(outcome);
-									order.delete(outcome);
-								} else {
-									selectedOutcomes.set(outcome, selected_values);
-								}
-								selectedOutcomes = selectedOutcomes;
-								dispatch('unselect-outcome', outcome);
-							} else {
-								selected_values.add(analysis);
-								selectedOutcomes.set(outcome, selected_values);
-								selectedOutcomes = selectedOutcomes;
-								dispatch('select-outcome', outcome);
-							}
-						}}
-					>
-						<Badge variant="outline">{selectedOutcomes.get(outcome)?.size ?? 0}</Badge>
-						<span>{outcome}</span>
-					</DropdownMenu.SubTrigger>
-
-					<DropdownMenu.SubContent class="w-auto whitespace-nowrap">
-						{#each analyses as analysis}
-							{@const is_sub_disabled =
-								(!selectedOutcomes.get(outcome)?.has(analysis) && !can_select) ||
-								(selectedAnalyses.size && !selectedAnalyses.has(analysis))}
-
-							<DropdownMenu.Item
-								class={cn('gap-2', is_sub_disabled && 'cursor-not-allowed opacity-50')}
-								title={is_sub_disabled
-									? 'section max reached! Please unselect some sub-groups first'
-									: ''}
-								disabled={is_sub_disabled}
-							>
-								<Checkbox
-									checked={selectedOutcomes.get(outcome)?.has(analysis)}
-									disabled={is_sub_disabled}
-									on:click={() => {
-										if (!order.has(outcome)) {
-											order.set(outcome, new Date());
-										}
-
-										const selected_values = selectedOutcomes.get(outcome) || new Set();
-
-										if (selected_values.has(analysis)) {
-											selected_values.delete(analysis);
-
-											if (!selected_values.size) {
-												selectedOutcomes.delete(outcome);
-												order.delete(outcome);
-											} else {
-												selectedOutcomes.set(outcome, selected_values);
-											}
-											selectedOutcomes = selectedOutcomes;
-											dispatch('unselect-analysis', outcome);
+										if (!selected_values.size) {
+											selected.delete(outcome);
+											order.delete(outcome);
 										} else {
-											selected_values.add(analysis);
-											selectedOutcomes.set(outcome, selected_values);
-											selectedOutcomes = selectedOutcomes;
-											dispatch('select-analysis', outcome);
+											selected.set(outcome, selected_values);
 										}
-									}}
-								/>
-								<span>{analysis}</span>
-							</DropdownMenu.Item>
+										selected = selected;
+										dispatch('unselect-outcome', outcome);
+									} else {
+										selected_values.add(analysis);
+										selected.set(outcome, selected_values);
+										selected = selected;
+										dispatch('select-outcome', outcome);
+									}
+								}}
+							>
+								<Badge variant="outline">{selected.get(outcome)?.size ?? 0}</Badge>
+								<span>{outcome}</span>
+							</DropdownMenu.SubTrigger>
+						</Tooltip.Trigger>
+
+						{#if is_main_disabled}
+							<Tooltip.Content>
+								Section max reached! Please unselect some sub-groups first
+							</Tooltip.Content>
+						{/if}
+					</Tooltip.Root>
+
+					<DropdownMenu.SubContent class="w-auto whitespace-nowrap flex flex-col">
+						{#each analyses as analysis}
+							{@const is_filtered_out = !!selectedAnalyses.size && !selectedAnalyses.has(analysis)}
+							{@const is_not_selected = !selected.get(outcome)?.has(analysis)}
+							{@const is_sub_disabled = (is_not_selected && !can_select) || is_filtered_out}
+
+							<Tooltip.Root openDelay={200}>
+								<Tooltip.Trigger>
+									<DropdownMenu.Item
+										class={cn('gap-2', is_sub_disabled && 'cursor-not-allowed opacity-50')}
+										disabled={is_sub_disabled}
+									>
+										<Checkbox
+											checked={selected.get(outcome)?.has(analysis)}
+											disabled={is_sub_disabled}
+											on:click={() => {
+												if (!order.has(outcome)) {
+													order.set(outcome, new Date());
+												}
+
+												const selected_values = selected.get(outcome) || new Set();
+
+												if (selected_values.has(analysis)) {
+													selected_values.delete(analysis);
+
+													if (!selected_values.size) {
+														selected.delete(outcome);
+														order.delete(outcome);
+													} else {
+														selected.set(outcome, selected_values);
+													}
+													selected = selected;
+													dispatch('unselect-analysis', outcome);
+												} else {
+													selected_values.add(analysis);
+													selected.set(outcome, selected_values);
+													selected = selected;
+													dispatch('select-analysis', outcome);
+												}
+											}}
+										/>
+										<div>{analysis}</div>
+									</DropdownMenu.Item>
+								</Tooltip.Trigger>
+
+								{#if is_filtered_out || !can_select}
+									<Tooltip.Content>
+										{is_filtered_out
+											? 'This item was filtered out in the analyses dropdown'
+											: !can_select
+											? 'Section max reached! Please unselect some sub-groups first'
+											: ''}
+									</Tooltip.Content>
+								{/if}
+							</Tooltip.Root>
 						{/each}
 					</DropdownMenu.SubContent>
 				</DropdownMenu.Sub>
-			{:else}
-				<DropdownMenu.Item
-					class={cn(is_main_disabled && 'cursor-not-allowed opacity-50')}
-					disabled={is_main_disabled}
-				>
-					<Checkbox
-						checked={keys.has(outcome)}
-						on:click={() => {
-							if (keys.has(outcome)) {
-								selectedOutcomes.delete(outcome);
-							} else {
-								selectedOutcomes.set(outcome, new Set());
-							}
-
-							selectedOutcomes = selectedOutcomes;
-						}}
-					/>
-					<span>{outcome}</span>
-				</DropdownMenu.Item>
-			{/if}
-		{/each}
+			{/each}
+		</div>
 	</DropdownMenu.Content>
 </DropdownMenu.Root>

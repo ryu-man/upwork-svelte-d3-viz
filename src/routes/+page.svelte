@@ -67,7 +67,7 @@
 
 	$: filted_data = raw_data.filter((d) => {
 		return (
-			selected_cohorts.some((dd) => dd.value === d['cohort']) &&
+			selected_cohorts.some((dd) => dd === d['cohort']) &&
 			selected_outcomes.get(d['outcome'])?.has(d['analysis'])
 		);
 	});
@@ -134,7 +134,7 @@
 				datasets['condition_1'] = sort(raw, (a, b) => ascending(x_accessor(a), x_accessor(b)));
 
 				setTimeout(() => {
-					selected_cohorts = [...cohorts];
+					selected_cohorts = [...cohorts].filter((d) => d.value).map((d) => d.value);
 				}, 300);
 			});
 	});
@@ -164,7 +164,7 @@
 				data={outcomes}
 				selectedAnalyses={selected_analyses}
 				length={series.length}
-				bind:selectedOutcomes={selected_outcomes}
+				bind:selected={selected_outcomes}
 				bind:order={outcomes_order}
 				on:select-outcome={async () => {
 					await tick();
@@ -201,12 +201,7 @@
 				}}
 			/>
 
-			<CohortDropdown
-				data={cohorts}
-				on:change={(ev) => {
-					selected_cohorts = ev.detail;
-				}}
-			/>
+			<CohortDropdown data={cohorts} bind:selected={selected_cohorts} />
 
 			<AnalysesDropdown
 				data={analyses}

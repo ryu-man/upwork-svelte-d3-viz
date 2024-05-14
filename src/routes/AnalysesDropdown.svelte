@@ -11,7 +11,7 @@
 	export let data = [];
 	export let open = false;
 	export let disabled = false;
-	export let selectedOutcomes = new Set<string>();
+	export let selected = new Set<string>();
 
 	$: sorted_data = data.sort((a, b) => {
 		if (a === 'Main') {
@@ -20,9 +20,10 @@
 			return a - b;
 		}
 	});
-	$: keys = new Set(selectedOutcomes.keys());
 
-	$: dispatch('change', selectedOutcomes);
+	$: keys = new Set(selected.keys());
+
+	$: dispatch('change', selected);
 
 	function on_outcom_click() {}
 </script>
@@ -40,8 +41,30 @@
 			<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
 		</Button>
 	</DropdownMenu.Trigger>
-	<DropdownMenu.Content class="w-auto whitespace-nowrap">
-		<DropdownMenu.Label>Outcomes</DropdownMenu.Label>
+	<DropdownMenu.Content class="w-auto whitespace-nowrap relative overflow-hidden">
+		{#if disabled}
+			<div
+				class="absolute inset-1 flex flex-col items-center justify-center backdrop-blur-[2px] z-10 px-10"
+			>
+				<div class="font-bold text-2xl text-red-500">Unable to select analyses</div>
+				<div class="w-full whitespace-normal text-center text-red-400">
+					Please make sure you unselect all the outcomes first and try again
+				</div>
+			</div>
+		{/if}
+
+		<DropdownMenu.Label class="flex items-center justify-between">
+			<div>Analyses</div>
+
+			<Button
+				variant="outline"
+				size="sm"
+				on:click={() => {
+					selected = new Set();
+					dispatch('clear');
+				}}>Clear selection</Button
+			>
+		</DropdownMenu.Label>
 
 		<DropdownMenu.Separator />
 
@@ -50,18 +73,18 @@
 
 			<DropdownMenu.Item
 				class={cn('flex gap-2', is_main_disabled && 'cursor-not-allowed opacity-50')}
-				disabled={disabled}
+				{disabled}
 			>
 				<Checkbox
 					checked={keys.has(group)}
 					on:click={() => {
 						if (keys.has(group)) {
-							selectedOutcomes.delete(group);
+							selected.delete(group);
 						} else {
-							selectedOutcomes.add(group);
+							selected.add(group);
 						}
 
-						selectedOutcomes = selectedOutcomes;
+						selected = selected;
 					}}
 				/>
 				<div>{group}</div>
