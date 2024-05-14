@@ -42,7 +42,7 @@
 			<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
 		</Button>
 	</DropdownMenu.Trigger>
-	
+
 	<DropdownMenu.Content class="w-auto whitespace-nowrap relative">
 		<DropdownMenu.Label class="flex items-center justify-between">
 			<div>Analyses</div>
@@ -62,7 +62,7 @@
 		<div class="flex flex-col">
 			{#each sorted_data as group}
 				{@const is_main_disabled = disabled}
-				<Tooltip.Root>
+				<Tooltip.Root openDelay={50}>
 					<Tooltip.Trigger>
 						<DropdownMenu.Item
 							class={cn('flex gap-2', is_main_disabled && 'cursor-not-allowed opacity-50')}

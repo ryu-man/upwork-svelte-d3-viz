@@ -91,7 +91,7 @@
 					!selected.get(outcome)?.has('Main') && !selected.get(outcome)?.size && !can_select}
 
 				<DropdownMenu.Sub>
-					<Tooltip.Root>
+					<Tooltip.Root openDelay={50}>
 						<Tooltip.Trigger>
 							<DropdownMenu.SubTrigger
 								class={cn(
@@ -147,7 +147,7 @@
 							{@const is_not_selected = !selected.get(outcome)?.has(analysis)}
 							{@const is_sub_disabled = (is_not_selected && !can_select) || is_filtered_out}
 
-							<Tooltip.Root openDelay={200}>
+							<Tooltip.Root openDelay={50}>
 								<Tooltip.Trigger>
 									<DropdownMenu.Item
 										class={cn('gap-2', is_sub_disabled && 'cursor-not-allowed opacity-50')}
