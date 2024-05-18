@@ -155,9 +155,13 @@
 	<Root>
 		<Title>
 			<div class="text-3xl font-black">Post COVID events</div>
-
+			
 			<TitleTooltip slot="tooltip" />
 		</Title>
+
+		<div class="mb-4">
+			<p>Draft visualisation showing draft data- please do not share - scheduled to be updated and published in Q3 of 2024</p>
+		</div>
 
 		<div class="flex gap-4">
 			<OutcomeDropdown
