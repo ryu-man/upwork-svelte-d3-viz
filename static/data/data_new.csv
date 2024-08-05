@@ -1,0 +1,1152 @@
+outcome_cat,outcome,cohort,analysis,term,hr,conf_low,conf_high,outcome_time_median
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.425541583,1.181589895,1.71985967,467
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,11.14210305,9.951546836,12.47507932,6
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.301519984,1.115678678,1.518317327,268.5
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,244.0704712,218.9558256,272.0658139,0
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.643184455,1.442427993,1.871882109,108
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.163071557,1.090142694,1.240879249,275
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,4.289829549,3.963426782,4.643108141,8
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.313072092,1.192210325,1.446186222,436.5
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.320494252,1.245465182,1.400043209,110
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,172.9962642,162.5820829,184.0775249,0
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.244790198,1.166516783,1.328315901,110
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.25454405,1.121846737,1.402937426,424
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,2.673427615,2.395190576,2.983986028,10
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.124674994,1.047673195,1.207336266,277
+Cardiovascular diseases,Acute myocardial infarction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,151.0086319,140.2124819,162.6362318,0
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,2.003242264,1.383870661,2.899823868,265
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.845652364,1.318965082,2.582655673,127
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,10.15736441,7.267969834,14.19542884,5
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,310.9325476,231.3223055,417.9413033,1
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.797646663,0.99329498,3.253345983,446
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,0.946276521,0.856611435,1.045327225,111.5
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,0.965263907,0.765268824,1.217525634,433
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,1.487693567,1.224023642,1.808161276,10
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,0.990318478,0.886083343,1.106815398,271
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,66.07076667,56.9459552,76.65770455,1
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,0.885734354,0.689221072,1.138278234,433
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.909423861,0.819700131,1.008968781,110
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,0.951462029,0.846899708,1.068934117,272
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,49.63479004,41.46816399,59.40978836,1
+Mental illnesses,Addiction,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.007569102,0.788734592,1.287119145,17
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.053249345,0.926899809,1.196822107,281
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.166296099,0.995854815,1.365908671,445
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.238510936,1.111888032,1.379553643,99
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,15.68073674,14.61727429,16.82155332,4
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,314.303475,296.0217703,333.7142207,0
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.225466515,1.175446882,1.27761467,106
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.163728297,1.082626139,1.250906139,428
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,137.1893379,131.3002913,143.3425184,0
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.107559781,1.056830041,1.160724756,276
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,4.184210349,3.961544601,4.419391425,5
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.219916361,1.166299598,1.275998105,107
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.115403586,1.060801867,1.172815889,275
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,85.50954439,80.3301486,91.02288879,0
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.752665199,1.599530902,1.920460114,8
+Cardiovascular diseases,Angina,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.159664223,1.069609469,1.257301176,423
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0197_0365,1.067642438,0.85018,1.34073324,271
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0000_0028,6.365682983,4.98936,8.121673116,2
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0028_0197,1.212892998,0.98233,1.497564251,127.5
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0365_0714,1.027092574,0.6447,1.636297881,413
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0028_0197,1.193204567,1.1031,1.290673727,112
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0000_0028,8.61517124,7.97975,9.301194498,1
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0365_0714,1.30289594,1.12393,1.510357961,419
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0197_0365,1.122143961,1.03187,1.220316639,273
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0197_0365,1.121046076,1.04382,1.203988937,273
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0365_0714,1.326985455,1.19474,1.473864626,440
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0000_0028,15.85942716,15.11839,16.63678596,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0028_0197,1.42173302,1.336,1.51296781,109
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0365_0714,1.057057059,0.9407,1.187804523,449
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0000_0028,12.97012948,12.2228,13.76315089,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0028_0197,1.42353986,1.31606,1.539792641,96.5
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0197_0365,1.072141452,0.97407,1.180090237,280
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0028_0197,1.126629161,0.82504,1.538464277,120
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0000_0028,15.47767926,12.42921,19.27382837,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0197_0365,0.908050522,0.63526,1.297971903,275
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0365_0714,1.190594836,0.75487,1.877820985,435
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Missing,days0365_0714,1.219235861,0.54551,2.725053442,428
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Missing,days0028_0197,1.202424922,0.77291,1.870635337,62.5
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Missing,days0197_0365,1.009014721,0.61597,1.652854982,271.5
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Missing,days0000_0028,19.63108685,14.9984,25.69471743,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0197_0365,0.798859273,0.41236,1.547617573,228
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0028_0197,1.963249841,1.29035,2.987061234,133
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0365_0714,2.02177775,1.00031,4.086336256,412
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0000_0028,16.88188056,11.9062,23.93692329,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0000_0028,12.85234905,9.58257,17.23784208,1
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0028_0197,1.442310625,1.00715,2.065492474,108
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0197_0365,0.900955098,0.57119,1.421094644,287
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0365_0714,1.015075209,0.52454,1.964354669,424
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0028_0197,1.226652339,1.07698,1.397128629,112
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0197_0365,1.000053723,0.86515,1.155998396,275
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0365_0714,1.189665635,0.95401,1.483525004,415
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0000_0028,12.9281405,11.64602,14.35140795,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0197_0365,1.142519019,1.08692,1.200960414,273
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0365_0714,1.214325134,1.12778,1.307513206,442
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0000_0028,12.49547583,12.05612,12.95084815,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0028_0197,1.368567021,1.30978,1.429993571,106
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,227.9588203,210.6424192,246.698514,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.341587347,1.201584257,1.497902955,270.5
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,12.08889183,11.1805426,13.07103875,6
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.327767287,1.155715231,1.525432841,453
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.79022713,1.634451379,1.960849308,101
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.216614133,1.135865142,1.303103595,435
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.119095198,1.068380446,1.172217202,273.5
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,199.9783279,192.1238085,208.1541685,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,4.399262882,4.164657336,4.64708899,8
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.351468393,1.29744001,1.407746783,108
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0000_0028,13.66925184,13.14488,14.21454307,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0028_0197,1.387576783,1.32238,1.455990302,107
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0365_0714,1.225737355,1.12657,1.333634227,434
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0197_0365,1.125288654,1.06541,1.188527637,273
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.187856711,1.098155111,1.284885488,429.5
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,193.4803583,184.8434037,202.5210841,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.084335004,1.030583658,1.140889818,274.5
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.278714274,1.22207117,1.337982925,108
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,2.701438476,2.501689491,2.917138004,10
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Prior history of outcome,days0365_0714,1.240776846,1.10507,1.393150311,443.5
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Prior history of outcome,days0000_0028,10.50453547,9.88294,11.16522862,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Prior history of outcome,days0197_0365,1.125073412,1.03251,1.225938121,274
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Prior history of outcome,days0028_0197,1.295894913,1.20209,1.397019366,111
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0365_0714,1.093252721,0.984874162,1.213557587,442.5
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0000_0028,11.23645047,10.64366628,11.86226081,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0197_0365,1.079343947,1.004465139,1.159804667,269
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0028_0197,1.340383544,1.258852133,1.427195315,108
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0365_0714,1.314997049,1.2008,1.440054165,434
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0000_0028,13.47933719,12.92146,14.06130284,0
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0197_0365,1.141993388,1.07502,1.213138211,277
+Cardiovascular diseases,Arterial thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0028_0197,1.357301395,1.28671,1.431765855,106
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,22.61722988,20.0192638,25.55234262,10
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.293737867,0.963757666,1.736699721,466
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,310.0495117,267.021185,360.0115089,0
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,3.605894978,3.159702887,4.115091214,68
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.336752814,1.068158139,1.672887207,286
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.165027626,1.077463966,1.25970731,273
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.279450002,1.126855263,1.452708435,422
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,6.650752459,6.145308837,7.197768159,13
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.770695664,1.665076719,1.883014406,91
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,123.1908772,112.4817515,134.9195939,0
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.138674424,1.048007351,1.237185325,272
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,91.50494367,81.74233141,102.4336221,0
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,4.285169038,3.861304192,4.755562569,14
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.26756508,1.101902025,1.458134239,414
+Cardiovascular diseases,Deep vein thrombosis,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.541878688,1.439112494,1.651983521,99
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0001_0028,1.074633661,1.020542926,1.131591308,15
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0028_0197,1.190988403,1.166558089,1.215930341,111
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0000_0001,6.180291973,5.550000915,6.882162626,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0365_0714,1.1982053,1.140712044,1.258596285,408
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0197_0365,1.159632109,1.132829599,1.187068762,272
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0197_0365,1.158880417,1.128479438,1.190100392,273
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0001_0028,2.09965571,2.006123758,2.197548423,10
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0365_0714,1.207135267,1.146859175,1.270579323,416
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0000_0001,24.74910261,23.1834787,26.42045606,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0028_0197,1.218053355,1.18866265,1.248170769,112
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0365_0714,1.11453848,1.031898284,1.203796846,428
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0001_0028,4.44743711,4.210258301,4.697977045,8
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0028_0197,1.458021675,1.402029739,1.516249877,104
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0197_0365,1.188907478,1.137169295,1.242999612,275
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0000_0001,110.6715715,105.112058,116.5252514,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0365_0714,0.898487846,0.801093027,1.007723675,463
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0197_0365,1.108750605,1.017558062,1.208115612,276
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0001_0028,3.179166323,2.868307114,3.523715596,9
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0028_0197,1.402057359,1.305958038,1.505228027,100.5
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0000_0001,128.1671152,119.1048265,137.9189233,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0000_0001,37.9137071,29.72539116,48.35762053,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0365_0714,0.887641994,0.682961099,1.153664991,417
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0197_0365,1.226415481,1.087509143,1.383064171,278
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0001_0028,1.951468751,1.571406582,2.423453184,9
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0028_0197,1.101043711,0.979868983,1.237203417,115.5
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0001_0028,1.518465703,1.164032802,1.98081883,10
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0365_0714,1.497709573,1.17390709,1.910827514,416
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0000_0001,21.96553582,15.56937302,30.98935092,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0197_0365,1.086793262,0.9456569,1.24899379,273
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0028_0197,1.208042026,1.068275567,1.36609465,111.5
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0365_0714,1.275502094,0.968695362,1.679481139,409.5
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0001_0028,2.454556026,1.962948344,3.06928305,8
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0197_0365,1.364567188,1.191494022,1.56278049,268
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0028_0197,1.59848611,1.423663245,1.794776677,111
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0000_0001,35.18261259,26.33645234,47.00011272,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0365_0714,1.137703906,1.019625371,1.269456621,424
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0028_0197,1.340765757,1.272220148,1.413004516,110
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0001_0028,2.008743695,1.812784428,2.225885864,10
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0197_0365,1.229097177,1.160148892,1.302143097,274
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0000_0001,28.68546996,25.06477079,32.82919256,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0365_0714,1.170286384,1.132365063,1.209477638,416
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0001_0028,1.930284982,1.874475037,1.987756593,11
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0028_0197,1.238866867,1.220144422,1.257876598,110
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0197_0365,1.147797216,1.128399034,1.16752887,273
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0000_0001,34.37884167,33.23785625,35.55899471,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.446958837,1.349991235,1.550891458,269
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,16.2686672,15.55470243,17.01538611,6
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.363417888,1.234517493,1.505777084,454.5
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,262.81727,250.9307488,275.2668525,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.826764922,1.724699789,1.934870115,104
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.249104739,1.231597135,1.266861219,110
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.171416127,1.136226056,1.207696071,416
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.160205469,1.142078668,1.178619973,273
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,1.92974359,1.877747581,1.983179402,11
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,33.19579581,32.14531492,34.2806055,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0000_0001,18.03649956,16.66515959,19.52068414,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0365_0714,1.311242882,1.247942131,1.377754507,414
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0001_0028,1.590607303,1.507922326,1.677826204,14
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0028_0197,1.410940406,1.378492086,1.444152527,110
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0197_0365,1.234221107,1.20258898,1.266685266,275
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.223197605,1.181238325,1.266647338,16
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,18.04606009,17.25277179,18.87582406,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.155115328,1.118738802,1.19267466,413
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.222829769,1.205194365,1.240723229,110
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.147361319,1.128992935,1.166028551,273
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0365_0714,1.072628202,1.028865974,1.11825183,419
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0001_0028,2.164413448,2.090882655,2.240530123,9
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0000_0001,39.78372862,38.24064671,41.38903539,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0028_0197,1.16909331,1.14684581,1.191772387,111
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0197_0365,1.117060632,1.093663205,1.14095873,272
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, within six months",days0000_0001,40.3626255,37.50020653,43.44353505,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, within six months",days0197_0365,1.013952551,0.962144416,1.068550374,271
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, within six months",days0001_0028,1.668236621,1.539043111,1.808275157,10
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, within six months",days0028_0197,1.074859243,1.028922586,1.122846762,106
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, within six months",days0365_0714,1.120529032,1.014385415,1.237779342,408
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0365_0714,1.162628449,1.120743247,1.206079013,416
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0001_0028,1.779668932,1.719747271,1.84167846,11
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0028_0197,1.235698067,1.214685388,1.257074242,110
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0197_0365,1.149712523,1.12789691,1.17195009,273
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0000_0001,26.67453645,25.53980283,27.8596863,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0028_0197,1.271940516,1.240846366,1.30381385,110
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0197_0365,1.177104724,1.14507553,1.210029694,273
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0000_0001,46.05613599,43.86268681,48.35927336,1
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0001_0028,2.257359799,2.157532484,2.361806046,9
+Mental illnesses,Depression,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0365_0714,1.176659863,1.11405521,1.242782727,418
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.183265394,0.617110487,2.268827323,269
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.865383011,0.924010356,3.765817616,464.5
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.458900544,0.826070796,2.576523733,88
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,164.3018032,92.91108867,290.5471879,1
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,7.939315004,4.474720985,14.08640292,13
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.043888237,0.899253186,1.211786255,271
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,1.862074316,1.52380384,2.275437736,14
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,25.48393588,19.55682335,33.2073863,1
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.129650958,0.853684354,1.494828014,420
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.202305357,1.059589762,1.36424324,110
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.155031348,0.903571442,1.476471424,419
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.533862302,1.226505476,1.918241384,14
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.079995948,0.950260357,1.227443866,272.5
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.23291177,1.104794536,1.375886089,111
+Mental illnesses,Eating disorders,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,17.62850353,12.53570586,24.79031817,1
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.231494411,1.089208298,1.392367729,454
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,21.08344215,20.09485877,22.12068182,6
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,306.6386443,290.5538706,323.6138552,1
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.968982477,1.843783296,2.102683319,98
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.438075268,1.324896575,1.560922043,264
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,34.01436807,32.79417264,35.27996415,1
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.145166551,1.106102163,1.185610583,414
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.260827223,1.241073069,1.280895803,110
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,2.184050704,2.120847836,2.249137066,11
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.138040943,1.118119402,1.158317426,272
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.138064773,1.097670154,1.179945926,411
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.125647428,1.105507083,1.146154693,272
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,18.99129498,18.06101714,19.96948909,1
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.37843335,1.327741438,1.431060631,15
+Mental illnesses,General anxiety,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.232387602,1.212548101,1.252551712,111
+Diabetes,Gestational diabetes,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.17302854,1.065696312,1.291170795,277.5
+Diabetes,Gestational diabetes,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.044325894,0.845931578,1.289249157,409
+Diabetes,Gestational diabetes,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0028,0.997669819,0.787600734,1.263768588,17.5
+Diabetes,Gestational diabetes,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.03573788,0.942634561,1.138036945,118
+Diabetes,Gestational diabetes,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.179566772,1.07107733,1.29904511,277.5
+Diabetes,Gestational diabetes,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0028,0.876572498,0.679461071,1.130865882,16
+Diabetes,Gestational diabetes,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.024182871,0.931080328,1.126595119,119
+Diabetes,Gestational diabetes,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.054822927,0.853730533,1.303281732,408.5
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,17.2554839,16.19053804,18.39049583,4
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,448.9398884,430.4748923,468.1969309,0
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.291482651,1.161707958,1.435754364,268
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.280274431,2.10676227,2.468076741,96
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.120302793,0.975243886,1.286937931,462
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.041891697,0.975443734,1.112866256,439
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.092583964,1.046915687,1.140244371,276
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,4.66858487,4.452300817,4.895380474,5
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.427857116,1.377520302,1.480033318,102
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,241.6996888,234.830975,248.7693097,0
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,170.7476952,164.2464428,177.506282,0
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.895986342,1.750628384,2.053413848,9
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.278307452,1.227745917,1.330951234,105
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.018850468,0.945833717,1.097504098,435
+Cardiovascular diseases,Heart failure,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.056024093,1.008046702,1.106284828,278
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.253520635,1.031455591,1.523394548,462
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,177.4871124,156.6221161,201.1319178,0
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,9.918582322,8.800680077,11.17848557,6
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.915829331,1.691058053,2.170476872,93
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.311907257,1.122323175,1.533516248,277.5
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,3.933953894,3.623531128,4.270970138,8
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,214.8697434,203.3061559,227.0910413,0
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.394430656,1.316238306,1.477267947,106
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.157143537,1.051343742,1.273590147,435.5
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.07884314,1.008846602,1.153696229,273
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,2.573801786,2.300676707,2.879351226,10
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.134732341,1.017149391,1.265907935,430
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,227.2125675,213.8406262,241.4206868,0
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.311208984,1.229346835,1.398522329,108
+Cardiovascular diseases,Ischaemic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.045251263,0.970871847,1.125328958,273
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,2.217713839,1.611053728,3.052818529,290
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.275901604,1.60663606,3.223958579,103.5
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0028,4.3357559,2.38115125,7.894827858,11
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.140475124,0.661075462,1.967526527,458
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.315002206,1.157801648,1.493546676,121
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.202889045,0.994076011,1.455564803,429
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.199030613,1.064028986,1.351160946,288
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0028,1.453398751,1.054803298,2.002617865,19
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.136883125,1.000230256,1.292205701,288
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0028,1.233692795,0.855217549,1.779661694,19
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.256469675,1.096473099,1.439812836,123
+Diabetes,Other diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.240037148,1.012097845,1.51931173,419.5
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,2.570929997,1.943263935,3.401328192,251
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,2.110581496,1.307183732,3.40774915,509
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,20.08836918,15.77494623,25.58123308,6
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,4.186508111,3.380061822,5.185358598,113
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,405.4404471,311.8442923,527.1288417,1
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.093556687,1.003233818,1.192011361,269
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,40.60759021,34.09163342,48.36899455,1
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.192986468,1.012226743,1.406025599,426
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,1.844929195,1.570460989,2.167366205,8
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.154009269,1.064564824,1.250968811,118
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,0.999596726,0.913713931,1.093551909,271
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.962839562,0.771277143,1.201980417,15
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.073970207,0.902755892,1.277656579,417
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.988313012,0.906465235,1.077551099,118
+Mental illnesses,Post-traumatic stress disorder,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,22.01716683,17.38965983,27.87608498,1
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,177.5204831,168.1647242,187.3967449,8
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.491711472,1.118849584,1.988831141,466
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,5.730403803,5.106355805,6.430716739,57
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.577759811,1.267432246,1.964070097,273
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,1910.193835,1777.051839,2053.30917,0
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.031395047,0.940440497,1.131146364,278
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.143746297,0.99074539,1.320375149,431
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,2.012387846,1.882787139,2.150909552,72
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,587.3659208,557.5130995,618.8172532,0
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,31.66177129,30.30176616,33.08281622,9
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.526804822,1.408986568,1.654474937,81
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,0.958583888,0.866265271,1.060740978,278
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,9.339997644,8.598751343,10.1451423,13
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.046765779,0.887639133,1.234418983,429
+Cardiovascular diseases,Pulmonary embolism,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,355.1932473,330.7279056,381.4687752,0
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.636029059,1.268796483,2.109551151,267
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.916854191,1.557835722,2.35861174,110
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,80.10297544,55.59315043,115.4186554,1
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.950251425,1.407846033,2.701631095,477
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,3.784054296,2.682243041,5.338464154,10
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.195047306,1.060344903,1.346861817,422.5
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,23.31981316,20.24195819,26.8656659,1
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,1.221152729,1.079102766,1.381901737,13
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.162622128,1.102262376,1.226287172,115
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.163938642,1.095592117,1.23654884,270
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.105925755,0.967964891,1.263549728,13
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,19.92563927,16.99892011,23.35625426,1
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.139746697,1.070532121,1.213436298,270
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.129524243,1.068703182,1.193806697,115
+Mental illnesses,Self harm,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.107925664,0.971514299,1.263490696,420
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0028_0197,1.127698668,1.087361126,1.1695326,111
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0001_0028,0.992400512,0.904640943,1.088673671,15
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0365_0714,1.068726584,0.979468838,1.166118274,409
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0197_0365,1.129955738,1.085576499,1.176149234,275
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0000_0001,6.409351201,5.342977451,7.688556276,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0001_0028,1.411650669,1.276796691,1.560747788,11
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0028_0197,1.119126476,1.068200454,1.172480376,112.5
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0365_0714,1.224447803,1.112538174,1.347614363,412
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0197_0365,1.093356363,1.040098875,1.14934086,272
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0000_0001,22.89829015,20.23168089,25.91636823,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0001_0028,3.361149404,2.986511548,3.782779285,8
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0028_0197,1.559716385,1.447226404,1.680949815,100
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0197_0365,1.308677519,1.202377203,1.424375682,275
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0000_0001,120.6106996,109.7987341,132.4874601,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0365_0714,1.083459432,0.931330193,1.260438404,429
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0028_0197,1.648544702,1.448182903,1.876627532,108.5
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0365_0714,1.057879571,0.858740498,1.303198334,433
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0197_0365,1.344354537,1.152094857,1.568698195,279
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0000_0001,98.52999307,83.72260394,115.9562541,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0001_0028,3.397561607,2.795349099,4.129511008,6.5
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0000_0001,54.21003289,39.81461277,73.81027872,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0001_0028,2.68230527,2.018204793,3.564932074,7
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0365_0714,1.201670413,0.828870789,1.742143584,423.5
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0197_0365,1.150221693,0.945892266,1.398690022,272.5
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0028_0197,0.974934198,0.807066508,1.177718038,109
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0001_0028,2.266140789,1.602881081,3.203852199,12
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0000_0001,24.14016639,14.21647667,40.99100268,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0197_0365,1.113539476,0.889424419,1.394126515,270
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0365_0714,1.750297732,1.204105725,2.54424681,415.5
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0028_0197,1.043624969,0.844287119,1.290026877,124
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0197_0365,1.492238988,1.208096276,1.843211705,276
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0365_0714,0.999382841,0.60855648,1.641205205,438.5
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0001_0028,1.478827652,0.936750477,2.334593126,10
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0000_0001,24.76459443,14.28458433,42.9333555,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0028_0197,1.546498243,1.276226471,1.874006588,113
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0001_0028,1.686683655,1.40556006,2.024034285,8
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0000_0001,35.15610809,28.79528174,42.92202963,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0028_0197,1.139416664,1.038452243,1.250197437,109
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0197_0365,1.072863683,0.968586732,1.188366973,267
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0365_0714,0.991842441,0.818464914,1.201946976,431
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0028_0197,1.208076016,1.174753509,1.242343734,110
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0001_0028,1.420598537,1.33566515,1.510932739,12
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0197_0365,1.146996256,1.112140347,1.182944595,275
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0000_0001,29.77269357,27.85594153,31.82133626,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0365_0714,1.142367274,1.075118101,1.213822916,412
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,9.712143405,8.799835252,10.71903358,6
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.07282494,0.866768024,1.32786767,454
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.368476942,1.20895639,1.549046066,264
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,230.4947303,210.5076512,252.3795235,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.57545623,1.41458627,1.75462051,107
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,1.485747785,1.405781912,1.570262401,12
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.149992386,1.117903413,1.18300246,274
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.201828668,1.171288732,1.233164895,110
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,30.08423944,28.30879387,31.97103582,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.14159449,1.079789464,1.206937114,414
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0028_0197,1.318064642,1.274267293,1.363367333,111
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0197_0365,1.243482186,1.198502536,1.290149916,274
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0365_0714,1.22590033,1.139336351,1.319041228,415
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0000_0001,11.73136648,10.31253845,13.34540087,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0001_0028,1.187258903,1.089348333,1.293969669,15
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.047518127,0.979298882,1.120489615,15
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.140259621,1.107655238,1.173823731,274
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,17.46679945,16.09166044,18.9594532,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.151964692,1.087834008,1.219876048,411
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.18339613,1.152495213,1.215125568,110
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0028_0197,1.081662922,1.03702351,1.128223983,112
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0197_0365,1.065851169,1.017883834,1.116078833,274
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0365_0714,1.089969703,0.999710842,1.1883777,414
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0001_0028,1.798603265,1.661938845,1.946506057,9
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0000_0001,45.99965976,42.58273971,49.69071029,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, within six months",days0365_0714,1.041888779,0.824992239,1.315809019,412
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, within six months",days0001_0028,1.904047531,1.595453784,2.272329689,6
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, within six months",days0197_0365,0.865644468,0.755894321,0.991329408,264.5
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, within six months",days0028_0197,1.009320972,0.907543119,1.122512751,99.5
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),"Prior history of outcome, within six months",days0000_0001,65.8369348,57.69993229,75.12151482,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0000_0001,25.74084238,23.68085108,27.9800318,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0001_0028,1.353234183,1.257489497,1.456268827,12
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0197_0365,1.144548985,1.104142178,1.186434505,273
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0028_0197,1.188793689,1.150373257,1.228497296,110
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0365_0714,1.134965148,1.058953988,1.216432348,414.5
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0365_0714,1.164285151,1.061101327,1.277502796,413
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0000_0001,38.39297727,35.21395432,41.85899402,1
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0197_0365,1.167040286,1.114745654,1.221788149,275
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0001_0028,1.711045083,1.572851,1.861381196,11
+Mental illnesses,Serious mental illness,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0028_0197,1.23071907,1.1808575,1.282686038,110
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,214.9546337,161.3832547,286.309101,0
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,16.25902274,12.92849771,20.4475281,7
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.623738165,1.146959124,2.29870909,269
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.044620709,1.529159442,2.73383668,93
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.56650794,1.008874144,2.432361753,457.5
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.424522116,1.150548287,1.763735847,442
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,286.9517261,255.962001,321.6934264,0
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.315515889,1.142081757,1.515287212,276
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.44144762,1.269328982,1.636905059,104
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,4.548029217,3.821908862,5.412104397,7
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.373011359,1.076904046,1.750537003,436
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,2.275360724,1.743829226,2.968907381,6
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.349135207,1.172395041,1.552519197,105
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.265987943,1.085303423,1.476753504,276
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,302.3396336,267.3936721,341.8527196,0
+Mental illnesses,Suicide,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,0.807035706,0.561340546,1.160270064,269.5
+Mental illnesses,Suicide,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.046152357,0.559022986,1.957763422,414
+Mental illnesses,Suicide,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,7.818348308,1.978307064,30.8984239,1
+Mental illnesses,Suicide,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,2.691080124,1.687502012,4.29149843,13
+Mental illnesses,Suicide,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,0.874694952,0.633244736,1.208207847,110.5
+Mental illnesses,Suicide,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.862736474,0.616353408,1.207609489,107
+Mental illnesses,Suicide,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,0.803525202,0.552012842,1.169633568,269.5
+Mental illnesses,Suicide,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,2.423956166,1.455001079,4.038184972,13
+Mental illnesses,Suicide,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,0.938402844,0.466435943,1.887933193,414
+Mental illnesses,Suicide,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,8.518057392,2.152074612,33.71504935,1
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.342699581,1.071218515,1.682982808,112.5
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,0.950714853,0.671679155,1.345670498,452.5
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,2.867051071,2.025198864,4.05885129,8
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,63.94337973,45.87062803,89.13668695,0
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.378228253,1.091101351,1.740913543,254
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.12008,1.01493,1.23613,272
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,2.01315,1.6922,2.39496,12
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.10486,0.94925,1.28597,429
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.23106,1.1245,1.34771,109
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,46.5179,39.08661,55.36205,0
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.14611,0.96872,1.35598,425
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.83294,1.50084,2.23853,13
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.07617,0.96574,1.19923,276
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,41.6344,33.89016,51.14828,0
+Cardiovascular diseases,Transient ischaemic attack,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.21141,1.09787,1.3367,109
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.793093265,0.804738162,3.99531625,222
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,2.633585428,0.984876612,7.042275265,436.5
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0028,51.3067134,35.74261814,73.64818182,6
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,5.61429766,3.654397112,8.625318279,128
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.303667831,1.180315175,1.439911855,108
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0028,2.271582897,1.877742017,2.748029199,7
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.232862622,1.106422459,1.373752161,276
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.162178545,0.923391845,1.462714711,404
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0028,1.653679825,1.325698274,2.062804952,7
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.101491745,0.870897918,1.393141538,402
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.212830311,1.087518287,1.352581727,276
+Diabetes,Type 1 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.244173627,1.123937746,1.377272024,108
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0028_0197,1.474108067,1.313678056,1.654130237,113
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0000_0028,3.031122297,2.468730975,3.721629644,7
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0197_0365,1.53811392,1.354691177,1.746371772,270.5
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0365_0714,1.317861443,0.994527575,1.746315364,408
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0365_0714,1.070278099,0.940696571,1.217709561,425
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0197_0365,1.180513327,1.108045684,1.257720449,270
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0028_0197,1.324857458,1.254036561,1.39967792,108
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0000_0028,3.516300202,3.22627592,3.832396056,6
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0000_0028,5.757542733,5.23121307,6.336828166,2
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0028_0197,1.371109825,1.267007213,1.483765944,114
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0197_0365,1.109569984,1.011240881,1.217460223,270
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0365_0714,1.448717903,1.255657286,1.671462099,417
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0365_0714,1.200885138,0.923352602,1.561835918,447
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0028_0197,1.239114238,1.01273592,1.516095076,127
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0197_0365,1.349364985,1.101726616,1.652665931,273.5
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0000_0028,8.895175045,7.413724911,10.67265646,1
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0000_0028,7.468455557,5.876615295,9.491488826,2
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0365_0714,1.577265826,1.051192267,2.366615095,459.5
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0028_0197,1.876040258,1.554336976,2.264326916,112
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0197_0365,1.375926885,1.081891964,1.749874161,282
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0000_0028,6.615784099,4.255683603,10.28473997,7
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0028_0197,1.603808147,1.119784934,2.297048742,79
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0197_0365,1.543212347,1.044711948,2.279579889,270
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Mixed,days0365_0714,1.799371033,0.929177026,3.484520197,493
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0365_0714,1.943859724,1.113617814,3.393076673,446
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0197_0365,1.694306532,1.218208121,2.356473066,274.5
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0028_0197,1.776438231,1.324906603,2.381853015,90
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0000_0028,6.693765234,4.552851577,9.841413068,4
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0365_0714,1.228057609,0.993822071,1.517500502,421.5
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0000_0028,4.113502172,3.527530011,4.79681252,7
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0197_0365,1.294974467,1.154750249,1.452226463,272
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0028_0197,1.540343656,1.394125611,1.701897276,110
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0028_0197,1.335408415,1.274248035,1.399504325,113
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0365_0714,1.223590736,1.110902981,1.347709309,420
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0000_0028,4.260792057,3.985162497,4.555485245,3
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0197_0365,1.217311646,1.15443358,1.283614467,270
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,2.038894604,1.719433025,2.417710457,463
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.748174849,2.489908344,3.033229823,99
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,19.32782949,17.62263226,21.19800344,7
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,220.2629368,194.1148511,249.9330295,1
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.83692504,1.617772819,2.085764594,274
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,2.75769894,2.56596431,2.963760412,10
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.23877549,1.140370171,1.345672445,421
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.374510891,1.320827323,1.430376369,112
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.223620428,1.169204237,1.280569215,270
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,43.42729293,39.70624821,47.49705289,1
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.106982885,1.007328886,1.21649555,415.5
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.256450122,1.203228514,1.312025846,114
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.14326323,1.017512335,1.284555251,17
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,28.643411,25.82413404,31.77047457,1
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.168043781,1.112751508,1.22608351,270
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0365_0714,1.163566681,1.030725261,1.313528904,420
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0028_0197,1.344675621,1.266669776,1.427485331,116
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0000_0028,3.550562795,3.228951075,3.904207858,3
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0197_0365,1.238629511,1.159259757,1.323433387,269
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0197_0365,1.210299885,1.136855517,1.288488986,271
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0365_0714,1.306779624,1.166739364,1.463628501,422
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0000_0028,4.889229403,4.549627112,5.254180962,4
+Diabetes,Type 2 diabetes mellitus,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0028_0197,1.40166196,1.32872338,1.478604411,107
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0000_0028,15.19648699,13.6623,16.90296,8
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0365_0714,1.293378492,0.98263,1.7024,405
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0028_0197,1.444871049,1.27695,1.63488,107.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 18-39,days0197_0365,1.080859086,0.93594,1.24821,266.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0365_0714,1.135158961,0.9442,1.36474,418
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0028_0197,1.654493072,1.52867,1.79067,91.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0000_0028,29.22917759,27.69477,30.8486,7
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 40-59,days0197_0365,1.006959526,0.90985,1.11443,272.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0197_0365,1.170551147,1.05932,1.29346,276
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0365_0714,1.31137564,1.12557,1.52785,432
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0028_0197,2.346101416,2.18786,2.51579,74
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 60-79,days0000_0028,39.64228909,37.86509,41.5029,1
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0197_0365,1.180448963,1.0111,1.37816,285
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0000_0028,22.47170112,20.6844,24.41344,0
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0365_0714,1.087084588,0.89424,1.32151,430
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Age group: 80-110,days0028_0197,2.067250318,1.84669,2.31415,82
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0028_0197,1.884886734,1.41971,2.50248,92
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0197_0365,0.798836625,0.52741,1.20994,265
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0000_0028,48.66345436,41.71695,56.76666,2.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Black,days0365_0714,1.801004246,1.13965,2.84614,445
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0197_0365,1.339927623,0.796139864,2.255138748,271
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0000_0028,66.72688866,52.58889627,84.66565251,2
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0365_0714,0.524581908,0.130293458,2.112048226,395.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: Other,days0028_0197,2.981677316,2.063073993,4.309293631,95
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0197_0365,1.130821671,0.8959,1.42735,278.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0000_0028,45.97003249,41.13211,51.37698,5.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0028_0197,1.898887297,1.58149,2.27999,96
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: South Asian,days0365_0714,1.43298197,0.993,2.0679,416.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0365_0714,1.18116716,1.06744,1.30702,420
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0028_0197,1.858454637,1.7727,1.94836,84
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0000_0028,25.65256988,24.80763,26.52628,1
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Ethnicity: White,days0197_0365,1.093628326,1.02713,1.16443,274
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,4.388278461,4.011326562,4.800658039,63.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0365_0714,1.27264244,1.025547176,1.579272819,470.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,88.51526296,84.07136319,93.19406133,8
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0197_0365,1.389178826,1.182677458,1.631736198,274.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,981.5088201,919.9046285,1047.23957,0
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0028_0197,1.861350687,1.780049192,1.946365525,85
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0001_0028,16.55066033,15.92897854,17.19662253,9
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0365_0714,1.203374748,1.094282831,1.323342456,422
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0000_0001,312.1416215,298.6349726,326.2588224,0
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Main,days0197_0365,1.094589273,1.031787567,1.161213408,274
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0197_0365,1.114947699,1.04577,1.1887,277
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0000_0028,32.28311315,31.26369,33.33578,2
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0365_0714,1.202337614,1.08254,1.3354,423
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),No prior history of outcome,days0028_0197,1.97068939,1.87807,2.06788,84
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0197_0365,1.049565742,0.985255284,1.11807393,274
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0365_0714,1.164942116,1.048368452,1.294478356,417.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,5.991740874,5.611106853,6.398195516,13
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.54446319,1.467493143,1.625470317,93
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,196.1065237,184.8702079,208.025985,0
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Prior history of outcome,days0000_0028,12.57615206,11.44268,13.8219,1
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Prior history of outcome,days0197_0365,1.014435645,0.87398,1.17746,271
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Prior history of outcome,days0365_0714,1.202566088,0.96489,1.49879,422
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Prior history of outcome,days0028_0197,1.469306293,1.31083,1.64694,91
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0365_0714,1.15207136,1.01295,1.3103,420
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0197_0365,1.117787991,1.03227,1.21039,277
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0000_0028,20.7202085,19.75247,21.73536,1
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Female,days0028_0197,1.745630246,1.63993,1.85815,87
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0000_0028,36.10495385,34.70355,37.56295,3
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0365_0714,1.235694246,1.07411,1.42158,425.5
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0028_0197,1.992875213,1.87094,2.12276,82
+Cardiovascular diseases,Venous thrombotic events,Pre-vaccination (Jan 1 2020 - Dec 14 2021),Sex: Male,days0197_0365,1.056173248,0.96761,1.15284,273
+Cardiovascular diseases,Acute myocardial infarction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.537664182,0.684809145,3.452656725,63
+Cardiovascular diseases,Acute myocardial infarction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,219.9618231,145.0724104,333.5107171,0
+Cardiovascular diseases,Acute myocardial infarction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,18.13999193,13.14066999,25.04126339,4
+Cardiovascular diseases,Acute myocardial infarction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,144.8587312,111.7577967,187.7636517,0
+Cardiovascular diseases,Acute myocardial infarction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.614325625,1.10953954,2.348764864,64
+Cardiovascular diseases,Acute myocardial infarction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,7.270419553,5.654841043,9.347556759,6
+Cardiovascular diseases,Acute myocardial infarction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.61649205,1.065659014,2.45204728,64
+Cardiovascular diseases,Acute myocardial infarction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,3.67722356,2.484924806,5.441599264,8
+Cardiovascular diseases,Acute myocardial infarction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,116.5176775,83.72452958,162.155216,0
+Mental illnesses,Addiction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,7.700790608,4.60990385,12.86409375,2
+Mental illnesses,Addiction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,0.737073104,0.235989492,2.302121525,68
+Mental illnesses,Addiction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,322.1357369,223.1878961,464.950989,1
+Mental illnesses,Addiction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.008355514,0.709896851,1.432293922,7
+Mental illnesses,Addiction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,42.59675173,33.14076183,54.75080107,1
+Mental illnesses,Addiction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,0.768786332,0.56681064,1.042733468,69
+Mental illnesses,Addiction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,22.45241495,15.73794742,32.03155556,1
+Mental illnesses,Addiction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.783291047,0.571503076,1.073563538,69
+Mental illnesses,Addiction,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.516522343,0.310742924,0.858572506,15
+Cardiovascular diseases,Angina,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,296.104668,236.4070246,370.8771961,0
+Cardiovascular diseases,Angina,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.33142993,0.655342814,2.705004836,45.5
+Cardiovascular diseases,Angina,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,19.48640416,15.33109318,24.76798768,5
+Cardiovascular diseases,Angina,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.342441673,0.966758844,1.864115168,61
+Cardiovascular diseases,Angina,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,144.5006492,120.3657471,173.4749138,0
+Cardiovascular diseases,Angina,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,6.33103671,5.14944015,7.783763799,6
+Cardiovascular diseases,Angina,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.328872715,0.920788786,1.917815159,69
+Cardiovascular diseases,Angina,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.810044807,1.175317472,2.787555369,12
+Cardiovascular diseases,Angina,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,68.24853714,49.40867421,94.27216773,0
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0000_0028,12.83554,10.53661,15.63607,1
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0028_0197,1.12444,0.71946,1.75739,62
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0028_0197,1.44347,0.84872,2.45499,55
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0000_0028,25.3437,21.11129,30.42463,0
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0000_0028,14.99699,13.05246,17.2312,0
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0028_0197,1.48579,1.08721,2.03048,61
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.559809035,0.877339628,2.773161486,46.5
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,19.56262778,15.64504103,24.46121984,7
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,289.6200814,224.4033271,373.7903206,0
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.536846516,1.160172499,2.035815753,60
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,8.528069355,7.197825741,10.10414767,7
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,198.4588949,168.7769465,233.3610908,0
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0028_0197,1.91219,1.41294,2.58785,61.5
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0000_0028,21.16475,18.53007,24.17403,0
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,4.351749726,3.35651086,5.642086816,7
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.445437003,1.050818937,1.988247306,62
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,152.4288607,123.7978508,187.6816169,0
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Prior history of outcome,days0000_0028,8.5834,6.48064,11.36842,1
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Prior history of outcome,days0028_0197,0.64721,0.30638,1.3672,50
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0000_0028,13.35716,10.92748,16.32706,0
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0028_0197,2.21105,1.54606,3.16207,50
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0000_0028,18.60106,16.03947,21.57176,0.5
+Cardiovascular diseases,Arterial thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0028_0197,0.94619,0.60044,1.49104,79
+Cardiovascular diseases,Deep vein thrombosis,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.331066761,0.316586428,17.16394564,47
+Cardiovascular diseases,Deep vein thrombosis,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,263.910228,53.14085342,1310.642822,0
+Cardiovascular diseases,Deep vein thrombosis,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,38.19230288,17.63497242,82.71359683,9
+Cardiovascular diseases,Deep vein thrombosis,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.613789597,1.15391926,2.256931619,49
+Cardiovascular diseases,Deep vein thrombosis,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,6.489075042,5.155391189,8.167770639,10
+Cardiovascular diseases,Deep vein thrombosis,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,75.50198898,55.35001887,102.9908346,0
+Cardiovascular diseases,Deep vein thrombosis,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.066082697,0.695234347,1.634747241,50
+Cardiovascular diseases,Deep vein thrombosis,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,3.585636487,2.604584079,4.936215774,13
+Cardiovascular diseases,Deep vein thrombosis,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,45.95938171,30.25465328,69.81612498,0
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0028_0197,1.220710525,1.133921533,1.314142242,59
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0000_0001,6.976609045,5.8979245,8.252576608,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0001_0028,1.271932149,1.164876516,1.388826515,12
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0028_0197,1.364315325,1.237260264,1.504417752,69
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0001_0028,2.379040983,2.135485279,2.650374627,8
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0000_0001,29.48672282,25.68341412,33.85324157,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0001_0028,7.664428884,6.348763059,9.252751808,6
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0000_0001,158.5056121,132.6877999,189.3467519,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0028_0197,1.76225264,1.342253208,2.313672757,62.5
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0000_0001,253.364712,178.1746056,360.2855819,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0001_0028,6.293799863,3.64989719,10.85287476,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0028_0197,1.858287937,0.874835596,3.947292891,66
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Black,days0001_0028,1.90332112,1.365373523,2.653216299,7
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Black,days0000_0001,17.66928938,10.98315829,28.42568401,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Black,days0028_0197,1.392430678,1.062392336,1.824997346,65.5
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Mixed,days0028_0197,0.895563953,0.610736954,1.313224602,69
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Mixed,days0000_0001,12.99891357,7.123722975,23.71958521,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Mixed,days0001_0028,2.064608796,1.473599936,2.892650425,9
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Other,days0028_0197,2.270359525,1.500676941,3.434804466,49
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Other,days0000_0001,30.39438842,16.20840606,56.99627985,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Other,days0001_0028,2.794991317,1.726162782,4.525626407,2.5
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0001_0028,2.129588813,1.626695225,2.78795219,12
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0000_0001,35.10479484,25.83050141,47.70897016,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0028_0197,1.372210796,1.072225684,1.75612513,65
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0028_0197,1.256136887,1.181304452,1.335709753,62
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0001_0028,1.740523956,1.626783845,1.862216454,9
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0000_0001,18.32713486,16.68320623,20.13305281,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0000_0001,47.94929028,32.82488773,70.0424159,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0028_0197,1.603710649,1.144140958,2.247876966,61
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0001_0028,2.422779173,1.62623398,3.609481019,11.5
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.931047249,1.59832014,2.33303916,66
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,267.2282919,244.0289373,292.6331639,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,15.56785379,13.89983164,17.43604369,6
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.283156942,1.212702358,1.357704739,62
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.787445733,1.679421389,1.902418457,9
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,18.99888231,17.43332354,20.70503242,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0028_0197,1.528126044,1.362039171,1.714465528,57.5
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0001_0028,1.471338817,1.264442675,1.712088619,12
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0000_0001,11.61899563,9.094901088,14.84359843,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,7.684438463,6.693426857,8.822176704,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.108447399,1.023394631,1.200568774,14
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.261983448,1.190455033,1.337809643,62
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0028_0197,1.283756792,1.195400633,1.378643656,64
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0001_0028,2.058639893,1.907021948,2.222312236,9
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0000_0001,24.19313585,21.85562134,26.78065351,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0028_0197,1.021716584,0.891835867,1.170512218,62
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0001_0028,1.325113619,1.147284922,1.530505691,10
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0000_0001,12.30888121,10.03702142,15.09497194,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0001_0028,1.630398852,1.510047713,1.760342004,9
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0028_0197,1.247756259,1.166128109,1.335098321,62
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0000_0001,17.02028994,15.28683761,18.95030725,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0028_0197,1.384629725,1.251452221,1.531979761,63
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0000_0001,24.27544031,21.08096375,27.95398775,1
+Mental illnesses,Depression,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0001_0028,2.186839359,1.966481051,2.431890395,9
+Mental illnesses,Eating disorders,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.142226394,0.734812734,1.775528749,59
+Mental illnesses,Eating disorders,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.573381985,0.979186404,2.528150779,6.5
+Mental illnesses,Eating disorders,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,20.67012137,11.58204112,36.88934559,1
+Mental illnesses,General anxiety,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,26.90949893,24.34731567,29.74131286,6
+Mental illnesses,General anxiety,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,273.702565,243.3217222,307.8767214,1
+Mental illnesses,General anxiety,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.995007745,2.524776428,3.552818101,60
+Mental illnesses,General anxiety,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,2.277743166,2.138812629,2.425698195,8
+Mental illnesses,General anxiety,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.356209795,1.274221424,1.443473617,62
+Mental illnesses,General anxiety,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,25.1739437,23.17656278,27.34346104,1
+Mental illnesses,General anxiety,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.24631478,1.144495739,1.357192061,13
+Mental illnesses,General anxiety,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,9.325064784,8.090295261,10.7482892,1
+Mental illnesses,General anxiety,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.302340466,1.22054006,1.389623122,62
+Diabetes,Gestational diabetes,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.701606835,1.298684448,2.22953761,51
+Diabetes,Gestational diabetes,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0028,1.1973708,0.828864157,1.729712669,16
+Diabetes,Gestational diabetes,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.642301889,1.241432717,2.172615122,51
+Diabetes,Gestational diabetes,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0028,1.149327692,0.785240597,1.682228542,16
+Cardiovascular diseases,Heart failure,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.747100522,1.730428213,4.361089886,56.5
+Cardiovascular diseases,Heart failure,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,23.13692902,18.73815838,28.56830824,4
+Cardiovascular diseases,Heart failure,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,334.4588993,279.438435,400.3131036,0
+Cardiovascular diseases,Heart failure,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,181.0008993,157.8989071,207.4831227,0
+Cardiovascular diseases,Heart failure,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,7.739143325,6.556952913,9.134468451,4
+Cardiovascular diseases,Heart failure,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.873914953,1.465094726,2.396812669,58.5
+Cardiovascular diseases,Heart failure,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.57060862,1.174358217,2.100561311,58.5
+Cardiovascular diseases,Heart failure,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,90.45305619,71.29006665,114.7672311,0
+Cardiovascular diseases,Heart failure,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,2.12500127,1.509041981,2.992382821,7.5
+Cardiovascular diseases,Ischaemic stroke,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,299.2828162,207.4381038,431.7924358,0
+Cardiovascular diseases,Ischaemic stroke,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,15.02667568,10.53379858,21.43585527,7.5
+Cardiovascular diseases,Ischaemic stroke,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.595220227,0.707331033,3.597646926,42
+Cardiovascular diseases,Ischaemic stroke,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,212.0060899,168.7091118,266.4146687,0
+Cardiovascular diseases,Ischaemic stroke,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.270627916,0.814031106,1.98333347,55
+Cardiovascular diseases,Ischaemic stroke,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,7.395265514,5.704743376,9.586750606,7
+Cardiovascular diseases,Ischaemic stroke,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.180888357,0.695590398,2.004768114,60.5
+Cardiovascular diseases,Ischaemic stroke,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,178.1984826,133.452819,237.9467716,0
+Cardiovascular diseases,Ischaemic stroke,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,4.600431024,3.146066681,6.72711921,6
+Mental illnesses,Post-traumatic stress disorder,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,344.9046493,229.7319053,517.8180885,1
+Mental illnesses,Post-traumatic stress disorder,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.494899131,1.262435763,4.930567041,58
+Mental illnesses,Post-traumatic stress disorder,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,13.3126006,7.999403689,22.15481823,5
+Mental illnesses,Post-traumatic stress disorder,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,30.31670862,22.5113359,40.82844419,1
+Mental illnesses,Post-traumatic stress disorder,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.064875936,0.821288279,1.38070978,55
+Mental illnesses,Post-traumatic stress disorder,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.448256762,1.080385044,1.941389007,7
+Mental illnesses,Post-traumatic stress disorder,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.664614677,0.430951647,1.02497037,13
+Mental illnesses,Post-traumatic stress disorder,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,13.56748681,8.696833863,21.16594398,1
+Mental illnesses,Post-traumatic stress disorder,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.952390302,0.720035765,1.259725324,55
+Cardiovascular diseases,Pulmonary embolism,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,6844.864897,5706.367868,8210.499163,0
+Cardiovascular diseases,Pulmonary embolism,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,14.90078655,9.215234146,24.09419644,37.5
+Cardiovascular diseases,Pulmonary embolism,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,535.4534725,454.9866146,630.1519621,7
+Cardiovascular diseases,Pulmonary embolism,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,82.78683076,72.66849977,94.31403386,8
+Cardiovascular diseases,Pulmonary embolism,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,4.153527611,3.005079429,5.74087708,38
+Cardiovascular diseases,Pulmonary embolism,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,1151.65809,990.8676763,1338.541678,0
+Cardiovascular diseases,Pulmonary embolism,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,2.468825422,1.613422985,3.777743977,43
+Cardiovascular diseases,Pulmonary embolism,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,17.85057999,14.13269631,22.54654863,15
+Cardiovascular diseases,Pulmonary embolism,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,279.8713407,212.8407003,368.012535,0
+Mental illnesses,Self harm,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,0.949615236,0.757387273,1.190631437,69
+Mental illnesses,Self harm,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.117578114,0.851263397,1.46720844,11
+Mental illnesses,Self harm,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,12.64417513,8.745272877,18.28132374,1
+Mental illnesses,Self harm,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.082833723,0.814427992,1.439696183,11
+Mental illnesses,Self harm,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.954235967,0.75552822,1.205204858,69
+Mental illnesses,Self harm,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,10.77123476,7.113818348,16.30903301,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0001_0028,1.034476822,0.858504455,1.246519211,12.5
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0000_0001,8.36103277,6.215482899,11.24721443,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0028_0197,1.143653202,0.991677486,1.318919371,60
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0001_0028,1.587533349,1.257635497,2.00396867,13
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0000_0001,24.44829575,18.57227246,32.18341569,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0028_0197,1.102044886,0.914725055,1.327724569,68
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0001_0028,6.02579849,4.196336992,8.652834888,3
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0000_0001,117.1101565,82.57062601,166.0976719,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0028_0197,1.562035846,0.952551124,2.561496351,47
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0000_0001,17.68733087,14.72798261,21.24131196,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0028_0197,1.113906042,0.988259814,1.255526787,63
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0001_0028,1.357329545,1.174821042,1.568190752,12
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,8.751551509,7.010597971,10.92483896,5
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,0.959306933,0.609115972,1.510828536,58
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,139.265753,109.2512199,177.5261638,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,19.50393592,16.60318639,22.9114766,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.141159667,1.023758944,1.272023453,62.5
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.447530646,1.271760541,1.647593948,11
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0028_0197,1.245572804,1.055672978,1.469632777,60.5
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0000_0001,9.278387961,6.54810549,13.14708251,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0001_0028,1.212374393,0.970301064,1.514840829,13.5
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,11.69299642,9.45022333,14.46803535,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.143707603,1.022989662,1.278670869,63
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.996552186,0.85005969,1.168290029,15
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0000_0001,27.82277384,22.86838097,33.85052684,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0028_0197,1.007921471,0.857880002,1.184204887,64
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0001_0028,1.618005705,1.356028998,1.930594747,9
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0028_0197,1.115703379,0.832846755,1.494625539,69.5
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0000_0001,20.1364052,13.56985597,29.88055401,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0001_0028,1.333706692,0.939232604,1.893858382,8.5
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0000_0001,15.40827732,12.21825727,19.43116801,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0001_0028,1.199487714,1.001188616,1.437062661,9
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0028_0197,1.131311704,0.984400685,1.300147582,62
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0000_0001,25.88465895,20.71020436,32.35195353,1
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0001_0028,1.84432354,1.532847575,2.219091692,13
+Mental illnesses,Serious mental illness,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0028_0197,1.168410056,0.982653397,1.389281371,63
+Diabetes,Type 1 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0028,4.062197984,2.899204318,5.691717675,4.5
+Diabetes,Type 1 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.78101798,1.179529135,2.689229925,71.5
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0000_0028,7.514079171,6.035126094,9.355460833,6
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0028_0197,1.826274984,1.354395965,2.462559255,57
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0028_0197,2.417819421,1.415629505,4.129506154,44.5
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0000_0028,15.96868417,11.70699694,21.78174945,1.5
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0028_0197,1.883370543,1.414837524,2.507061442,56
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0000_0028,8.578436987,7.10165859,10.36230906,4
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,35.62782736,28.1531993,45.08691178,6
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,6.025364648,4.122752406,8.806014906,53.5
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,450.9966899,334.2031361,608.6059415,1
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,73.0001868,56.92297283,93.61812426,1
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,5.410064418,4.436327968,6.597521182,7
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.927838062,1.528252155,2.431902323,56
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.613435211,1.103052797,2.359971514,13
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,24.32856979,15.47899102,38.23758971,1
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.415819914,1.063807174,1.884313323,58
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0028_0197,1.904232628,1.369590629,2.647580834,57
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0000_0028,6.810943591,5.312601663,8.731871038,4.5
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0000_0028,10.73619913,8.771433618,13.14106413,2
+Diabetes,Type 2 diabetes mellitus,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0028_0197,2.063483776,1.495246387,2.847668003,56
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0028_0197,1.40738,0.89574,2.21126,66
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0000_0028,18.68279,15.68621,22.25183,6
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0000_0028,54.71624,48.21367,62.09581,5
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0028_0197,2.52346,1.79817,3.5413,37.5
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0028_0197,3.779077756,2.303532237,6.199793593,49
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0000_0028,94.84936485,79.63359089,112.9725648,1
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Black,days0028_0197,3.324435881,0.386766317,28.57507973,51
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Black,days0000_0028,76.8992405,34.35869101,172.1103774,1
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0028_0197,2.27091,1.75959,2.93081,43
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0000_0028,37.50359,34.04537,41.31309,3
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,199.7714574,174.6762045,228.4718482,7
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,7.501560008,5.067248662,11.10532808,38
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,2426.807775,2064.27014,2853.016116,0
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,29.64554911,26.72295677,32.88777473,8
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,2.361240225,1.86629578,2.987443485,44
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,382.6164303,336.8477339,434.6038819,0
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0000_0028,65.8331,60.03355,72.19292,3
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0028_0197,2.82613,2.16591,3.68758,46
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.621240019,1.214342891,2.164478598,49
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,7.637253126,6.342836082,9.195828893,14.5
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,107.0209918,85.13438432,134.5342751,0
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Prior history of outcome,days0028_0197,1.23595,0.7682,1.98851,34.5
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Prior history of outcome,days0000_0028,6.86495,5.12423,9.197,0
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0028_0197,2.15192,1.55944,2.96951,44.5
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0000_0028,25.46548,22.19292,29.22061,1
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0000_0028,69.74780844,62.28795074,78.10101087,3
+Cardiovascular diseases,Venous thrombotic events,Unvaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0028_0197,2.54845145,1.812148757,3.583926546,44
+Cardiovascular diseases,Acute myocardial infarction,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.25259951,0.850959111,1.843808188,58
+Cardiovascular diseases,Acute myocardial infarction,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,7.730897794,6.265629111,9.538822021,6
+Cardiovascular diseases,Acute myocardial infarction,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,146.0450302,117.1813811,182.0184399,0
+Cardiovascular diseases,Acute myocardial infarction,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.9721,1.74169,2.233,9.5
+Cardiovascular diseases,Acute myocardial infarction,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.049,0.93014,1.18306,63
+Cardiovascular diseases,Acute myocardial infarction,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,64.48903,58.01934,71.68016,0
+Cardiovascular diseases,Acute myocardial infarction,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.38895,1.19067,1.62025,12
+Cardiovascular diseases,Acute myocardial infarction,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,54.00714,47.81705,60.99857,0
+Cardiovascular diseases,Acute myocardial infarction,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.02332,0.90189,1.16111,63
+Mental illnesses,Addiction,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,0.873929012,0.638480316,1.196202763,13
+Mental illnesses,Addiction,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,15.50337766,10.91238489,22.0258652,1
+Mental illnesses,Addiction,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,0.658111656,0.504219202,0.858973537,58
+Mental illnesses,Addiction,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.657675911,0.500410244,0.864366006,56
+Mental illnesses,Addiction,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,12.51207847,8.364667811,18.71587865,1
+Mental illnesses,Addiction,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.704460579,0.49135446,1.00999329,13
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0000_0028,3.510501834,2.584890895,4.767561699,0
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0028_0197,1.338916895,1.002059518,1.789014125,80
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,182.5257027,165.282313,201.5680416,0
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.248182633,0.972878088,1.601392719,56
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,13.54832604,12.24508951,14.99025015,5
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,45.48468,42.31183,48.89547,0
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,2.09295,1.9481,2.24857,7
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.1194,1.04368,1.20061,63
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,28.95234,26.42359,31.72309,0
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.98916,0.88774,1.10217,15
+Cardiovascular diseases,Angina,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.10475,1.02706,1.18831,64
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0028_0197,0.82524,0.69564,0.97898,61.5
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0000_0028,2.35449,2.04543,2.71024,1
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0000_0028,4.83788,4.46591,5.24082,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0028_0197,1.11385,0.99005,1.25313,62
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0028_0197,1.18624,0.9987,1.409,62.5
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0000_0028,8.72707,7.98751,9.5351,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0000_0028,4.51622,3.56214,5.72585,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0028_0197,0.83319,0.56886,1.22036,62
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0028_0197,1.09335,1.00193,1.1931,61
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0000_0028,4.88903,4.61318,5.18138,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0028_0197,1.92217,1.38329,2.67097,92
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0000_0028,7.69213,5.73204,10.32246,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.750105549,1.394035391,2.197124368,52.5
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,123.026035,104.5342742,144.7889261,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,7.437695082,6.413704313,8.625172822,6
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.08251,0.99583,1.17674,62
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,2.09403,1.92412,2.27895,9
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,71.77761,66.94653,76.95732,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0028_0197,1.09351,0.98906,1.209,61
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0000_0028,5.08221,4.75786,5.42867,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,63.74412,58.93627,68.94417,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.01616,0.92915,1.11133,63
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.52659,1.37657,1.69296,11
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Prior history of outcome,days0000_0028,4.72636,4.28342,5.2151,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Prior history of outcome,days0028_0197,1.05877,0.91138,1.23001,64
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0028_0197,1.01578,0.8862,1.16431,62
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0000_0028,4.94164,4.52712,5.39412,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0000_0028,4.77502,4.44666,5.12762,0
+Cardiovascular diseases,Arterial thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0028_0197,1.10413,0.99365,1.2269,62
+Cardiovascular diseases,Deep vein thrombosis,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,156.3384174,113.2652032,215.7920041,0
+Cardiovascular diseases,Deep vein thrombosis,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,3.553098359,2.5008063,5.048176051,41
+Cardiovascular diseases,Deep vein thrombosis,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,10.49445476,7.996724337,13.77235056,12.5
+Cardiovascular diseases,Deep vein thrombosis,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.47682,1.30235,1.67467,58
+Cardiovascular diseases,Deep vein thrombosis,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,27.27179,22.51826,33.02877,0
+Cardiovascular diseases,Deep vein thrombosis,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,2.37252,2.06993,2.71934,14
+Cardiovascular diseases,Deep vein thrombosis,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.85403,1.58391,2.17021,14
+Cardiovascular diseases,Deep vein thrombosis,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.34422,1.17557,1.53707,59
+Cardiovascular diseases,Deep vein thrombosis,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,18.52826,14.60735,23.50162,0
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0001_0028,0.877604942,0.821065258,0.938038027,15
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0000_0001,2.137343521,1.765152887,2.588012268,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0028_0197,1.055330306,1.009443359,1.103303166,68
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0001_0028,1.107668976,1.051942642,1.166347396,14
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0028_0197,1.129583818,1.087843179,1.17292605,64
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0000_0001,4.509761241,4.006639405,5.076061105,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0000_0001,23.41609517,21.36719625,25.66146286,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0001_0028,1.68223557,1.563777091,1.809667457,10
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0028_0197,1.17140757,1.099702183,1.247788462,66
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0028_0197,1.239400477,1.074099547,1.43014076,65
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0001_0028,2.697504372,2.359649015,3.083733975,8
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0000_0001,71.25730109,63.45258406,80.02200437,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Black,days0001_0028,1.497693342,1.053678263,2.128814292,15
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Black,days0000_0001,8.991912379,4.81970206,16.77582706,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Black,days0028_0197,1.160290556,0.861330324,1.563017274,68
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Mixed,days0000_0001,4.575250311,2.073533057,10.09528897,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Mixed,days0028_0197,0.838162926,0.62454897,1.124839083,66.5
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Mixed,days0001_0028,0.839687895,0.557394014,1.264950363,13
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Other,days0001_0028,1.394526515,0.986993056,1.970332203,8
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Other,days0000_0001,3.345792495,1.259237172,8.889768875,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: Other,days0028_0197,1.202100081,0.910378955,1.587300098,59
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0001_0028,1.139682073,0.932460818,1.392954216,11
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0000_0001,12.24047643,9.222551905,16.24596585,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0028_0197,1.164778043,1.011758346,1.340940644,73
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0028_0197,1.105528402,1.07688143,1.134937436,66
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0001_0028,1.162103699,1.122214376,1.203410896,13
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0000_0001,8.658667377,8.164176748,9.183108482,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0001_0028,1.254692685,0.950422549,1.656372458,9
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0000_0001,38.6654866,31.5144284,47.43921847,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0028_0197,1.11502067,0.932225298,1.333659468,73
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,12.94043623,11.98120294,13.97648116,6
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,129.2521309,117.8600614,141.7454722,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.556709658,1.327743918,1.825159718,62
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.107097798,1.079518346,1.135381848,66
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.158329061,1.119994217,1.19797602,13
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,8.53849105,8.066373162,9.038241592,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0028_0197,1.261346382,1.198638997,1.327334335,66
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0001_0028,1.113988855,1.033660793,1.200559387,16
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0000_0001,5.830847246,5.02656504,6.763819693,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.916405841,0.882203766,0.951933893,16
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,5.418551831,5.042698821,5.822418705,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.097046423,1.069395186,1.125412635,66
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0000_0001,10.84129428,10.1868026,11.53783639,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0001_0028,1.227878741,1.177490647,1.280423083,12
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0028_0197,1.109338231,1.074692172,1.145101213,66
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0001_0028,0.993143528,0.912791701,1.080568619,13
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0028_0197,0.922970381,0.863795206,0.986199412,66
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0000_0001,9.460083759,8.454851544,10.58483218,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0001_0028,1.104339136,1.059665642,1.15089598,13
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0000_0001,7.355752248,6.832340313,7.919261725,1
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0028_0197,1.10922939,1.076299921,1.143166338,66
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0028_0197,1.110394386,1.060485261,1.16265236,67
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0001_0028,1.290961532,1.218225394,1.368040501,12
+Mental illnesses,Depression,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0000_0001,11.1460256,10.18558808,12.19702639,1
+Mental illnesses,Eating disorders,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,0.993327362,0.733421726,1.345336813,16
+Mental illnesses,Eating disorders,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,0.999597681,0.794325462,1.257917027,65
+Mental illnesses,Eating disorders,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,5.987853496,3.512738736,10.20695142,1
+Mental illnesses,Eating disorders,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,5.311493195,2.987294117,9.443994152,1
+Mental illnesses,Eating disorders,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.05817529,0.840345972,1.332468984,66.5
+Mental illnesses,Eating disorders,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.853411357,0.6124852,1.189107945,17
+Mental illnesses,General anxiety,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,1.650251334,1.365232167,1.994773679,63
+Mental illnesses,General anxiety,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,16.93858236,15.55926063,18.44019882,6
+Mental illnesses,General anxiety,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,150.018407,133.966397,167.9937876,1
+Mental illnesses,General anxiety,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,8.513322561,7.950923334,9.115502437,1
+Mental illnesses,General anxiety,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.123925354,1.091007192,1.157836732,65
+Mental illnesses,General anxiety,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.25450552,1.206936723,1.303949137,12
+Mental illnesses,General anxiety,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,5.505021989,5.054708445,5.995453039,1
+Mental illnesses,General anxiety,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.114717523,1.081695251,1.148747908,65
+Mental illnesses,General anxiety,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.970813044,0.928880469,1.014638586,15
+Diabetes,Gestational diabetes,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0028,0.957438908,0.633832281,1.446264715,20
+Diabetes,Gestational diabetes,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,0.809786035,0.58769522,1.115805267,61
+Diabetes,Gestational diabetes,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0028,0.912045554,0.598218645,1.390506797,20
+Diabetes,Gestational diabetes,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.788831973,0.570255617,1.091187641,65
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0000_0028,8.07427,6.82778,9.54832,0
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0028_0197,1.31786,1.03232,1.6824,86
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,14.79433001,13.56752406,16.13206651,5
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.019141659,1.705212949,2.390864701,53
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,181.5320097,168.936685,195.0662023,0
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,2.5491,2.40671,2.69991,6
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,74.37976,70.8706,78.06267,0
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.13825,1.07082,1.20993,62
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,48.82955,45.78719,52.07407,0
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.04762,0.98107,1.11868,63
+Cardiovascular diseases,Heart failure,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.16606,1.06828,1.2728,12.5
+Cardiovascular diseases,Ischaemic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.111357066,1.572340384,2.835156107,54
+Cardiovascular diseases,Ischaemic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,6.4047186,5.118717913,8.013807568,7
+Cardiovascular diseases,Ischaemic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,88.62110193,67.41260377,116.5018322,0
+Cardiovascular diseases,Ischaemic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,2.11833,1.87862,2.38863,9
+Cardiovascular diseases,Ischaemic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,79.86966,72.73947,87.69878,0
+Cardiovascular diseases,Ischaemic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.08607,0.96385,1.2238,62
+Cardiovascular diseases,Ischaemic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.98604,0.86568,1.12314,64
+Cardiovascular diseases,Ischaemic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,76.09599,68.71159,84.27399,0
+Cardiovascular diseases,Ischaemic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.65371,1.43464,1.90623,10
+Diabetes,Other diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,0.949676495,0.765425282,1.178280188,59
+Diabetes,Other diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0028,1.00396044,0.742999185,1.356578292,21
+Diabetes,Other diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0028,0.942588475,0.687220031,1.292850896,21
+Diabetes,Other diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.912717816,0.729945511,1.141254791,61
+Mental illnesses,Post-traumatic stress disorder,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,284.8117349,181.3294735,447.3499139,1
+Mental illnesses,Post-traumatic stress disorder,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,27.30693628,20.34796253,36.64586898,7
+Mental illnesses,Post-traumatic stress disorder,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,2.011655671,0.914986579,4.422751799,48
+Mental illnesses,Post-traumatic stress disorder,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.041275508,0.891226783,1.216586738,67
+Mental illnesses,Post-traumatic stress disorder,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.055033976,0.852861339,1.305132077,9
+Mental illnesses,Post-traumatic stress disorder,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,12.57851005,9.442715482,16.75565842,1
+Mental illnesses,Post-traumatic stress disorder,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.623033797,0.472432696,0.821643201,14
+Mental illnesses,Post-traumatic stress disorder,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,7.026033033,4.795217928,10.29466041,1
+Mental illnesses,Post-traumatic stress disorder,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.019596236,0.870253005,1.194568108,67.5
+Cardiovascular diseases,Pulmonary embolism,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,829.0413224,710.422597,967.4647595,0
+Cardiovascular diseases,Pulmonary embolism,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,93.53605716,83.94207688,104.2264567,8
+Cardiovascular diseases,Pulmonary embolism,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,8.309512975,6.48943844,10.64006933,43
+Cardiovascular diseases,Pulmonary embolism,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,9.09554,8.35753,9.89872,10
+Cardiovascular diseases,Pulmonary embolism,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.75034,1.53145,2.00052,52
+Cardiovascular diseases,Pulmonary embolism,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,137.32013,123.69737,152.44317,0
+Cardiovascular diseases,Pulmonary embolism,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.31032,1.11915,1.53415,59
+Cardiovascular diseases,Pulmonary embolism,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,2.83539,2.43704,3.29885,13
+Cardiovascular diseases,Pulmonary embolism,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,78.33619,67.98156,90.26798,0
+Mental illnesses,Self harm,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,10.74020488,8.488733905,13.58883459,1
+Mental illnesses,Self harm,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.152407529,1.028680921,1.291015596,66
+Mental illnesses,Self harm,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,0.999086174,0.846675672,1.178932165,14.5
+Mental illnesses,Self harm,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.10652228,0.985535075,1.242362233,66
+Mental illnesses,Self harm,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.930880285,0.784335088,1.104805993,14.5
+Mental illnesses,Self harm,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,10.10094085,7.922120341,12.87900229,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0000_0001,1.885199165,1.283160337,2.769705227,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0028_0197,1.058489771,0.974301835,1.149952258,70
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0001_0028,0.809592416,0.710265606,0.922809545,17
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0001_0028,0.819886632,0.728680964,0.922508098,15
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0028_0197,1.047771909,0.970953066,1.130668424,66.5
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0000_0001,4.576275996,3.625158524,5.776934128,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0028_0197,1.041300784,0.905180123,1.19789122,65.5
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0000_0001,27.06965444,22.69977416,32.28077012,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0001_0028,1.349689532,1.136461989,1.602923679,10
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0000_0001,61.87937961,46.93553197,81.58113121,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0028_0197,1.219344233,0.89478707,1.661624769,67
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0001_0028,2.026690364,1.453682366,2.825564026,9
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0000_0001,10.29037042,6.083229328,17.40715624,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0028_0197,0.923516128,0.70701982,1.2063057,71.5
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0001_0028,0.867312488,0.587960737,1.279389769,9
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0028_0197,1.054491252,1.000091139,1.111850467,68
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0001_0028,0.918150307,0.849207386,0.99269036,15
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0000_0001,7.672554861,6.772371405,8.692390683,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0000_0001,46.30254227,31.43580945,68.20010232,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0028_0197,0.898435943,0.604411143,1.335493485,66
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),History of COVID-19,days0001_0028,0.673944059,0.320403377,1.417589907,9
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,102.0814978,82.16724229,126.8222213,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,6.518111304,5.357340647,7.930385199,5
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,0.882280992,0.59927212,1.298942038,53.5
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.052152111,1.00024229,1.10675591,68
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,0.913645488,0.847878475,0.984513823,15
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,7.678938736,6.817759553,8.648896994,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0001_0028,0.945242429,0.842668282,1.060302458,17.5
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0000_0001,4.114691689,3.192596257,5.303109548,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0028_0197,1.204628058,1.119772206,1.29591425,66.5
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,5.45850587,4.734732074,6.29291919,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.050923777,0.998658482,1.105924402,68
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.791327665,0.72988762,0.857939573,17
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0000_0001,11.73971092,10.2562626,13.43772268,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0028_0197,0.996531678,0.92441964,1.074269025,68
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, more than six months ago",days0001_0028,0.896500093,0.802208551,1.001874656,11
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0000_0001,12.95900878,10.16721075,16.51740213,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0028_0197,0.858091413,0.724689741,1.016049809,64.5
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),"Prior history of outcome, within six months",days0001_0028,1.032470797,0.840478556,1.268320221,14
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0000_0001,6.260608767,5.31078685,7.380304132,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0028_0197,1.086430458,1.020849141,1.156224845,67.5
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0001_0028,0.873836362,0.79424563,0.961402819,14
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0028_0197,0.998857244,0.915588507,1.089698905,68
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0000_0001,10.32511689,8.705075395,12.24665313,1
+Mental illnesses,Serious mental illness,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0001_0028,0.99335313,0.881142635,1.119853247,16
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.16961,0.89014,1.53683,72
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,2.28586,1.73735,3.00755,11.5
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,91.22098,73.66759,112.95696,0
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.90744,1.39618,2.60592,12
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.11777,0.83676,1.49314,80
+Cardiovascular diseases,Subarachnoid haemorrhage and haemorrhagic stroke,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,92.99036,74.50296,116.06528,0
+Cardiovascular diseases,Transient ischaemic attack,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.155,0.97544,1.36762,64.5
+Cardiovascular diseases,Transient ischaemic attack,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,21.24092,16.37784,27.54799,0
+Cardiovascular diseases,Transient ischaemic attack,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.25658,1.00218,1.57556,10
+Cardiovascular diseases,Transient ischaemic attack,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,1.0794,0.83715,1.39176,10
+Cardiovascular diseases,Transient ischaemic attack,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.07332,0.89492,1.28729,67
+Cardiovascular diseases,Transient ischaemic attack,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,18.1994,13.48935,24.55405,0
+Diabetes,Type 1 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,0.971734072,0.741609911,1.273266442,72
+Diabetes,Type 1 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0028,1.532973326,1.139900297,2.061589939,9
+Diabetes,Type 1 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,0.953029458,0.725844074,1.251322675,72.5
+Diabetes,Type 1 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0028,1.39244231,1.021524712,1.898040804,12
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0028_0197,1.190947615,1.055876306,1.343297709,65
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0000_0028,1.182717749,1.005649925,1.390962441,13
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0000_0028,2.094345787,1.791039597,2.449015802,7.5
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0028_0197,1.246125692,1.076078871,1.443044076,62
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0000_0028,5.379088914,4.14733696,6.976669084,1
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0028_0197,1.424826216,0.992798943,2.044854861,65
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0000_0028,1.328411143,0.894683225,1.972403321,9
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: South Asian,days0028_0197,0.936930554,0.665713121,1.318644377,74.5
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0000_0028,1.697773821,1.525580347,1.88940291,10
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0028_0197,1.22482013,1.116555616,1.34358229,63
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,13.29968955,10.95282728,16.14941399,7
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,5.335550193,4.481511113,6.352343026,61
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,184.2117777,149.2359459,227.3847554,1
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.199790278,1.101145719,1.307271767,63
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,9.298832226,7.605377183,11.36936127,1
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,1.322142028,1.180604796,1.480647502,14
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,0.944590844,0.825735059,1.080554655,17
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,4.749710472,3.577225718,6.306493173,1
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.13303627,1.036816169,1.238185928,63.5
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0000_0028,1.406137751,1.199028804,1.649020747,9
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0028_0197,1.200574414,1.057709432,1.362736192,64
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0000_0028,1.840143468,1.620858079,2.089095911,9
+Diabetes,Type 2 diabetes mellitus,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0028_0197,1.182417875,1.05228043,1.328649656,62
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0028_0197,1.50276,1.13209,1.99481,72
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 18-39,days0000_0028,2.8297,2.13678,3.74731,9
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0028_0197,1.18583,1.00317,1.40176,57
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 40-59,days0000_0028,5.11306,4.57493,5.71448,8
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0028_0197,1.75185,1.53005,2.0058,53
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 60-79,days0000_0028,10.00875,9.24358,10.83726,5
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0000_0028,14.14325,12.53629,15.9562,0
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Age group: 80-110,days0028_0197,1.94223,1.54195,2.44641,55
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0028_0197,1.54727,1.40958,1.69842,55.5
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Ethnicity: White,days0000_0028,7.64661,7.20843,8.11143,5
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0028_0197,5.666745687,4.626871788,6.940327753,46
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0001_0028,46.68393028,42.23714301,51.59888171,8
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Hospitalised COVID-19,days0000_0001,436.0574497,379.2600054,501.3607992,0
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0001_0028,4.86742,4.53229,5.22734,11
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0000_0001,72.27866,66.16422,78.95816,0
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Main,days0028_0197,1.52548,1.39313,1.6704,57
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0000_0028,8.9354,8.40386,9.50056,5
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),No prior history of outcome,days0028_0197,1.61082,1.45545,1.78278,54
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0000_0001,45.52657,40.64262,50.9974,0
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0001_0028,2.13233,1.91231,2.37767,14
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Non-hospitalised COVID-19,days0028_0197,1.27685,1.15399,1.41278,59
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Prior history of outcome,days0028_0197,1.26919,1.03628,1.55444,62
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Prior history of outcome,days0000_0028,4.05768,3.47657,4.73593,2
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0000_0028,6.00542,5.49075,6.56834,3
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Female,days0028_0197,1.45184,1.27561,1.65241,59
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0028_0197,1.58696,1.39721,1.80248,53
+Cardiovascular diseases,Venous thrombotic events,Vaccinated (Jun 1 2021 - Dec 14 2021),Sex: Male,days0000_0028,9.40889,8.74311,10.12537,5
