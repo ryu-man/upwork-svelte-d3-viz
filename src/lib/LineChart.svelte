@@ -122,14 +122,18 @@
 </g>
 
 <g class="data">
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	{#each Array.from(data_series) as [key, value]}
 		{@const color = colorScale(key)}
 		{@const is_active = active_series.includes(key) || in_hover_serie === key}
-		{@const opacity = active_series.length || in_hover_serie ? (is_active ? 1 : 0.3) : 1}
+		{@const opacity = active_series.length || in_hover_serie ? (is_active ? 1 : 0.6) : 1}
+		{@const stroke_width = active_series.length || in_hover_serie ? (is_active ? 4 : 0.2) : 2}
 		{@const filter = `grayscale(${
 			active_series.length || in_hover_serie ? (is_active ? 0 : 1) : 0
 		})`}
 
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<g
 			class="serie {key}"
 			style:color
@@ -152,24 +156,30 @@
 				} else {
 					active_series = [...active_series, key];
 				}
-				console.log(active_series);
 			}}
 		>
 			{#if showConnectingLines}
-				<path d={path(value)} fill="none" stroke={color} stroke-width="2" stroke-opacity=".7" />
+				<path
+					d={path(value)}
+					fill="none"
+					stroke={color}
+					stroke-width={stroke_width}
+					stroke-opacity=".7"
+				/>
 			{/if}
 
 			{#each value as item}
 				{#if showHorizontalLines}
 					{@const t0 = x_scale(termStartAccessor(item))}
 					{@const t1 = x_scale(termEndAccessor(item))}
+
 					<line
 						x1={t0}
 						x2={t1}
 						y1={y}
 						y2={y}
 						stroke={color}
-						stroke-width="2"
+						stroke-width={stroke_width}
 						stroke-opacity={in_hover_serie === key ? '0.4' : '0'}
 					/>
 				{/if}
