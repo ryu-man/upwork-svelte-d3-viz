@@ -108,9 +108,7 @@
 	});
 
 	onMount(() => {
-		fetch(
-			'https://docs.google.com/spreadsheets/d/e/2PACX-1vQhh7lL2mS7hc0L33NP83Ytadymj8K498730NUjuATR-UsGBTetjFL8Rs4ZQZ5bxjnnHZzEfkViTUHm/pub?output=csv'
-		)
+		fetch('/data/data_new.csv')
 			.then((d) => d.text())
 			.then((d) => csvParse(d))
 			.then((d) => {
@@ -155,12 +153,15 @@
 	<Root>
 		<Title>
 			<div class="text-3xl font-black">Post COVID events</div>
-			
+
 			<TitleTooltip slot="tooltip" />
 		</Title>
 
 		<div class="mb-4">
-			<p>Draft visualisation showing draft data- please do not share - scheduled to be updated and published in Q3 of 2024</p>
+			<p>
+				Draft visualisation showing draft data- please do not share - scheduled to be updated and
+				published in Q3 of 2024
+			</p>
 		</div>
 
 		<div class="flex gap-4">
