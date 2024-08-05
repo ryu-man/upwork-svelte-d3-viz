@@ -9,10 +9,11 @@
 
 	export let open = false;
 	export let data = [];
+	export let selected: string[] = [];
 
-	$: selected_data = data.filter((d) => d.selected);
+	$: selected = data.filter((d) => d.selected).map((d) => d.value);
 
-	$: dispatch('change', selected_data);
+	$: dispatch('change', selected);
 </script>
 
 <DropdownMenu.Root closeOnItemClick={false} bind:open>
@@ -24,12 +25,29 @@
 			aria-expanded={open}
 			class="w-[200px] justify-between"
 		>
-			{selected_data.length} cohorts
+			{selected.length} cohorts
 			<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
 		</Button>
 	</DropdownMenu.Trigger>
+
 	<DropdownMenu.Content class="w-auto whitespace-nowrap">
-		<DropdownMenu.Label>Cohorts</DropdownMenu.Label>
+		<DropdownMenu.Label class="flex items-center justify-between">
+			<div>Cohorts</div>
+
+			<Button
+				variant="outline"
+				size="sm"
+				on:click={() => {
+					data = data.map((d) => {
+						d.selected = false;
+
+						return d;
+					});
+
+					dispatch('clear');
+				}}>Clear selection</Button
+			>
+		</DropdownMenu.Label>
 
 		<DropdownMenu.Separator />
 

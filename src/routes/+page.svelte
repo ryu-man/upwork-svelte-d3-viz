@@ -1,14 +1,15 @@
 <script lang="ts">
 	import { csvParse, type DSVRowArray, sort, ascending, groups, scaleLinear, scaleLog } from 'd3';
 	import LineChart from '$lib/LineChart.svelte';
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import TitleTooltip from '$lib/TitleTooltip.svelte';
 	import Title from '$lib/Title.svelte';
 	import Root from '$lib/root/Root.svelte';
 	import Chart from '$lib/chart/Chart.svelte';
 	import CohortDropdown from './CohortDropdown.svelte';
 	import OutcomeDropdown from './OutcomeDropdown.svelte';
-	import { uniqBy } from 'lodash-es';
+	import { uniq, uniqBy } from 'lodash-es';
+	import AnalysesDropdown from './AnalysesDropdown.svelte';
 
 	let datasets = {};
 	let selected_dataset = 'condition_1';
@@ -23,11 +24,14 @@
 
 	let selected_cohorts: string[] = [];
 	let selected_outcomes: Map<string, Set<string>> = new Map();
+	let selected_analyses = new Set<string>();
 	let outcomes_order: Map<string, Date> = new Map();
 
 	let showHorizontalLines = false;
 	let showLegend = true;
-	let showConnectingLines = true
+	let showConnectingLines = true;
+
+	let disable_analyses_dropdown = false;
 
 	let series: string[] = [];
 
@@ -46,6 +50,7 @@
 	let reader: FileReader;
 
 	$: raw_data = datasets[selected_dataset] ?? [];
+
 	$: cohorts = uniqBy(raw_data, (d) => d['cohort']).map((d) => ({
 		value: d['cohort'],
 		selected: true
@@ -58,9 +63,11 @@
 	).map(([key, value]) => [key, value.map((d) => d[0])]);
 	// $: analyses = uniqBy(raw_data, (d) => d['analysis']).map((d) => d['analysis']);
 
+	$: analyses = uniq(raw_data.map((d) => d['analysis']));
+
 	$: filted_data = raw_data.filter((d) => {
 		return (
-			selected_cohorts.some((dd) => dd.value === d['cohort']) &&
+			selected_cohorts.some((dd) => dd === d['cohort']) &&
 			selected_outcomes.get(d['outcome'])?.has(d['analysis'])
 		);
 	});
@@ -127,7 +134,7 @@
 				datasets['condition_1'] = sort(raw, (a, b) => ascending(x_accessor(a), x_accessor(b)));
 
 				setTimeout(() => {
-					selected_cohorts = [...cohorts];
+					selected_cohorts = [...cohorts].filter((d) => d.value).map((d) => d.value);
 				}, 300);
 			});
 	});
@@ -148,23 +155,63 @@
 	<Root>
 		<Title>
 			<div class="text-3xl font-black">Post COVID events</div>
-
+			
 			<TitleTooltip slot="tooltip" />
 		</Title>
+
+		<div class="mb-4">
+			<p>Draft visualisation showing draft data- please do not share - scheduled to be updated and published in Q3 of 2024</p>
+		</div>
 
 		<div class="flex gap-4">
 			<OutcomeDropdown
 				data={outcomes}
-				disabled={series.length >= 7}
-				bind:selectedOutcomes={selected_outcomes}
+				selectedAnalyses={selected_analyses}
+				length={series.length}
+				bind:selected={selected_outcomes}
 				bind:order={outcomes_order}
+				on:select-outcome={async () => {
+					await tick();
+
+					if (selected_analyses.size === 0) {
+						disable_analyses_dropdown = true;
+						return;
+					}
+				}}
+				on:select-analysis={async () => {
+					await tick();
+
+					if (selected_analyses.size === 0) {
+						disable_analyses_dropdown = true;
+						return;
+					}
+				}}
+				on:unselect-analysis={async () => {
+					await tick();
+
+					if (selected_outcomes.size === 0) {
+						disable_analyses_dropdown = false;
+					}
+				}}
+				on:unselect-outcome={async (ev) => {
+					await tick();
+
+					if (selected_outcomes.size === 0) {
+						disable_analyses_dropdown = false;
+					}
+				}}
+				on:clear={() => {
+					disable_analyses_dropdown = false;
+				}}
 			/>
 
-			<CohortDropdown
-				data={cohorts}
+			<CohortDropdown data={cohorts} bind:selected={selected_cohorts} />
+
+			<AnalysesDropdown
+				data={analyses}
+				disabled={disable_analyses_dropdown}
 				on:change={(ev) => {
-					selected_cohorts = ev.detail;
-					console.log(ev.detail);
+					selected_analyses = ev.detail;
 				}}
 			/>
 		</div>
