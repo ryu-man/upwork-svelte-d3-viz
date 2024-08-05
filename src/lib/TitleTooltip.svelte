@@ -2,10 +2,8 @@
 </script>
 
 <div>
-	<h1>Example dataviz</h1>
 	<p class="text-sm">
-		Metus placerat arcu faucibus vitae commodo et aenean penatibus volutpat integer nisl tempus
-		class tristique vel aptent
+		COVID-19 infection may increase the chances of certain conditions, including strokes and heart attacks. The data in this visualisation compares the number of people with COVID-19 infection who also have a record of one of these conditions against the number of people without COVID-19 infection who also have a record of one of these conditions. This provides insight into to how much COVID-19 infection increases the risk of these conditions. Click on the drop dip menus to select condition, cohort and analysis, or click on the question mark for me details about how to use the visualisation. See here (link) for source materials.
 	</p>
 </div>
 
