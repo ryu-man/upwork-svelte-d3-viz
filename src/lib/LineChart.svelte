@@ -96,6 +96,8 @@
 	$: path = line()
 		.x((d) => x_scale(xAccessor(d)))
 		.y((d) => y_scale(yAccessor(d)));
+
+	$: data_entries = Array.from(data_series).map((item) => [item[0], item[1].slice(1)]);
 </script>
 
 <g class="axis" font-size="10pt" font-weight="600" fill-opacity=".6">
@@ -122,7 +124,8 @@
 </g>
 
 <g class="data">
-	{#each Array.from(data_series) as [key, value]}
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	{#each data_entries as [key, value]}
 		{@const color = colorScale(key)}
 		{@const is_active = active_series.includes(key) || in_hover_serie === key}
 		{@const opacity = active_series.length || in_hover_serie ? (is_active ? 1 : 0.3) : 1}
