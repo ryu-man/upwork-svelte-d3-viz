@@ -31,23 +31,24 @@
 
 <DropdownMenu.Root closeOnItemClick={false} bind:open>
 	<DropdownMenu.Trigger asChild let:builder>
-		<Tooltip.Root openDelay={100}>
-			<Tooltip.Trigger class="flex items-center w-fit">
-				<Button
-					variant="outline"
-					role="combobox"
-					aria-expanded={open}
-					class="w-[200px] justify-between"
-				>
+		<Button
+			builders={[builder]}
+			variant="outline"
+			role="combobox"
+			aria-expanded={open}
+			class="w-[200px] justify-between"
+		>
+			<Tooltip.Root openDelay={100}>
+				<Tooltip.Trigger class="flex items-center w-full">
 					{keys.size} Analysis
-					<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
-				</Button>
-			</Tooltip.Trigger>
-			<Tooltip.Content>
-				Pick the population slice. ‘Main’ shows everyone; sub-groups focus on specific
-				characteristics.
-			</Tooltip.Content>
-		</Tooltip.Root>
+					<ChevronsUpDown class="ml-auto h-4 w-4 shrink-0 opacity-50" />
+				</Tooltip.Trigger>
+				<Tooltip.Content>
+					Pick the population slice. ‘Main’ shows everyone; sub-groups focus on specific
+					characteristics.
+				</Tooltip.Content>
+			</Tooltip.Root>
+		</Button>
 	</DropdownMenu.Trigger>
 
 	<DropdownMenu.Content class="w-auto whitespace-nowrap relative">
