@@ -61,7 +61,6 @@
 		(d) => d['outcome'],
 		(d) => d['analysis']
 	).map(([key, value]) => [key, value.map((d) => d[0])]);
-	// $: analyses = uniqBy(raw_data, (d) => d['analysis']).map((d) => d['analysis']);
 
 	$: analyses = uniq(raw_data.map((d) => d['analysis']));
 
