@@ -2,6 +2,8 @@
 	import { Button } from '$lib/components/ui/button/index.js';
 	import Checkbox from '$lib/components/ui/checkbox/checkbox.svelte';
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu/index.js';
+	import * as Tooltip from '$lib/components/ui/tooltip';
+	// import Tooltip from '$lib/Tooltip.svelte';
 	import { ChevronsUpDown } from 'lucide-svelte';
 	import { createEventDispatcher } from 'svelte';
 
@@ -25,8 +27,15 @@
 			aria-expanded={open}
 			class="w-[200px] justify-between"
 		>
-			{selected.length} cohorts
-			<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
+			<Tooltip.Root openDelay={100}>
+				<Tooltip.Trigger class="flex items-center w-full">
+					{selected.length} cohorts
+					<ChevronsUpDown class="ml-auto h-4 w-4 shrink-0 opacity-50" />
+				</Tooltip.Trigger>
+				<Tooltip.Content>
+					Choose the group(s) you want to compare. You can select one, two, or all three.
+				</Tooltip.Content>
+			</Tooltip.Root>
 		</Button>
 	</DropdownMenu.Trigger>
 

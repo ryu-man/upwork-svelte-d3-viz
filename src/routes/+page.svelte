@@ -154,13 +154,20 @@
 <div class="h-[100svh] w-[100svw] max-w-[100svw] relative flex flex-col p-5">
 	<Root>
 		<Title>
-			<div class="text-3xl font-black">Post COVID events</div>
-			
+			<div class="text-3xl font-black">
+				Post-covid health outcomes analysis tool - Draft version - not for release
+			</div>
+
 			<TitleTooltip slot="tooltip" />
 		</Title>
 
 		<div class="mb-4">
-			<p>Draft visualisation showing draft data- please do not share - scheduled to be updated and published in Q3 of 2024</p>
+			<p>
+				This interactive visualistion tool displays data from the CONVALESCE long Covid research
+				project. You can select what health outcomes data you would like to display - eg.
+				cardiovascular, mental health and / or diabetes by clicking on the drop down menus. Hover
+				over labels (or single click if you are on your phone) for more infomration.
+			</p>
 		</div>
 
 		<div class="flex gap-4">
@@ -241,7 +248,22 @@
 			</Chart>
 		</div>
 
-		<div class="flex justify-between">
+		<div class="pt-10">
+			<p>
+				Caution is needed when viewing this graph as incorrect interpretations could lead to
+				misinformation
+			</p>
+			<p class="text-xs">
+				Click here for associated research papers - link (~hyperlink to ) This work was supported by
+				the COVID-19 Longitudinal Health and Wellbeing National Core Study, which is funded by the
+				Medical Research Council (MRC) and National Institute for Health and Care Research (NIHR).
+				Data from up to 18,648,606 adults aged between 18 and 110 years and registered with a GP in
+				England. - note - the size of sample populations for different analysis varies
+				significantly.
+			</p>
+		</div>
+
+		<div class="flex justify-between pt-10">
 			<div class="flex gap-4">
 				<label>
 					<input

@@ -101,7 +101,9 @@
 </script>
 
 <g class="axis" font-size="10pt" font-weight="600" fill-opacity=".6">
-	<XAxis scale={x_scale} y={$client_height} width={$client_width}>
+	<XAxis scale={x_scale} y={$client_height} width={$client_width} format={(d) => {
+		return Math.round(d / 7);
+	}}>
 		<AxisLabel slot="label" x={$client_width / 2} y={72} placements={['top-start']}>
 			<text>Week</text>
 
@@ -115,7 +117,7 @@
 				text-anchor="middle"
 				writing-mode="vertical-lr"
 				dominant-baseline="middle"
-				style:transform="rotate(180deg)">Increased likelihood</text
+				style:transform="rotate(180deg)">Hazard Ratio</text
 			>
 
 			<YAxisTooltip slot="tooltip" />
