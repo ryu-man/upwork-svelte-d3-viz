@@ -248,21 +248,6 @@
 			</Chart>
 		</div>
 
-		<div class="pt-10">
-			<p>
-				Caution is needed when viewing this graph as incorrect interpretations could lead to
-				misinformation
-			</p>
-			<p class="text-xs">
-				Click here for associated research papers - link (~hyperlink to ) This work was supported by
-				the COVID-19 Longitudinal Health and Wellbeing National Core Study, which is funded by the
-				Medical Research Council (MRC) and National Institute for Health and Care Research (NIHR).
-				Data from up to 18,648,606 adults aged between 18 and 110 years and registered with a GP in
-				England. - note - the size of sample populations for different analysis varies
-				significantly.
-			</p>
-		</div>
-
 		<div class="flex justify-between pt-10">
 			<div class="flex gap-4">
 				<label>
@@ -332,6 +317,21 @@
 					<div>show horizontal lines</div>
 				</label>
 			</div>
+		</div>
+
+		<div class="pt-10">
+			<p>
+				Caution is needed when viewing this graph as incorrect interpretations could lead to
+				misinformation
+			</p>
+			<p class="text-xs">
+				Click here for associated research papers - link (~hyperlink to ) This work was supported by
+				the COVID-19 Longitudinal Health and Wellbeing National Core Study, which is funded by the
+				Medical Research Council (MRC) and National Institute for Health and Care Research (NIHR).
+				Data from up to 18,648,606 adults aged between 18 and 110 years and registered with a GP in
+				England. - note - the size of sample populations for different analysis varies
+				significantly.
+			</p>
 		</div>
 	</Root>
 </div>
