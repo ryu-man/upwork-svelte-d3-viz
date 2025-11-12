@@ -8,7 +8,6 @@
 		scaleLog,
 		group,
 		schemeCategory10,
-		union
 	} from 'd3';
 	import XAxis from './XAxis.svelte';
 	import YAxis from './YAxis.svelte';
@@ -62,6 +61,7 @@
 	let active_series: string[] = [];
 	let in_hover_serie: string | undefined;
 	let hover_timeout = () => {};
+	let xTicks: number[] = [];
 
 	$: series_label_data = uniqBy(
 		data.map((d) => ({
@@ -98,10 +98,19 @@
 		.y((d) => y_scale(yAccessor(d)));
 
 	$: data_entries = Array.from(data_series).map((item) => [item[0], item[1].slice(1)]);
+
+	$: {
+		const [start, end] = x_scale.domain();
+		const tickValues = [];
+		for (let i = Math.ceil(start / 7) * 7; i <= end; i += 7) {
+			tickValues.push(i);
+		}
+		xTicks = tickValues;
+	}
 </script>
 
 <g class="axis" font-size="10pt" font-weight="600" fill-opacity=".6">
-	<XAxis scale={x_scale} y={$client_height} width={$client_width}>
+	<XAxis scale={x_scale} y={$client_height} width={$client_width} ticks={x_scale.ticks(30)} tickFormat={(d) => `${Math.round(d / 7)}`}>
 		<AxisLabel slot="label" x={$client_width / 2} y={72} placements={['top-start']}>
 			<text>Week</text>
 
