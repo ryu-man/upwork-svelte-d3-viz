@@ -2,10 +2,10 @@
 </script>
 
 <div>
-	<h1>Increased likelihood</h1>
+	<h1>Hazard Ratio</h1>
 	<p class="text-sm">
-		Neque sollicitudin amet pretium mi ac nisi faucibus ut phasellus nam fames gravida dis dapibus
-		arcu inceptos consectetuer libero imperdiet vel aenean dignissim fusce
+		The Hazard Ratio tells how much more or less likely this group is than the comparison group: 1
+		means the same, above 1 higher, below 1 lower.
 	</p>
 </div>
 

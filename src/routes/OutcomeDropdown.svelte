@@ -57,16 +57,23 @@
 
 <DropdownMenu.Root closeOnItemClick={false} bind:open>
 	<DropdownMenu.Trigger asChild let:builder>
-		<Button
-			builders={[builder]}
-			variant="outline"
-			role="combobox"
-			aria-expanded={open}
-			class="w-[200px] justify-between"
-		>
-			{keys.size} outcome
-			<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
-		</Button>
+		<Tooltip.Root openDelay={100}>
+			<Tooltip.Trigger>
+				<Button
+					builders={[builder]}
+					variant="outline"
+					role="combobox"
+					aria-expanded={open}
+					class="w-[200px] justify-between"
+				>
+					{keys.size} outcome{keys.size > 1 ? 's' : ''}
+					<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
+				</Button>
+			</Tooltip.Trigger>
+			<Tooltip.Content>
+				Pick a health outcome to plot. The chart will show how its chance changes over time after COVID-19. One outcome at a time.
+			</Tooltip.Content>
+		</Tooltip.Root>
 	</DropdownMenu.Trigger>
 
 	<DropdownMenu.Content class="w-auto whitespace-nowrap">
