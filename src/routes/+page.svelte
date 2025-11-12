@@ -109,7 +109,7 @@
 
 	onMount(() => {
 		fetch(
-			'https://docs.google.com/spreadsheets/d/e/2PACX-1vQhh7lL2mS7hc0L33NP83Ytadymj8K498730NUjuATR-UsGBTetjFL8Rs4ZQZ5bxjnnHZzEfkViTUHm/pub?output=csv'
+			'https://docs.google.com/spreadsheets/d/e/2PACX-1vQABTCPnKqIW_95711GgxYMUI53uhhJRY0n9xzq0w1SWxCqRovvOKubi1eB3D4crmiBlO095hsHw3TD/pub?output=csv'
 		)
 			.then((d) => d.text())
 			.then((d) => csvParse(d))
@@ -129,7 +129,7 @@
 						conf_high: +d['conf_high'],
 						outcome_time_median: +d['outcome_time_median']
 					};
-				});
+				}).filter(d => Math.abs(d.term_end - d.term_start) > 1); // filter out 1 day terms
 
 				datasets['condition_1'] = sort(raw, (a, b) => ascending(x_accessor(a), x_accessor(b)));
 
