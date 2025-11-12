@@ -5,6 +5,8 @@
 	export let offset = 24;
 	export let width = 0;
 	export let height = 0;
+	export let ticks: number[] | undefined = undefined;
+	export let tickFormat: ((d: number) => string) | undefined = undefined;
 
 	let element: SVGGElement;
 	let showTooltip = false;
@@ -21,9 +23,9 @@
 	<path class="domain" fill="none" stroke="rgba(0 0 0/ .6)" d="M0,{6}V0H{width}V{6}" />
 
 	<g class="ticks">
-		{#each scale.ticks() as tick}
+		{#each (ticks ?? scale.ticks()) as tick}
 			<g class="tick" transform="translate({scale(tick)}, 0)">
-				<text dy={offset}>{tick}</text>
+				<text dy={offset}>{tickFormat ? tickFormat(tick) : tick}</text>
 			</g>
 		{/each}
 	</g>
