@@ -124,7 +124,7 @@
 				text-anchor="middle"
 				writing-mode="vertical-lr"
 				dominant-baseline="middle"
-				style:transform="rotate(180deg)">Increased likelihood</text
+				style:transform="rotate(180deg)">Hazard Ratio</text
 			>
 
 			<YAxisTooltip slot="tooltip" />

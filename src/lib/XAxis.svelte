@@ -31,7 +31,7 @@
 	</g>
 
 	<g class="label" on:pointerenter={onPointerEnterHandler} on:pointerleave={onPointerLeaveHandler}>
-			<slot name="label" {showTooltip}/>
+		<slot name="label" {showTooltip} />
 	</g>
 </g>
 
