@@ -97,7 +97,7 @@
 		.x((d) => x_scale(xAccessor(d)))
 		.y((d) => y_scale(yAccessor(d)));
 
-	$: data_entries = Array.from(data_series).map((item) => [item[0], item[1].slice(1)]);
+	$: data_entries = Array.from(data_series).map((item) => [item[0], item[1]]);
 
 	$: {
 		const [start, end] = x_scale.domain();
