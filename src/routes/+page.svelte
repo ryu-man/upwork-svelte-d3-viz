@@ -64,7 +64,7 @@
 
 	$: analyses = uniq(raw_data.map((d) => d['analysis']));
 
-	$: filted_data = raw_data.filter((d) => {
+	$: filtered_data = raw_data.filter((d) => {
 		return (
 			selected_cohorts.some((dd) => dd === d['cohort']) &&
 			selected_outcomes.get(d['outcome'])?.has(d['analysis'])
@@ -113,22 +113,24 @@
 			.then((d) => d.text())
 			.then((d) => csvParse(d))
 			.then((d) => {
-				const raw = d.map((d) => {
-					const [r0, r1] = d['term'].replace('days', '').split('_');
+				const raw = d
+					.map((d) => {
+						const [r0, r1] = d['term'].replace('days', '').split('_');
 
-					return {
-						cohort: d['cohort'],
-						outcome: d['outcome'],
-						analysis: d['analysis'],
-						term: d['term'],
-						term_start: +r0,
-						term_end: +r1,
-						hr: +d['hr'],
-						conf_low: +d['conf_low'],
-						conf_high: +d['conf_high'],
-						outcome_time_median: +d['outcome_time_median']
-					};
-				}).filter(d => Math.abs(d.term_end - d.term_start) > 1); // filter out 1 day terms
+						return {
+							cohort: d['cohort'],
+							outcome: d['outcome'],
+							analysis: d['analysis'],
+							term: d['term'],
+							term_start: +r0,
+							term_end: +r1,
+							hr: +d['hr'],
+							conf_low: +d['conf_low'],
+							conf_high: +d['conf_high'],
+							outcome_time_median: +d['outcome_time_median']
+						};
+					})
+					.filter((d) => Math.abs(d.term_end - d.term_start) > 1); // filter out 1 day terms
 
 				datasets['condition_1'] = sort(raw, (a, b) => ascending(x_accessor(a), x_accessor(b)));
 
@@ -228,7 +230,7 @@
 			<Chart>
 				<LineChart
 					{yScale}
-					data={filted_data}
+					data={filtered_data}
 					datasets={Object.keys(datasets)}
 					groupByAccessor={group_by_accessor}
 					xAccessor={x_accessor}
