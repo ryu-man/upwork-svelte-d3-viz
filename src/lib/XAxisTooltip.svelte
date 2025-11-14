@@ -4,8 +4,7 @@
 <div>
 	<h1>Week</h1>
 	<p class="text-sm">
-		Elementum parturient aliquet bibendum odio proin eu quam risus lectus condimentum rhoncus enim
-		maecenas dui nisl tincidunt facilisis sodales dignissim dolor letius velit blandit
+		This axis shows the number of weeks since diagnosis of COVID-19 (either GP diagnosis, hospital admission, or at-home test kit). The points show the median time to the outcome in the time interval studied.
 	</p>
 </div>
 

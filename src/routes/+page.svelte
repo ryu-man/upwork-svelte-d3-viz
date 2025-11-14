@@ -156,7 +156,7 @@
 	<Root>
 		<Title>
 			<div class="text-3xl font-black">
-				Post-covid health outcomes analysis tool - Draft version - not for release
+				Investigating health outcomes following COVID-19 - Draft visualisation
 			</div>
 
 			<TitleTooltip slot="tooltip" />
@@ -164,10 +164,10 @@
 
 		<div class="mb-4">
 			<p>
-				This interactive visualistion tool displays data from the CONVALESCE long Covid research
-				project. You can select what health outcomes data you would like to display - eg.
-				cardiovascular, mental health and / or diabetes by clicking on the drop down menus. Hover
-				over labels (or single click if you are on your phone) for more infomration.
+				This interactive visualisation tool displays data from the Convalescence Long Covid research
+				project. You can select what health outcome you would like to display - e.g., acute
+				myocardial infarction, depression or type 2 diabetes by clicking on the drop-down menus.
+				Hover over labels (or single click if you are on your phone) for more information.
 			</p>
 		</div>
 
@@ -226,7 +226,7 @@
 
 		<div class="bg-red-500 w-full" />
 
-		<div class="flex-1 pr-8 py-12 pl-28 pb-20 pt-20">
+		<div class="flex-1 pr-8 py-12 pl-28 pb-20 pt-20 min-h-[64svh]">
 			<Chart>
 				<LineChart
 					{yScale}
@@ -323,16 +323,55 @@
 		<div class="pt-10">
 			<p>
 				Caution is needed when viewing this graph as incorrect interpretations could lead to
-				misinformation
+				misinformation. Click here for more detail
 			</p>
-			<p class="text-xs">
-				Click here for associated research papers - link (~hyperlink to ) This work was supported by
-				the COVID-19 Longitudinal Health and Wellbeing National Core Study, which is funded by the
-				Medical Research Council (MRC) and National Institute for Health and Care Research (NIHR).
-				Data from up to 18,648,606 adults aged between 18 and 110 years and registered with a GP in
-				England. - note - the size of sample populations for different analysis varies
-				significantly.
-			</p>
+		</div>
+
+		<div class="pt-10">
+			<div class="flex flex-col">
+				<div class="text-lg font-bold">Attributions</div>
+				<ul class="list-disc list-inside">
+					<li>
+						Click here for associated research papers - <a
+							href="https://www.bristol.ac.uk/population-health-sciences/centres/ehr/research/-convalescence-long-covid-study/"
+							>link</a
+						>
+					</li>
+					<li>
+						link This work was supported by the COVID-19 Longitudinal Health and Wellbeing National
+						Core Study, which is funded by the Medical Research Council (MRC) and National Institute
+						for Health and Care Research (NIHR). Data was accessed through OpenSAFELY-TPP, which
+						provides secure, privacy-protecting access to linked data from 24 million people
+						registered with general practices (GPs) in England using TPP SystmOne software. Note:
+						the sample size in each analysis differs according to the subgroup selected.
+					</li>
+				</ul>
+			</div>
+
+			<div class="flex flex-col pt-10">
+				<div class="text-lg font-bold mb-4">FAQs</div>
+				<ul class="list-disc list-inside space-y-2">
+					<li>What does History of Covid mean</li>
+					<li>What is the difference between unvaccinated or not vaccinated"?</li>
+					<li>What is the baseline population</li>
+					<li>
+						What is the coverage of the analysis?
+						<ul class="list-[circle] list-inside ml-8 mt-1 space-y-1">
+							<li>
+								The sample sizes of the population slice samples significantly varies. For example,
+								comparing 'Ethinicity: Black' compared against 'Ethinicity: South Asian' are
+								different population sample sizes in the available data.
+							</li>
+							<li>
+								Explainers about why there is not as much data available for certain demographics
+							</li>
+						</ul>
+					</li>
+					<li>
+						Why is there sometimes an uptick in hazard ratio over time?Example - eating disorders
+					</li>
+				</ul>
+			</div>
 		</div>
 	</Root>
 </div>
