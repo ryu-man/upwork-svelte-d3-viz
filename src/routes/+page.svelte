@@ -332,7 +332,7 @@
 				<div class="text-lg font-bold">Attributions</div>
 				<ul class="list-disc list-inside">
 					<li>
-						Click here for associated research papers - <a
+						Click here for associated research papers - <a class="text-blue-600 underline"
 							href="https://www.bristol.ac.uk/population-health-sciences/centres/ehr/research/-convalescence-long-covid-study/"
 							>link</a
 						>
