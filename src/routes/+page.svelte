@@ -230,7 +230,7 @@
 
 		<div class="bg-red-500 w-full" />
 
-		<div class="flex-1 px-12 py-16 min-h-[64svh]">
+		<div class="flex-1 pr-12 pl-24 py-16 min-h-[64svh]">
 			<Chart>
 				<LineChart
 					{yScale}
