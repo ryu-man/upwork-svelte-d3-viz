@@ -71,6 +71,14 @@
 		);
 	});
 
+	$: if (!selected_outcomes.size) {
+		const first_outcome = outcomes.at(0);
+		if (first_outcome) {
+			selected_outcomes.set(first_outcome[0], new Set(['Main']));
+			selected_outcomes = selected_outcomes;
+		}
+	}
+
 	onMount(() => {
 		reader = new FileReader();
 
@@ -152,18 +160,18 @@
 	}
 </script>
 
-<div class="h-[100svh] w-[100svw] max-w-[100svw] relative flex flex-col p-5">
+<div class="h-[100svh] w-[100svw] max-w-[100svw] relative flex flex-col px-8 py-6">
 	<Root>
 		<Title>
-			<div class="text-3xl font-black">
+			<div class="text-4xl font-bold mb-2">
 				Investigating health outcomes following COVID-19 - Draft visualisation
 			</div>
 
 			<TitleTooltip slot="tooltip" />
 		</Title>
 
-		<div class="mb-4">
-			<p>
+		<div class="mb-6 mt-4">
+			<p class="text-base leading-relaxed text-gray-700">
 				This interactive visualisation tool displays data from the Convalescence Long Covid research
 				project. You can select what health outcome you would like to display - e.g., acute
 				myocardial infarction, depression or type 2 diabetes by clicking on the drop-down menus.
@@ -171,7 +179,7 @@
 			</p>
 		</div>
 
-		<div class="flex gap-4">
+		<div class="flex gap-4 mb-6">
 			<OutcomeDropdown
 				data={outcomes}
 				selectedAnalyses={selected_analyses}
@@ -226,7 +234,7 @@
 
 		<div class="bg-red-500 w-full" />
 
-		<div class="flex-1 pr-8 py-12 pl-28 pb-20 pt-20 min-h-[64svh]">
+		<div class="flex-1 px-12 py-16 min-h-[64svh]">
 			<Chart>
 				<LineChart
 					{yScale}
@@ -249,9 +257,9 @@
 			</Chart>
 		</div>
 
-		<div class="flex justify-between pt-10">
-			<div class="flex gap-4">
-				<label>
+		<div class="flex justify-between items-center pt-8 pb-6">
+			<div class="flex gap-6">
+				<label class="flex items-center gap-2 cursor-pointer">
 					<input
 						type="radio"
 						value="linear"
@@ -264,10 +272,10 @@
 							}
 						}}
 					/>
-					<span>Linear</span>
+					<span class="text-sm font-medium">Linear</span>
 				</label>
 
-				<label>
+				<label class="flex items-center gap-2 cursor-pointer">
 					<input
 						type="radio"
 						value="logarithmic"
@@ -280,12 +288,12 @@
 							}
 						}}
 					/>
-					<span>Logarithmic</span>
+					<span class="text-sm font-medium">Logarithmic</span>
 				</label>
 			</div>
 
-			<div class="flex gap-4">
-				<label class="flex gap-2">
+			<div class="flex gap-6">
+				<label class="flex items-center gap-2 cursor-pointer">
 					<input
 						type="checkbox"
 						checked={showLegend}
@@ -293,10 +301,10 @@
 							showLegend = ev.currentTarget.checked;
 						}}
 					/>
-					<div>show legend</div>
+					<div class="text-sm font-medium">Show legend</div>
 				</label>
 
-				<label class="flex gap-2">
+				<label class="flex items-center gap-2 cursor-pointer">
 					<input
 						type="checkbox"
 						checked={showConnectingLines}
@@ -304,10 +312,10 @@
 							showConnectingLines = ev.currentTarget.checked;
 						}}
 					/>
-					<div>show connecting lines</div>
+					<div class="text-sm font-medium">Show connecting lines</div>
 				</label>
 
-				<label class="flex gap-2">
+				<label class="flex items-center gap-2 cursor-pointer">
 					<input
 						type="checkbox"
 						checked={showHorizontalLines}
@@ -315,24 +323,25 @@
 							showHorizontalLines = ev.currentTarget.checked;
 						}}
 					/>
-					<div>show horizontal lines</div>
+					<div class="text-sm font-medium">Show horizontal lines</div>
 				</label>
 			</div>
 		</div>
 
-		<div class="pt-10">
-			<p>
+		<div class="pt-8 pb-6 border-t border-gray-200">
+			<p class="text-sm text-gray-600 leading-relaxed">
 				Caution is needed when viewing this graph as incorrect interpretations could lead to
 				misinformation. Click here for more detail
 			</p>
 		</div>
 
-		<div class="pt-10">
+		<div class="py-6">
 			<div class="flex flex-col">
-				<div class="text-lg font-bold">Attributions</div>
-				<ul class="list-disc list-inside">
+				<div class="text-xl font-semibold mb-4">Attributions</div>
+				<ul class="list-disc list-inside space-y-1 text-sm text-gray-700">
 					<li>
-						Click here for associated research papers - <a class="text-blue-600 underline"
+						Click here for associated research papers - <a
+							class="text-blue-600 underline"
 							href="https://www.bristol.ac.uk/population-health-sciences/centres/ehr/research/-convalescence-long-covid-study/"
 							>link</a
 						>
@@ -348,15 +357,15 @@
 				</ul>
 			</div>
 
-			<div class="flex flex-col pt-10">
-				<div class="text-lg font-bold mb-4">FAQs</div>
-				<ul class="list-disc list-inside space-y-2">
+			<div class="flex flex-col pt-8 mt-6 border-t border-gray-200">
+				<div class="text-xl font-semibold mb-5">FAQs</div>
+				<ul class="list-disc list-inside space-y-1 text-sm text-gray-700">
 					<li>What does History of Covid mean</li>
 					<li>What is the difference between unvaccinated or not vaccinated"?</li>
 					<li>What is the baseline population</li>
 					<li>
 						What is the coverage of the analysis?
-						<ul class="list-[circle] list-inside ml-8 mt-1 space-y-1">
+						<ul class="list-[circle] list-inside ml-8 mt-2 space-y-1 text-gray-600">
 							<li>
 								The sample sizes of the population slice samples significantly varies. For example,
 								comparing 'Ethinicity: Black' compared against 'Ethinicity: South Asian' are
