@@ -162,15 +162,11 @@
 
 <div class="h-[100svh] w-[100svw] max-w-[100svw] relative flex flex-col px-8 py-6">
 	<Root>
-		<Title>
-			<div class="text-4xl font-bold mb-2">
+		<div class="flex flex-col gap-4 mb-6">
+			<h1 class="text-3xl font-bold">
 				Investigating health outcomes following COVID-19 - Draft visualisation
-			</div>
+			</h1>
 
-			<TitleTooltip slot="tooltip" />
-		</Title>
-
-		<div class="mb-6 mt-4">
 			<p class="text-base leading-relaxed text-gray-700">
 				This interactive visualisation tool displays data from the Convalescence Long Covid research
 				project. You can select what health outcome you would like to display - e.g., acute
