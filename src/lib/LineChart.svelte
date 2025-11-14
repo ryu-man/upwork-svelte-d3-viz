@@ -111,7 +111,7 @@
 
 <g class="axis" font-size="10pt" font-weight="600" fill-opacity=".6">
 	<XAxis scale={x_scale} y={$client_height} width={$client_width} ticks={x_scale.ticks(30)} tickFormat={(d) => `${Math.round(d / 7)}`}>
-		<AxisLabel slot="label" x={$client_width / 2} y={56} placements={['top-start']}>
+		<AxisLabel slot="label" x={$client_width / 2} y={72} placements={['top-start']}>
 			<text>Week</text>
 
 			<XAxisTooltip slot="tooltip" />
@@ -119,7 +119,7 @@
 	</XAxis>
 
 	<YAxis scale={y_scale} width={$client_width} height={$client_height}>
-		<AxisLabel slot="label" x={-56} y={$client_height / 2} placements={['right-start']}>
+		<AxisLabel slot="label" x={-72} y={$client_height / 2} placements={['right-start']}>
 			<text
 				text-anchor="middle"
 				writing-mode="vertical-lr"
