@@ -44,8 +44,7 @@
 					<ChevronsUpDown class="ml-auto h-4 w-4 shrink-0 opacity-50" />
 				</Tooltip.Trigger>
 				<Tooltip.Content>
-					Pick the population slice. ‘Main’ shows everyone; sub-groups focus on specific
-					characteristics.
+					Pick the subgroup. ‘Main’ shows everyone; other subgroups focus on specific characteristics
 				</Tooltip.Content>
 			</Tooltip.Root>
 		</Button>
