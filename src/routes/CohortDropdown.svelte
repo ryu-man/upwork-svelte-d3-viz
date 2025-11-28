@@ -33,7 +33,7 @@
 					<ChevronsUpDown class="ml-auto h-4 w-4 shrink-0 opacity-50" />
 				</Tooltip.Trigger>
 				<Tooltip.Content>
-					Choose the group(s) you want to compare. You can select one, two, or all three.
+					Choose whether to explore associations in the pre-vaccination, vaccinated and/or unvaccinated cohort
 				</Tooltip.Content>
 			</Tooltip.Root>
 		</Button>

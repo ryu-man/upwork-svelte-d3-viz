@@ -71,7 +71,7 @@
 				</Button>
 			</Tooltip.Trigger>
 			<Tooltip.Content>
-				Pick a health outcome to plot. The chart will show how its chance changes over time after COVID-19. One outcome at a time.
+				Pick the health outcome(s) to plot. This will show the hazard ratios over time
 			</Tooltip.Content>
 		</Tooltip.Root>
 	</DropdownMenu.Trigger>

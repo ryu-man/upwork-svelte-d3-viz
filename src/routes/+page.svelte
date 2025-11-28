@@ -64,12 +64,20 @@
 
 	$: analyses = uniq(raw_data.map((d) => d['analysis']));
 
-	$: filted_data = raw_data.filter((d) => {
+	$: filtered_data = raw_data.filter((d) => {
 		return (
 			selected_cohorts.some((dd) => dd === d['cohort']) &&
 			selected_outcomes.get(d['outcome'])?.has(d['analysis'])
 		);
 	});
+
+	$: if (!selected_outcomes.size) {
+		const first_outcome = outcomes.at(0);
+		if (first_outcome) {
+			selected_outcomes.set(first_outcome[0], new Set(['Main']));
+			selected_outcomes = selected_outcomes;
+		}
+	}
 
 	onMount(() => {
 		reader = new FileReader();
@@ -108,27 +116,29 @@
 
 	onMount(() => {
 		fetch(
-			'https://docs.google.com/spreadsheets/d/e/2PACX-1vQhh7lL2mS7hc0L33NP83Ytadymj8K498730NUjuATR-UsGBTetjFL8Rs4ZQZ5bxjnnHZzEfkViTUHm/pub?output=csv'
+			'https://docs.google.com/spreadsheets/d/e/2PACX-1vQABTCPnKqIW_95711GgxYMUI53uhhJRY0n9xzq0w1SWxCqRovvOKubi1eB3D4crmiBlO095hsHw3TD/pub?output=csv'
 		)
 			.then((d) => d.text())
 			.then((d) => csvParse(d))
 			.then((d) => {
-				const raw = d.map((d) => {
-					const [r0, r1] = d['term'].replace('days', '').split('_');
+				const raw = d
+					.map((d) => {
+						const [r0, r1] = d['term'].replace('days', '').split('_');
 
-					return {
-						cohort: d['cohort'],
-						outcome: d['outcome'],
-						analysis: d['analysis'],
-						term: d['term'],
-						term_start: +r0,
-						term_end: +r1,
-						hr: +d['hr'],
-						conf_low: +d['conf_low'],
-						conf_high: +d['conf_high'],
-						outcome_time_median: +d['outcome_time_median']
-					};
-				});
+						return {
+							cohort: d['cohort'],
+							outcome: d['outcome'],
+							analysis: d['analysis'],
+							term: d['term'],
+							term_start: +r0,
+							term_end: +r1,
+							hr: +d['hr'],
+							conf_low: +d['conf_low'],
+							conf_high: +d['conf_high'],
+							outcome_time_median: +d['outcome_time_median']
+						};
+					})
+					.filter((d) => Math.abs(d.term_end - d.term_start) > 1); // filter out 1 day terms
 
 				datasets['condition_1'] = sort(raw, (a, b) => ascending(x_accessor(a), x_accessor(b)));
 
@@ -150,26 +160,22 @@
 	}
 </script>
 
-<div class="h-[100svh] w-[100svw] max-w-[100svw] relative flex flex-col p-5">
+<div class="h-[100svh] w-[100svw] max-w-[100svw] relative flex flex-col px-8 py-6">
 	<Root>
-		<Title>
-			<div class="text-3xl font-black">
-				Post-covid health outcomes analysis tool - Draft version - not for release
-			</div>
+		<div class="flex flex-col gap-4 mb-6">
+			<h1 class="text-3xl font-bold">
+				Investigating health outcomes following COVID-19 - Draft visualisation
+			</h1>
 
-			<TitleTooltip slot="tooltip" />
-		</Title>
-
-		<div class="mb-4">
-			<p>
-				This interactive visualistion tool displays data from the CONVALESCE long Covid research
-				project. You can select what health outcomes data you would like to display - eg.
-				cardiovascular, mental health and / or diabetes by clicking on the drop down menus. Hover
-				over labels (or single click if you are on your phone) for more infomration.
+			<p class="text-base leading-relaxed text-gray-700">
+				This interactive visualisation tool displays data from the Convalescence Long Covid research
+				project. You can select what health outcome you would like to display - e.g., acute
+				myocardial infarction, depression or type 2 diabetes by clicking on the drop-down menus.
+				Hover over labels (or single click if you are on your phone) for more information.
 			</p>
 		</div>
 
-		<div class="flex gap-4">
+		<div class="flex gap-4 mb-6">
 			<OutcomeDropdown
 				data={outcomes}
 				selectedAnalyses={selected_analyses}
@@ -224,11 +230,11 @@
 
 		<div class="bg-red-500 w-full" />
 
-		<div class="flex-1 pr-8 py-12 pl-28 pb-20 pt-20">
+		<div class="flex-1 pr-12 pl-24 py-16 min-h-[64svh]">
 			<Chart>
 				<LineChart
 					{yScale}
-					data={filted_data}
+					data={filtered_data}
 					datasets={Object.keys(datasets)}
 					groupByAccessor={group_by_accessor}
 					xAccessor={x_accessor}
@@ -247,9 +253,9 @@
 			</Chart>
 		</div>
 
-		<div class="flex justify-between pt-10">
-			<div class="flex gap-4">
-				<label>
+		<div class="flex justify-between items-center pt-8 pb-6">
+			<div class="flex gap-6">
+				<label class="flex items-center gap-2 cursor-pointer">
 					<input
 						type="radio"
 						value="linear"
@@ -262,10 +268,10 @@
 							}
 						}}
 					/>
-					<span>Linear</span>
+					<span class="text-sm font-medium">Linear</span>
 				</label>
 
-				<label>
+				<label class="flex items-center gap-2 cursor-pointer">
 					<input
 						type="radio"
 						value="logarithmic"
@@ -278,12 +284,12 @@
 							}
 						}}
 					/>
-					<span>Logarithmic</span>
+					<span class="text-sm font-medium">Logarithmic</span>
 				</label>
 			</div>
 
-			<div class="flex gap-4">
-				<label class="flex gap-2">
+			<div class="flex gap-6">
+				<label class="flex items-center gap-2 cursor-pointer">
 					<input
 						type="checkbox"
 						checked={showLegend}
@@ -291,10 +297,10 @@
 							showLegend = ev.currentTarget.checked;
 						}}
 					/>
-					<div>show legend</div>
+					<div class="text-sm font-medium">Show legend</div>
 				</label>
 
-				<label class="flex gap-2">
+				<label class="flex items-center gap-2 cursor-pointer">
 					<input
 						type="checkbox"
 						checked={showConnectingLines}
@@ -302,10 +308,10 @@
 							showConnectingLines = ev.currentTarget.checked;
 						}}
 					/>
-					<div>show connecting lines</div>
+					<div class="text-sm font-medium">Show connecting lines</div>
 				</label>
 
-				<label class="flex gap-2">
+				<label class="flex items-center gap-2 cursor-pointer">
 					<input
 						type="checkbox"
 						checked={showHorizontalLines}
@@ -313,24 +319,64 @@
 							showHorizontalLines = ev.currentTarget.checked;
 						}}
 					/>
-					<div>show horizontal lines</div>
+					<div class="text-sm font-medium">Show horizontal lines</div>
 				</label>
 			</div>
 		</div>
 
-		<div class="pt-10">
-			<p>
+		<div class="pt-8 pb-6 border-t border-gray-200">
+			<p class="text-sm text-gray-600 leading-relaxed">
 				Caution is needed when viewing this graph as incorrect interpretations could lead to
-				misinformation
+				misinformation. Click here for more detail
 			</p>
-			<p class="text-xs">
-				Click here for associated research papers - link (~hyperlink to ) This work was supported by
-				the COVID-19 Longitudinal Health and Wellbeing National Core Study, which is funded by the
-				Medical Research Council (MRC) and National Institute for Health and Care Research (NIHR).
-				Data from up to 18,648,606 adults aged between 18 and 110 years and registered with a GP in
-				England. - note - the size of sample populations for different analysis varies
-				significantly.
-			</p>
+		</div>
+
+		<div class="py-6">
+			<div class="flex flex-col">
+				<div class="text-xl font-semibold mb-4">Attributions</div>
+				<ul class="list-disc list-inside space-y-1 text-sm text-gray-700">
+					<li>
+						Click here for associated research papers - <a
+							class="text-blue-600 underline"
+							href="https://www.bristol.ac.uk/population-health-sciences/centres/ehr/research/-convalescence-long-covid-study/"
+							>link</a
+						>
+					</li>
+					<li>
+						link This work was supported by the COVID-19 Longitudinal Health and Wellbeing National
+						Core Study, which is funded by the Medical Research Council (MRC) and National Institute
+						for Health and Care Research (NIHR). Data was accessed through OpenSAFELY-TPP, which
+						provides secure, privacy-protecting access to linked data from 24 million people
+						registered with general practices (GPs) in England using TPP SystmOne software. Note:
+						the sample size in each analysis differs according to the subgroup selected.
+					</li>
+				</ul>
+			</div>
+
+			<div class="flex flex-col pt-8 mt-6 border-t border-gray-200">
+				<div class="text-xl font-semibold mb-5">FAQs</div>
+				<ul class="list-disc list-inside space-y-1 text-sm text-gray-700">
+					<li>What does History of Covid mean</li>
+					<li>What is the difference between unvaccinated or not vaccinated"?</li>
+					<li>What is the baseline population</li>
+					<li>
+						What is the coverage of the analysis?
+						<ul class="list-[circle] list-inside ml-8 mt-2 space-y-1 text-gray-600">
+							<li>
+								The sample sizes of the population slice samples significantly varies. For example,
+								comparing 'Ethinicity: Black' compared against 'Ethinicity: South Asian' are
+								different population sample sizes in the available data.
+							</li>
+							<li>
+								Explainers about why there is not as much data available for certain demographics
+							</li>
+						</ul>
+					</li>
+					<li>
+						Why is there sometimes an uptick in hazard ratio over time?Example - eating disorders
+					</li>
+				</ul>
+			</div>
 		</div>
 	</Root>
 </div>
