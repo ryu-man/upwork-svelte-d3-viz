@@ -21,7 +21,7 @@
 	function on_item_click(item: string) {
 		return () => {
 			value = item;
-			open = false
+			open = false;
 		};
 	}
 </script>

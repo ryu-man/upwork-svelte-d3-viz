@@ -1,14 +1,5 @@
 <script lang="ts">
-	import {
-		max,
-		min,
-		scaleLinear,
-		line,
-		scaleOrdinal,
-		scaleLog,
-		group,
-		schemeCategory10,
-	} from 'd3';
+	import { max, min, scaleLinear, line, scaleOrdinal, scaleLog, group, schemeCategory10 } from 'd3';
 	import XAxis from './XAxis.svelte';
 	import YAxis from './YAxis.svelte';
 	import Legend from './Legend.svelte';
@@ -110,7 +101,13 @@
 </script>
 
 <g class="axis" font-size="10pt" font-weight="600" fill-opacity=".6">
-	<XAxis scale={x_scale} y={$client_height} width={$client_width} ticks={x_scale.ticks(30)} tickFormat={(d) => `${Math.round(d / 7)}`}>
+	<XAxis
+		scale={x_scale}
+		y={$client_height}
+		width={$client_width}
+		ticks={x_scale.ticks(30)}
+		tickFormat={(d) => `${Math.round(d / 7)}`}
+	>
 		<AxisLabel slot="label" x={$client_width / 2} y={72} placements={['top-start']}>
 			<text>Week</text>
 
