@@ -1,14 +1,5 @@
 <script lang="ts">
-	import {
-		max,
-		min,
-		scaleLinear,
-		line,
-		scaleOrdinal,
-		scaleLog,
-		group,
-		schemeCategory10,
-	} from 'd3';
+	import { max, min, scaleLinear, line, scaleOrdinal, scaleLog, group, schemeCategory10 } from 'd3';
 	import XAxis from './XAxis.svelte';
 	import YAxis from './YAxis.svelte';
 	import Legend from './Legend.svelte';
