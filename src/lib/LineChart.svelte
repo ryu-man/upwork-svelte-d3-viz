@@ -107,10 +107,20 @@
 		}
 		xTicks = tickValues;
 	}
+
+	// Calculate number of ticks based on client width
+	// Aim for roughly one tick every 60-80 pixels for good readability
+	$: numTicks = Math.max(5, Math.floor($client_width / 30));
 </script>
 
 <g class="axis" font-size="10pt" font-weight="600" fill-opacity=".6">
-	<XAxis scale={x_scale} y={$client_height} width={$client_width} ticks={x_scale.ticks(30)} tickFormat={(d) => `${Math.round(d / 7)}`}>
+	<XAxis
+		scale={x_scale}
+		y={$client_height}
+		width={$client_width}
+		ticks={x_scale.ticks(numTicks)}
+		tickFormat={(d) => `${Math.floor(d / 7)}`}
+	>
 		<AxisLabel slot="label" x={$client_width / 2} y={72} placements={['top-start']}>
 			<text>Week</text>
 

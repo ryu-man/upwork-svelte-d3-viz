@@ -324,13 +324,6 @@
 			</div>
 		</div>
 
-		<div class="pt-8 pb-6 border-t border-gray-200">
-			<p class="text-sm text-gray-600 leading-relaxed">
-				Caution is needed when viewing this graph as incorrect interpretations could lead to
-				misinformation. Click here for more detail
-			</p>
-		</div>
-
 		<div class="py-6">
 			<div class="flex flex-col">
 				<div class="text-xl font-semibold mb-4">Attributions</div>
@@ -338,7 +331,7 @@
 					<li>
 						Click here for associated research papers - <a
 							class="text-blue-600 underline"
-							href="https://www.bristol.ac.uk/population-health-sciences/centres/ehr/research/-convalescence-long-covid-study/"
+							href="https://www.bristol.ac.uk/population-health-sciences/centres/ehr/research/-convalescence-long-covid-study"
 							>link</a
 						>
 					</li>
