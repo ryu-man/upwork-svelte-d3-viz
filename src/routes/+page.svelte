@@ -161,7 +161,7 @@
 	}
 </script>
 
-<div class="h-[100svh] w-[100svw] max-w-[100svw] relative flex flex-col px-8 py-6">
+<div class="size-full relative flex flex-col box-content">
 	<Root>
 		<div class="flex flex-col gap-4 mb-6">
 			<h1 class="text-3xl font-bold">Investigating health outcomes following COVID-19</h1>

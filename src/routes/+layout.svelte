@@ -41,6 +41,6 @@
 	</div>
 {/if}
 
-<div class="size-full min-w-svw min-h-svh flex flex-col">
+<div class="grid size-full min-w-svw min-h-svh flex-col">
 	<slot />
 </div>
