@@ -230,7 +230,7 @@
 
 			<div class="bg-red-500 w-full" />
 
-			<div class="flex-1 pr-12 pl-24 py-16 min-h-[64svh]">
+			<div class="flex-1 pr-12 pl-24 py-16 min-h-[64svh] overflow-x-hidden max-w-full">
 				<Chart>
 					<LineChart
 						{yScale}
@@ -254,7 +254,7 @@
 			</div>
 
 			<div class="flex justify-between items-center pt-8 pb-6">
-				<div class="flex gap-6">
+				<div class="flex flex-col md:flex-row items-start gap-6">
 					<label class="flex items-center gap-2 cursor-pointer">
 						<input
 							type="radio"
@@ -288,7 +288,7 @@
 					</label>
 				</div>
 
-				<div class="flex gap-6">
+				<div class="flex flex-col md:flex-row items-start gap-6">
 					<label class="flex items-center gap-2 cursor-pointer">
 						<input
 							type="checkbox"
