@@ -64,10 +64,12 @@
 					variant="outline"
 					role="combobox"
 					aria-expanded={open}
+					aria-haspopup="menu"
+					aria-label="Outcomes selector: {keys.size} {keys.size === 1 ? 'outcome' : 'outcomes'} selected"
 					class="w-[200px] justify-between"
 				>
-					{keys.size} outcome{keys.size > 1 ? 's' : ''}
-					<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" />
+					<span aria-hidden="true">{keys.size} outcome{keys.size > 1 ? 's' : ''}</span>
+					<ChevronsUpDown class="ml-2 h-4 w-4 shrink-0 opacity-50" aria-hidden="true" />
 				</Button>
 			</Tooltip.Trigger>
 			<Tooltip.Content>
@@ -75,14 +77,20 @@
 			</Tooltip.Content>
 		</Tooltip.Root>
 	</DropdownMenu.Trigger>
+	
+	<!-- Screen reader announcements -->
+	<div class="sr-only" role="status" aria-live="polite" aria-atomic="true">
+		{keys.size} {keys.size === 1 ? 'outcome' : 'outcomes'} selected
+	</div>
 
-	<DropdownMenu.Content class="w-auto whitespace-nowrap">
+	<DropdownMenu.Content class="w-auto whitespace-nowrap" role="menu" aria-label="Outcomes options">
 		<DropdownMenu.Label class="flex items-center justify-between">
-			<div>Outcomes</div>
+			<div id="outcomes-label">Outcomes</div>
 
 			<Button
 				variant="outline"
 				size="sm"
+				aria-label="Clear all selected outcomes"
 				on:click={() => {
 					selected = new Map();
 					dispatch('clear');
@@ -92,10 +100,11 @@
 
 		<DropdownMenu.Separator />
 
-		<div class="flex flex-col">
+		<div class="flex flex-col" role="group" aria-labelledby="outcomes-label">
 			{#each visibleData as [outcome, analyses]}
 				{@const is_main_disabled =
 					!selected.get(outcome)?.has('Main') && !selected.get(outcome)?.size && !can_select}
+				{@const selected_count = selected.get(outcome)?.size ?? 0}
 
 				<DropdownMenu.Sub>
 					<Tooltip.Root openDelay={50}>
@@ -106,6 +115,8 @@
 									is_main_disabled && 'cursor-not-allowed opacity-50'
 								)}
 								disabled={is_main_disabled}
+								aria-label="{outcome}, {selected_count} {selected_count === 1 ? 'analysis' : 'analyses'} selected{is_main_disabled ? ', disabled: maximum selections reached' : ''}"
+								aria-haspopup="menu"
 								on:click={() => {
 									if (is_main_disabled) return;
 									if (selectedAnalyses.size && !selectedAnalyses.has('Main')) return;
@@ -136,8 +147,8 @@
 									}
 								}}
 							>
-								<Badge variant="outline">{selected.get(outcome)?.size ?? 0}</Badge>
-								<span>{outcome}</span>
+									<Badge variant="outline" aria-hidden="true">{selected.get(outcome)?.size ?? 0}</Badge>
+									<span aria-hidden="true">{outcome}</span>
 							</DropdownMenu.SubTrigger>
 						</Tooltip.Trigger>
 
@@ -148,21 +159,26 @@
 						{/if}
 					</Tooltip.Root>
 
-					<DropdownMenu.SubContent class="w-auto whitespace-nowrap flex flex-col">
+					<DropdownMenu.SubContent class="w-auto whitespace-nowrap flex flex-col" role="menu" aria-label="{outcome} analyses">
 						{#each analyses as analysis}
 							{@const is_filtered_out = !!selectedAnalyses.size && !selectedAnalyses.has(analysis)}
 							{@const is_not_selected = !selected.get(outcome)?.has(analysis)}
 							{@const is_sub_disabled = (is_not_selected && !can_select) || is_filtered_out}
+							{@const is_checked = selected.get(outcome)?.has(analysis)}
 
 							<Tooltip.Root openDelay={50}>
 								<Tooltip.Trigger>
 									<DropdownMenu.Item
 										class={cn('gap-2', is_sub_disabled && 'cursor-not-allowed opacity-50')}
 										disabled={is_sub_disabled}
+										role="menuitemcheckbox"
+										aria-checked={is_checked}
+										aria-label="{analysis} for {outcome}, {is_checked ? 'selected' : 'not selected'}{is_sub_disabled ? (is_filtered_out ? ', filtered out by analyses selection' : ', maximum selections reached') : ''}"
 									>
 										<Checkbox
-											checked={selected.get(outcome)?.has(analysis)}
+											checked={is_checked}
 											disabled={is_sub_disabled}
+											aria-hidden="true"
 											on:click={() => {
 												if (!order.has(outcome)) {
 													order.set(outcome, new Date());
@@ -189,7 +205,7 @@
 												}
 											}}
 										/>
-										<div>{analysis}</div>
+										<div aria-hidden="true">{analysis}</div>
 									</DropdownMenu.Item>
 								</Tooltip.Trigger>
 
