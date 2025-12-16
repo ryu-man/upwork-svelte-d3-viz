@@ -111,30 +111,12 @@
 		width={$client_width}
 		ticks={x_scale.ticks(numTicks)}
 		tickFormat={(d) => `${Math.floor(d / 7)}`}
-	>
-		<AxisLabel slot="label" x={$client_width / 2} y={72} placements={['top-start']}>
-			<text>Week</text>
+	/>
 
-			<XAxisTooltip slot="tooltip" />
-		</AxisLabel>
-	</XAxis>
-
-	<YAxis scale={y_scale} width={$client_width} height={$client_height}>
-		<AxisLabel slot="label" x={-72} y={$client_height / 2} placements={['right-start']}>
-			<text
-				text-anchor="middle"
-				writing-mode="vertical-lr"
-				dominant-baseline="middle"
-				style:transform="rotate(180deg)">Hazard Ratio</text
-			>
-
-			<YAxisTooltip slot="tooltip" />
-		</AxisLabel>
-	</YAxis>
+	<YAxis scale={y_scale} width={$client_width} height={$client_height} />
 </g>
 
 <g class="data">
-	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	{#each data_entries as [key, value]}
 		{@const color = colorScale(key)}
 		{@const is_active = active_series.includes(key) || in_hover_serie === key}
@@ -149,6 +131,10 @@
 			{opacity}
 			{filter}
 			cursor="pointer"
+			role="button"
+			aria-label="{key}: Click to {is_active ? 'deselect' : 'select'} this series"
+			aria-pressed={is_active}
+			tabindex="0"
 			on:pointerenter={() => {
 				clearTimeout(hover_timeout);
 				in_hover_serie = key;
@@ -166,6 +152,26 @@
 					active_series = [...active_series, key];
 				}
 				console.log(active_series);
+			}}
+			on:keydown={(e) => {
+				if (e.key === 'Enter' || e.key === ' ') {
+					e.preventDefault();
+					const elem = active_series.find((d) => d === key);
+					if (elem) {
+						active_series = active_series.filter((d) => d !== key);
+					} else {
+						active_series = [...active_series, key];
+					}
+				}
+			}}
+			on:focus={() => {
+				clearTimeout(hover_timeout);
+				in_hover_serie = key;
+			}}
+			on:blur={() => {
+				hover_timeout = setTimeout(() => {
+					in_hover_serie = undefined;
+				}, 200);
 			}}
 		>
 			{#if showConnectingLines}
@@ -219,13 +225,21 @@
 				{@const cohort_parts = item['cohort'].split(/\s(?=\()/)}
 				{@const hide_analysis = series_label_data.every((d) => d.analysis.toLowerCase() === 'main')}
 
-				<!-- svelte-ignore a11y-click-events-have-key-events -->
-				<!-- svelte-ignore a11y-no-static-element-interactions -->
 				<div
-					class="legend-item flex items-center gap-2 cursor-pointer"
+					class="legend-item flex items-center gap-2 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded px-2 py-1"
 					style:color
 					style:opacity
 					style:filter
+					role="button"
+					aria-label="{[
+						item['outcome'],
+						hide_analysis ? undefined : item['analysis'],
+						cohort_parts[0]
+					]
+						.filter(Boolean)
+						.join(' | ')}: Click to {is_active ? 'deselect' : 'select'}"
+					aria-pressed={is_active}
+					tabindex="0"
 					on:pointerenter={() => {
 						clearTimeout(hover_timeout);
 						in_hover_serie = item.id;
@@ -243,6 +257,26 @@
 							active_series = [...active_series, item.id];
 						}
 						console.log(active_series);
+					}}
+					on:keydown={(e) => {
+						if (e.key === 'Enter' || e.key === ' ') {
+							e.preventDefault();
+							const elem = active_series.find((d) => d === item.id);
+							if (elem) {
+								active_series = active_series.filter((d) => d !== item.id);
+							} else {
+								active_series = [...active_series, item.id];
+							}
+						}
+					}}
+					on:focus={() => {
+						clearTimeout(hover_timeout);
+						in_hover_serie = item.id;
+					}}
+					on:blur={() => {
+						hover_timeout = setTimeout(() => {
+							in_hover_serie = undefined;
+						}, 200);
 					}}
 				>
 					<div class="w-12 min-h-[1px] bg-current" />
