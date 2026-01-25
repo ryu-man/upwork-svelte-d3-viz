@@ -51,13 +51,14 @@
 		</Button>
 	</DropdownMenu.Trigger>
 
-	<DropdownMenu.Content class="w-auto whitespace-nowrap relative">
+	<DropdownMenu.Content class="w-auto whitespace-nowrap relative" role="menu" aria-label="Analyses options">
 		<DropdownMenu.Label class="flex items-center justify-between">
-			<div>Analyses</div>
+			<div id="analyses-label">Analyses</div>
 
 			<Button
 				variant="outline"
 				size="sm"
+				aria-label="Clear all selected analyses"
 				on:click={() => {
 					selected = new Set();
 					dispatch('clear');
@@ -67,17 +68,22 @@
 
 		<DropdownMenu.Separator />
 
-		<div class="flex flex-col">
+		<div class="flex flex-col" role="group" aria-labelledby="analyses-label">
 			{#each sorted_data as group}
 				{@const is_main_disabled = disabled}
+				{@const is_checked = keys.has(group)}
 				<Tooltip.Root openDelay={50}>
 					<Tooltip.Trigger>
 						<DropdownMenu.Item
 							class={cn('flex gap-2', is_main_disabled && 'cursor-not-allowed opacity-50')}
 							{disabled}
+							role="menuitemcheckbox"
+							aria-checked={is_checked}
+							aria-label="{group} analysis, {is_checked ? 'selected' : 'not selected'}{is_main_disabled ? ', disabled: unselect all outcomes first' : ''}"
 						>
 							<Checkbox
-								checked={keys.has(group)}
+								checked={is_checked}
+								aria-hidden="true"
 								on:click={() => {
 									if (keys.has(group)) {
 										selected.delete(group);
@@ -88,7 +94,7 @@
 									selected = selected;
 								}}
 							/>
-							<div>{group}</div>
+							<div aria-hidden="true">{group}</div>
 						</DropdownMenu.Item>
 					</Tooltip.Trigger>
 

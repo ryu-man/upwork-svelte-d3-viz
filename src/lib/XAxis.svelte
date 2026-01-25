@@ -19,18 +19,30 @@
 	}
 </script>
 
-<g class="x-axis" transform="translate({x}, {y})" bind:this={element}>
+<g class="x-axis" transform="translate({x}, {y})" bind:this={element} role="graphics-document" aria-label="X-axis showing weeks">
 	<path class="domain" fill="none" stroke="rgba(0 0 0/ .6)" d="M0,{6}V0H{width}V{6}" />
 
-	<g class="ticks">
+	<g class="ticks" aria-label="X-axis tick marks">
 		{#each (ticks ?? scale.ticks()) as tick}
-			<g class="tick" transform="translate({scale(tick)}, 0)">
+			<g class="tick" transform="translate({scale(tick)}, 0)" aria-label="Week {tickFormat ? tickFormat(tick) : tick}">
 				<text dy={offset}>{tickFormat ? tickFormat(tick) : tick}</text>
 			</g>
 		{/each}
 	</g>
 
-	<g class="label" on:pointerenter={onPointerEnterHandler} on:pointerleave={onPointerLeaveHandler}>
+	<g class="label" 
+		on:pointerenter={onPointerEnterHandler} 
+		on:pointerleave={onPointerLeaveHandler}
+		role="button"
+		tabindex="0"
+		aria-label="X-axis label: Click for more information"
+		on:keydown={(e) => {
+			if (e.key === 'Enter' || e.key === ' ') {
+				e.preventDefault();
+				showTooltip = !showTooltip;
+			}
+		}}
+	>
 		<slot name="label" {showTooltip} />
 	</g>
 </g>
