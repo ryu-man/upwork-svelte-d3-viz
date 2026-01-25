@@ -46,4 +46,3 @@
 		<slot name="label" {showTooltip} />
 	</g>
 </g>
-

@@ -13,7 +13,6 @@
 	export let y = 0;
 	export let padding = 0;
 	const itemHeight = 28;
-
 </script>
 
 <div class="legend bg-white shadow-sm p-4 rounded-lg border border-neutral-200">
